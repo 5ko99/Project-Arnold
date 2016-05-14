@@ -1,21 +1,25 @@
 package com.example.aoc.project_arnold;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
-import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.widget.ArrayAdapter;
-import android.widget.ListAdapter;
-import android.widget.ListView;
+import android.view.View;
+import android.widget.AdapterView;
+import android.widget.GridView;
+import android.widget.Toast;
 
 import java.util.ArrayList;
 import java.util.List;
 
+
+
 public class MainActivity extends AppCompatActivity {
+    public static final String KEY = "0" ;
     public List<String> listMusculeGroup = new ArrayList<String>();
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -33,10 +37,23 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        fillListWithMuscleGroup();
+   /*     fillListWithMuscleGroup();
         ListAdapter adapter = new ArrayAdapter<String>(getApplicationContext(),R.layout.list_view_item,listMusculeGroup);
         ListView listView = (ListView) findViewById(R.id.lv_main);
-        listView.setAdapter(adapter);
+        listView.setAdapter(adapter);*/
+
+        GridView gridview = (GridView) findViewById(R.id.gridview);
+        gridview.setAdapter(new ImageAdapter(this));
+
+        gridview.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            public void onItemClick(AdapterView<?> parent, View v, int position, long id) {
+                Toast.makeText(getApplicationContext(), "" + position, Toast.LENGTH_SHORT).show();
+                Intent mIntent = new Intent(getApplicationContext(),MuscleGroup.class);
+                mIntent.putExtra(KEY,position);
+                startActivity(mIntent);
+            }
+        });
+
 
     }
 

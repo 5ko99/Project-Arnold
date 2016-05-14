@@ -10,14 +10,27 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="com.example.aoc.project_arnold.MainActivity"
-    tools:showIn="@layout/activity_main">
+    tools:showIn="@layout/activity_main"
+    android:background="@android:color/holo_blue_dark">
 
-   <ListView
-       android:id="@+id/lv_main"
-       android:layout_width="match_parent"
-       android:layout_height="wrap_content"
-       >
+   <!--<ListView-->
+       <!--android:id="@+id/lv_main"-->
+       <!--android:layout_width="match_parent"-->
+       <!--android:layout_height="wrap_content"-->
+       <!--&gt;</ListView>-->
 
-   </ListView>
+      <GridView xmlns:android="http://schemas.android.com/apk/res/android"
+          android:id="@+id/gridview"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:columnWidth="120dp"
+          android:numColumns="auto_fit"
+          android:verticalSpacing="10dp"
+          android:horizontalSpacing="10dp"
+          android:stretchMode="columnWidth"
+          android:gravity="center"
+          />
+
+
 
 </RelativeLayout>
