@@ -18,7 +18,7 @@ public class MuscleGroup extends AppCompatActivity {
         ImageView image = getImage(musculeGroupN); //Set image to img_main from R.drawable depends on musculeGroupN
     }
 
-    private ImageView getImage(int musculeGroupN) { //Set image depends musculeGroupN
+    private ImageView getImage(int musculeGroupN) { //Set image depends musculeGroupNimage
         ImageView image = (ImageView) findViewById(R.id.img_main);
         switch (musculeGroupN){
             case 0: image.setImageResource(R.drawable.bedra); break;
