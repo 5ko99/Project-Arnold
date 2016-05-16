@@ -37,24 +37,23 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-   /*     fillListWithMuscleGroup();
-        ListAdapter adapter = new ArrayAdapter<String>(getApplicationContext(),R.layout.list_view_item,listMusculeGroup);
-        ListView listView = (ListView) findViewById(R.id.lv_main);
-        listView.setAdapter(adapter);*/
 
         GridView gridview = (GridView) findViewById(R.id.gridview);
         gridview.setAdapter(new ImageAdapter(this));
 
         gridview.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             public void onItemClick(AdapterView<?> parent, View v, int position, long id) {
-                Toast.makeText(getApplicationContext(), "" + position, Toast.LENGTH_SHORT).show();
-                Intent mIntent = new Intent(getApplicationContext(),MuscleGroup.class);
-                mIntent.putExtra(KEY,position);
-                startActivity(mIntent);
+                sendIntent(position);
             }
         });
 
 
+    }
+    public void sendIntent(int position){
+        Toast.makeText(this, "" + position, Toast.LENGTH_SHORT).show();
+        Intent mIntent = new Intent(this,MuscleGroup.class);
+        mIntent.putExtra(KEY,position);
+        startActivity(mIntent);
     }
 
     private void fillListWithMuscleGroup() {

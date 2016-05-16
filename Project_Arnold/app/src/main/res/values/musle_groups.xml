@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="Bedra">Бедра</string>
-    <string name="Biceps">Бицепс</string>
-    <string name="Gryb">Гръб</string>
-    <string name="Gyrdi">Гърди</string>
-    <string name="Korem">Корем</string>
-    <string name="Prasec">Прасец</string>
-    <string name="Predmishnici">Предмишници</string>
-    <string name="Ramo">Рамо</string>
-    <string name="Sedalishte">Седалище</string>
-    <string name="Triceps">Трицепс</string>
+    <string name="Bedra">"Hams"</string>
+    <string name="Biceps">"Biceps"</string>
+    <string name="Gryb">"Back"</string>
+    <string name="Gyrdi">"Breast"</string>
+    <string name="Korem">"Belly"</string>
+    <string name="Prasec">"Calf"</string>
+    <string name="Predmishnici">"Forearms"</string>
+    <string name="Ramo">"Shoulder"</string>
+    <string name="Sedalishte">"Seat"</string>
+    <string name="Triceps">"Triceps"</string>
 </resources>

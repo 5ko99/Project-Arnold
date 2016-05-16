@@ -9,12 +9,14 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context=".MuscleGroup">
 
+
     <ImageView
         android:id="@+id/img_main"
-        android:layout_width="465dp"
-        android:layout_height="187dp"
-        android:onClick="fullScreen()"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:src="@drawable/bedra"
-        />
+         />
+
+
 
 </RelativeLayout>
