@@ -2,11 +2,13 @@ package com.example.aoc.project_arnold;
 
 import android.content.Context;
 import android.content.res.Resources;
+import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.GridView;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 
 public class ImageAdapter extends BaseAdapter {
@@ -60,17 +62,4 @@ public class ImageAdapter extends BaseAdapter {
             R.drawable.sedalishte, R.drawable.triceps
 
     };
-
-    /*private String[] mThumbtext = {
-            Resources.getSystem().getString(R.string.Bedra),
-            Resources.getSystem().getString(R.string.Biceps),
-            Resources.getSystem().getString(R.string.Gryb),
-            Resources.getSystem().getString(R.string.Gyrdi),
-            Resources.getSystem().getString(R.string.Korem),
-            Resources.getSystem().getString(R.string.Prasec),
-            Resources.getSystem().getString(R.string.Predmishnici),
-            Resources.getSystem().getString(R.string.Ramo),
-            Resources.getSystem().getString(R.string.Sedalishte),
-            Resources.getSystem().getString(R.string.Triceps)
-    };*/
 }
