@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="gryb_GrebaneDymbeliLeg">Гребане с дъмбели от лицев лег</string>
+    <string name="gryb_TShtanga">Гребане с Т-щанга</string>
+    <string name="gryb_GrebaneShtangaNapredNadhvat">Гребане с щанга от наклон напред - надхват</string>
+    <string name="gryb_GrebaneShtangaNapredPodhvat">Гребане с щанга от наклон напред - подхват</string>
+    <string name="gryb_GrebaneShtanga">Гребане с щанга, чукчета</string>
+    <string name="gryb_GrebaneDymbel">Едностранно гребане с дъмбел</string>
+    <string name="gryb_EdnostranoPridyrpvaneVertikalenSkripec">Едностранно придърпване на вертикален скрипец от седеж</string>
+    <string name="gryb_EdnostranoHorizontalnoGrebaneSkripecSedej">Едностранно хоризонтално гребане на скрипец от седеж</string>
+    <string name="gryb_MyrtvaTiaga">Мъртва тяга</string>
+    <string name="gryb_Nabirania">Набирания</string>
+    <string name="gryb_GorenSkripec">Привеждане на горен скрипец с прави ръце</string>
+    <string name="gryb_VertikalenSkripecShirokHvat">Придърпване на вертикален скрипец с раменен и широк хват</string>
+    <string name="gryb_SkripecKymLiceto">Придърпване на горен скрипец към лицето</string>
+    <string name="gryb_DolenSkripec">Придърпване на долен скрипец</string>
+    <string name="gryb_Pullover">Пулоувър</string>
+    <string name="gryb_Hyperextension">Хиперекстензия</string>
+    <string name="gryb_PekDekRaztvariane">Разтваряне на пек-бек машина</string>
+</resources>

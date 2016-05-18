@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="biceps_dolenSkripec">Бицепсово сгъване на долен скрипец</string>
+    <string name="biceps_SgyvaneDymbeli">Бицепсово сгъване с дъмбели</string>
+    <string name="biceps_Zotman">“Зотман” сгъване с дъмбели</string>
+    <string name="biceps_DymbeliNakolnenSedej">Бицепсово сгъване с дъмбели от наклонен седеж</string>
+    <string name="biceps_shtanga">Бицепсово сгъване с щанга</string>
+    <string name="biceps_PortalenSkripec">Двойно бицепсово сгъване на портален скрипец</string>
+    <string name="biceps_KoncentriranoSgyvane">Концентрирано сгъване</string>
+    <string name="biceps_ChukovoKrystosano">Кръстосано чуково сгъване с дъмбели</string>
+    <string name="biceps_NabiraneNeutralen">Набиране с неутрален (успореден)</string>
+    <string name="biceps_NabiranePOdhvat">Набиране с подхват</string>
+    <string name="biceps_SkotovoSgyvane">Скотово сгъване</string>
+    <string name="biceps_Chukovo">Чуково бицепсово сгъване</string>
+</resources>

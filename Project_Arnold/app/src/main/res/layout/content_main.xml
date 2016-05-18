@@ -9,7 +9,7 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="com.example.aoc.project_arnold.MainActivity"
+    tools:context=".Activities.MainActivity"
     tools:showIn="@layout/activity_main"
     android:background="@android:color/holo_blue_dark">
 

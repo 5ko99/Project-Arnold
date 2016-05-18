@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+        <string name="bedra_Katerach">(Mountain) climber</string>
+        <string name="bedra_BedrenoRazgyvane">Leg Extensions</string>
+        <string name="bedra_BedrenoSgyvane">Leg Curls</string>
+        <string name="bedra_BylgarskiKlek">Bulgarian Squat</string>
+        <string name="bedra_AduktorMashinaZatvariane">Hip Adduction(Close)</string>
+        <string name="bedra_KlekShtanga">Barbell Squat</string>
+        <string name="bedra_LegPresa">Leg Press</string>
+        <string name="bedra_MyrtvaTiaga">Dead Lift</string>
+        <string name="bedra_PILE">Dumbbell Squat</string>
+        <string name="bedra_Otpadi">Back (Rear) Lunge</string>
+        <string name="bera_JumpingJack">Jumping Jack</string>
+        <string name="bedra_AduktorMashinaRaztvariane">Hip Abduction</string>
+        <string name="bedra_SkokKlek">Jumping Squat</string>
+        <string name="bedra_SkokKutia">Box jump</string>
+        <string name="bedra_Shpagat">Straddle</string>
+</resources>

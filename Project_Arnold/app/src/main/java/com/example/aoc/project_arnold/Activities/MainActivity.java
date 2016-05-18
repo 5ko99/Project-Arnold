@@ -1,4 +1,4 @@
-package com.example.aoc.project_arnold;
+package com.example.aoc.project_arnold.Activities;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -12,6 +12,9 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.GridView;
 import android.widget.Toast;
+
+import com.example.aoc.project_arnold.Adapters.ImageAdapter;
+import com.example.aoc.project_arnold.R;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -50,8 +53,8 @@ public class MainActivity extends AppCompatActivity {
 
     }
     public void sendIntent(int position){
-        Toast.makeText(this, "" + position, Toast.LENGTH_SHORT).show();
-        Intent mIntent = new Intent(this,MuscleGroup.class);
+       // Toast.makeText(this, "" + position, Toast.LENGTH_SHORT).show();
+        Intent mIntent = new Intent(this,MuscleGroupActivity.class);
         mIntent.putExtra(KEY,position);
         startActivity(mIntent);
     }

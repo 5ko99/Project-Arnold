@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="bedra_Katerach">(Планински) Катерач</string>
+    <string name="bedra_BedrenoRazgyvane">Бедрено разгъване</string>
+    <string name="bedra_BedrenoSgyvane">Бедрено сгъване</string>
+    <string name="bedra_BylgarskiKlek">Български клек</string>
+    <string name="bedra_AduktorMashinaZatvariane">Затваряне на бедра на Аддуктор машина</string>
+    <string name="bedra_KlekShtanga">Клек с щанга зад врат</string>
+    <string name="bedra_LegPresa">Лег Преса</string>
+    <string name="bedra_MyrtvaTiaga">Мъртва Тяга</string>
+    <string name="bedra_PILE">Плие (Клек с дъмбел от разкрачен стоеж)</string>
+    <string name="bedra_Otpadi">Отпади (напади назад)</string>
+    <string name="bedra_JumpingJack">Джъмпинг джак </string>
+    <string name="bedra_AduktorMashinaRaztvariane">Разтваряне на Абдуктор машина с акцент върху бедрата</string>
+    <string name="bedra_SkokKlek">Скок от клек</string>
+    <string name="bedra_SkokKutia">Скок върху кутия</string>
+    <string name="bedra_Shpagat">Шпагат</string>
+</resources>

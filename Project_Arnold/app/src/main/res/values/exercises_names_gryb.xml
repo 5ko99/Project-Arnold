@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="gryb_GrebaneDymbeliLeg">Dumbbells Lying Row</string>
+    <string name="gryb_TShtanga">T-bar Row</string>
+    <string name="gryb_GrebaneShtangaNapredNadhvat">Barbell Bent-over Row Overgrip</string>
+    <string name="gryb_GrebaneShtangaNapredPodhvat">Barbell Underhand Bent-over Row</string>
+    <string name="gryb_GrebaneShtanga">Barbell Lying Row</string>
+    <string name="gryb_GrebaneDymbel">Dumbbell Bent-over Row</string>
+    <string name="gryb_EdnostranoPridyrpvaneVertikalenSkripec">Unilateral Seated Pulldown</string>
+    <string name="gryb_EdnostranoHorizontalnoGrebaneSkripecSedej">Unilateral Seated Cable Row</string>
+    <string name="gryb_MyrtvaTiaga">Dead Lift</string>
+    <string name="gryb_Nabirania">Pull-Ups</string>
+    <string name="gryb_GorenSkripec">Straight Arm Pulldown</string>
+    <string name="gryb_VertikalenSkripecShirokHvat">Cable Pulldown Shoulder Grip Width</string>
+    <string name="gryb_SkripecKymLiceto">Face pull</string>
+    <string name="gryb_DolenSkripec">Cable Seated Row</string>
+    <string name="gryb_Pullover">Pullover</string>
+    <string name="gryb_Hyperextension">Hyperextension</string>
+    <string name="gryb_PekDekRaztvariane">Peck-Back Machine Shoulder Blades Adduction</string>
+</resources>

@@ -7,7 +7,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context=".MuscleGroup">
+    tools:context=".Activities.MuscleGroupActivity">
 
 
     <ImageView
@@ -17,6 +17,11 @@
         android:src="@drawable/bedra" />
 
 
-
+    <ListView
+        android:layout_below="@id/img_main"
+        android:id="@+id/list_exercises"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </ListView>
 
 </RelativeLayout>

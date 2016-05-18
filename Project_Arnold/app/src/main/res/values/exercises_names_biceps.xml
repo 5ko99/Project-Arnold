@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="biceps_dolenSkripec">Cable Curls</string>
+    <string name="biceps_SgyvaneDymbeli">Basic Dumbbell Curl</string>
+    <string name="biceps_Zotman">Zottman curl</string>
+    <string name="biceps_DymbeliNakolnenSedej">Dumbbell Incline Curl</string>
+    <string name="biceps_shtanga">Barbell Curl</string>
+    <string name="biceps_PortalenSkripec">Double Biceps Cable Curl</string>
+    <string name="biceps_KoncentriranoSgyvane">Concentration Curls</string>
+    <string name="biceps_ChukovoKrystosano">Cross Body Hammer Curl</string>
+    <string name="biceps_NabiraneNeutralen">Pull-up (neutral grip)</string>
+    <string name="biceps_NabiranePOdhvat">Underhand Chin-up</string>
+    <string name="biceps_SkotovoSgyvane">Preacher Curl</string>
+    <string name="biceps_Chukovo">Hammer Curl</string>
+</resources>

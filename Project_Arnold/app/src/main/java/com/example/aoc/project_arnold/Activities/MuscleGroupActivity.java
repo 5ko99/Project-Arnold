@@ -1,24 +1,68 @@
-package com.example.aoc.project_arnold;
+package com.example.aoc.project_arnold.Activities;
 
 import android.os.Build;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ImageView;
+import android.widget.ListView;
+import android.widget.Toast;
 
-public class MuscleGroup extends AppCompatActivity {
+import com.example.aoc.project_arnold.Activities.MainActivity;
+import com.example.aoc.project_arnold.Adapters.ListViewAdapter;
+import com.example.aoc.project_arnold.R;
+
+public class MuscleGroupActivity extends AppCompatActivity {
     public static final String KEY = MainActivity.KEY ;
     private static final String TAG = "Muscule Group";
+    public int musculeGroupN; // int hat say number of muscule
+    //List view exercises initialise data
+    ListView lv;
+    String[] exercises = {"Test1","Test2","Test3"};
+    int[] imgs={R.drawable.prasec,R.drawable.triceps,R.drawable.korem};
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_muscle_group);
 
         Bundle bundle = getIntent().getExtras();
-        int musculeGroupN= bundle.getInt(KEY); // Getting number of muscule group from intent
+        musculeGroupN= bundle.getInt(KEY); // Getting number of muscule group from intent
         ImageView image = getImage(musculeGroupN); //Set image to img_main from R.drawable depends on musculeGroupN
         setHeader(musculeGroupN); //Set header from R.string depends on musculeGroupN
+
+        //Fill exercises and imgs with data depend of musculeGroupN
+       /* exercises=setExercises(musculeGroupN);
+        imgs=setImgs(musculeGroupN)*/;
+
+        //Set data to list view for exercises
+        lv= (ListView) findViewById(R.id.list_exercises);
+        //Create custom adapter
+        ListViewAdapter adapter = new ListViewAdapter(this,exercises,imgs);
+        lv.setAdapter(adapter); // set adapter to lv
+
+        //Set on click listener to lv
+        lv.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                Toast.makeText(getApplicationContext(),exercises[position],Toast.LENGTH_SHORT).show();
+            }
+        });
+    }
+
+    private int[] setImgs(int musculeGroupN) {
+        int[] imgs={};
+
+        return imgs;
+    }
+
+    private String[] setExercises(int musculeGroupN) {
+        String[] exercises={};
+
+        return exercises;
     }
 
     private ImageView getImage(int musculeGroupN) { //Set image depends musculeGroupNimage

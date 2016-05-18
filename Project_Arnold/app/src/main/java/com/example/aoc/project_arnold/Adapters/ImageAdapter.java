@@ -1,4 +1,4 @@
-package com.example.aoc.project_arnold;
+package com.example.aoc.project_arnold.Adapters;
 
 import android.content.Context;
 import android.content.res.Resources;
@@ -10,6 +10,8 @@ import android.widget.GridView;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
+
+import com.example.aoc.project_arnold.R;
 
 public class ImageAdapter extends BaseAdapter {
     private static final  int imgView_X = 465;

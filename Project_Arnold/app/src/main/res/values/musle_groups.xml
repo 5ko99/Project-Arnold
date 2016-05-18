@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="Bedra">"Hams"</string>
+    <string name="Bedra">"Quadriceps"</string>
     <string name="Biceps">"Biceps"</string>
     <string name="Gryb">"Back"</string>
-    <string name="Gyrdi">"Breast"</string>
-    <string name="Korem">"Belly"</string>
-    <string name="Prasec">"Calf"</string>
+    <string name="Gyrdi">"Chest"</string>
+    <string name="Korem">"Abs"</string>
+    <string name="Prasec">"Calves"</string>
     <string name="Predmishnici">"Forearms"</string>
-    <string name="Ramo">"Shoulder"</string>
-    <string name="Sedalishte">"Seat"</string>
+    <string name="Ramo">"Shoulders"</string>
+    <string name="Sedalishte">"Glutes"</string>
     <string name="Triceps">"Triceps"</string>
 </resources>
