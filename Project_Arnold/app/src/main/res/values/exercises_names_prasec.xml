@@ -1,2 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="prasec_KalfMashina">Calf Levers</string>
+    <string name="prasec_PrystiLegPresa">Leg Press Calf Raises</string>
+    <string name="prasec_PovdiganeNaPrysti">Calf raises</string>
+    <string name="prasec_JumpingJack">Jumping Jack</string>
+    <string name="prasec_SkokVyrhuKutiq">Box jump</string>
+</resources>

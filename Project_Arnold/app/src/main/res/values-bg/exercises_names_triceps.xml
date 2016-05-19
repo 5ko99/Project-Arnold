@@ -1,2 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="triceps_RazgyvaneZadGlava">Едностранно трицепсово разгъване с дъмбел зад глава </string>
+    <string name="triceps_Lejanka">Изтласкване на щанга от лег с тесен хват</string>
+    <string name="triceps_KickBack">Кик-бек</string>
+    <string name="triceps_Kofichi">Кофички</string>
+    <string name="triceps_KofichkiPeika">Кофички на пейка (полукофички)</string>
+    <string name="triceps_KofichkiSAkcent">Кофички с акцент върху трицепсите</string>
+    <string name="triceps_LiceviOpori">Лицеви опори</string>
+    <string name="triceps_LiceviTriygylnik">Лицеви опори с тясно разположени длани - тип “триъгълник”</string>
+    <string name="triceps_LiceviTriceps">Трицепсови лицеви опори</string>
+    <string name="triceps_DymbeliLeg">Трицепсово изтласкване на дъмбели от лег</string>
+    <string name="triceps_GorenSkripec">Трицепсово разгъване на горен скрипец</string>
+    <string name="triceps_RazgyvaneDymbeliLeg">Трицепсово разгъване с дъмбели от лег</string>
+    <string name="triceps_Frensko">Френско разгъване с щанга от лег</string>
+</resources>

@@ -1,2 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="triceps_RazgyvaneZadGlava">Dumbbell One Arm Triceps Extension</string>
+    <string name="triceps_Lejanka">Close-Grip Bench Press</string>
+    <string name="triceps_KickBack">Kick-back</string>
+    <string name="triceps_Kofichi">Dips</string>
+    <string name="triceps_KofichkiPeika">Triceps Bench Dips</string>
+    <string name="triceps_KofichkiSAkcent">Triceps Dips</string>
+    <string name="triceps_LiceviOpori">Push-ups</string>
+    <string name="triceps_LiceviTriygylnik">Close Grip Push-up, Triangle Push Up</string>
+    <string name="triceps_LiceviTriceps">Triceps Push-Ups</string>
+    <string name="triceps_DymbeliLeg">Dumbbells Close Grip Bench Press</string>
+    <string name="triceps_GorenSkripec">Cable Pushdown</string>
+    <string name="triceps_RazgyvaneDymbeliLeg">Dumbbell Lying Triceps Extension</string>
+    <string name="triceps_Frensko">French Triceps Extension</string>
+</resources>

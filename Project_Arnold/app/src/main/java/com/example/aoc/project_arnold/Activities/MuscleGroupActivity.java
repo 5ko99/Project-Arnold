@@ -20,8 +20,6 @@ public class MuscleGroupActivity extends AppCompatActivity {
     public int musculeGroupN; // int hat say number of muscule
     //List view exercises initialise data
     ListView lv;
-    String[] exercises = {"Test1","Test2","Test3"};
-    int[] imgs={R.drawable.prasec,R.drawable.triceps,R.drawable.korem};
 
 
     @Override
@@ -33,6 +31,9 @@ public class MuscleGroupActivity extends AppCompatActivity {
         musculeGroupN= bundle.getInt(KEY); // Getting number of muscule group from intent
         ImageView image = getImage(musculeGroupN); //Set image to img_main from R.drawable depends on musculeGroupN
         setHeader(musculeGroupN); //Set header from R.string depends on musculeGroupN
+        //Test initialise
+        final String[] exercises={getString(R.string.bedra_AduktorMashinaRaztvariane),getString(R.string.bedra_AduktorMashinaZatvariane),getString(R.string.bedra_BedrenoRazgyvane)};
+        int[] imgs={R.drawable.bedra_raztvariane_bedra_aduktor,R.drawable.bedra_zatvarqne_abduktor,R.drawable.bedra_razgyvane};
 
         //Fill exercises and imgs with data depend of musculeGroupN
        /* exercises=setExercises(musculeGroupN);
@@ -51,6 +52,8 @@ public class MuscleGroupActivity extends AppCompatActivity {
                 Toast.makeText(getApplicationContext(),exercises[position],Toast.LENGTH_SHORT).show();
             }
         });
+            String ex1 = getString(R.string.triceps_DymbeliLeg);
+            System.out.println(ex1);
     }
 
     private int[] setImgs(int musculeGroupN) {

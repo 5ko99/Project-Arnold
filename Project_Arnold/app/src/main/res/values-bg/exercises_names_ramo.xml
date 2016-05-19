@@ -1,2 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="ramo_Arnold">“Арнолд” раменни преси с дъмбели</string>
+    <string name="ramo_VoenaPresa">Военна преса(Раменни преси с щанга)</string>
+    <string name="ramo_RyceStrani">Повдигане на ръце встрани</string>
+    <string name="ramo_RyceNapred">Повдигане на ръцете напред</string>
+    <string name="ramo_Vertolet">Повдигане на щанга до брадата(Вертолет)</string>
+    <string name="ramo_RuskiSwing">Преден суинг с пудовка (Руски суинг)</string>
+    <string name="ramo_RaztvarianeVstraniNaklon">Разтваряне встрани от наклон на портален скрипец</string>
+    <string name="ramo_RaztvarianePeckDeck">Разтваряне на пек-бек машина</string>
+    <string name="ramo_Presi">Раменни преси</string>
+    <string name="ramo_PresiDymbel">Раменни преси с дъмбели от седеж</string>
+</resources>

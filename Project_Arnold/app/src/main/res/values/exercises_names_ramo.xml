@@ -1,2 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="ramo_Arnold">Arnold Shoulder Press</string>
+    <string name="ramo_VoenaPresa">Military Press</string>
+    <string name="ramo_RyceStrani">Dumbbell Lateral Raises</string>
+    <string name="ramo_RyceNapred">Dumbbell Front Raise</string>
+    <string name="ramo_Vertolet">Upright rows</string>
+    <string name="ramo_RuskiSwing">Kettlebell Two Arms Front Swing</string>
+    <string name="ramo_RaztvarianeVstraniNaklon">Cable Rear Lateral Raise</string>
+    <string name="ramo_RaztvarianePeckDeck">Peck-Back Machine Shoulder Blades Adduction</string>
+    <string name="ramo_Presi">Shoulder Presses</string>
+    <string name="ramo_PresiDymbel">Dumbbell Shoulder Press</string>
+</resources>

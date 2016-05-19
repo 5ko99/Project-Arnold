@@ -1,2 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="predmishnici_BicepsovoSgyvaneNadhvat">Biceps Reverse Curl</string>
+    <string name="predmishnici_ProniranoRazgyvane">Dumbbell Reverse Wrist Curl</string>
+    <string name="predmishnici_RadialnaAbdukcia">Wrist Radial Abduction</string>
+    <string name="predmishnici_SgyvanePredmishnici">Wrist Curl</string>
+    <string name="predmishnici_Chukovo">Hammer Curl</string>
+</resources>

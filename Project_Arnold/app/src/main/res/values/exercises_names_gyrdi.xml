@@ -1,2 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="gyrdi_bypari">Burpee</string>
+    <string name="gyrdi_Kofichki">Dips</string>
+    <string name="gyrdi_ZatvarianeNaRyceTilenLEg">Cable Lying Fly</string>
+    <string name="gyrdi_DymbeliNakolnenLeg">Incline Dumbbell Bench Press</string>
+    <string name="gyrdi_MashinaGrydniMuskuli">Leaver Chest Press</string>
+    <string name="gyrdi_ShtangaLegPodhvat">Reverse Grip Bench Press</string>
+    <string name="gyrdi_KrosouvyrGyrdi">Crossover fly</string>
+    <string name="gyrdi_LiceviOpori">Push-ups</string>
+    <string name="gyrdi_PeckDeck">Peck Deck Machine</string>
+    <string name="gyrdi_DymbeliObratenNakoln">Decline Dumbbell Bench Press</string>
+    <string name="gyrdi_DymbeliHorizontalen">Dumbbell Bench Press</string>
+    <string name="gyrdi_ShtangaObratenNaklon">Barbell Decline Bench Press</string>
+    <string name="gyrdi_Flais">Dumbbell fly</string>
+    <string name="gyrdi_Pulovar">Pullover</string>
+    <string name="gyrdi_lejanka">Barbell Bench Press</string>
+    <string name="gyrdi_ShtangaPoluLeg">Barbell Incline Bench Press</string>
+</resources>

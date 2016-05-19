@@ -1,2 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="korem_Mahalo">“Махало” на земя за коремната мускулатура</string>
+    <string name="korem_VPresa">V-преса</string>
+    <string name="korem_VertikalniPovdiganiq">Вертикални коремно-тазобедрени повдигания</string>
+    <string name="korem_GarhmyrPovigane">Гархамър повдигане</string>
+    <string name="korem_Presi">Коремни преси</string>
+    <string name="korem_Pank">Планк</string>
+    <string name="korem_Molitva">Привеждане на горен скрипец(Молитва)</string>
+    <string name="korem_RuskoIzvivane">Руско извиване</string>
+    <string name="korem_Roler">Спускане и вдигане до предна опора с ролер</string>
+    <string name="korem_UsukvanePriVdigane">Усуквания при повдигане на торса от тилен лег</string>
+    <string name="korem_Trenejor">Тренажори за коремна мускулатура</string>
+</resources>

@@ -1,2 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="prasec_KalfMashina">Калф машини</string>
+    <string name="prasec_PrystiLegPresa">Повдигане на пръсти на лег преса</string>
+    <string name="prasec_PovdiganeNaPrysti">Повдигане на пръсти от стоеж/седеж</string>
+    <string name="prasec_JumpingJack">Подскок с разтваряне на ръцете и краката (Джъмпинг джак)</string>
+    <string name="prasec_SkokVyrhuKutiq">Скок върху кутия</string>
+</resources>

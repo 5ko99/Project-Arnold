@@ -1,2 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="gyrdi_bypari">Бърпи</string>
+    <string name="gyrdi_Kofichki">Кофички</string>
+    <string name="gyrdi_ZatvarianeNaRyceTilenLEg">Затваряне на ръце с кабели от тилен лег</string>
+    <string name="gyrdi_DymbeliNakolnenLeg">Избутване на дъмбели от наклонен лег</string>
+    <string name="gyrdi_MashinaGrydniMuskuli">Избутване на машина за гръдни мускули</string>
+    <string name="gyrdi_ShtangaLegPodhvat">Изтласкване на щанга от лег с подхват</string>
+    <string name="gyrdi_KrosouvyrGyrdi">Кросоувър затваряне за гърди на скрипец</string>
+    <string name="gyrdi_LiceviOpori">Лицеви опори</string>
+    <string name="gyrdi_PeckDeck">Пек-дек</string>
+    <string name="gyrdi_DymbeliObratenNakoln">Повдигане на дъмбели от лег с обратен наклон</string>
+    <string name="gyrdi_DymbeliHorizontalen">Повдигане на дъмбели от хоризонтален тилен лег</string>
+    <string name="gyrdi_ShtangaObratenNaklon">Повдигане на щанга от обратен наклон</string>
+    <string name="gyrdi_Flais">Флайс с дъмбели</string>
+    <string name="gyrdi_Pulovar">Пулоувър с щанга или с дъмбел</string>
+    <string name="gyrdi_lejanka">Повдигане на щанга от тилен лег (Лежанка)</string>
+    <string name="gyrdi_ShtangaPoluLeg">Повдигане на щанга от полулег</string>
+</resources>

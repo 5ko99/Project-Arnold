@@ -1,2 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="sedalishte_PlaninskiKaterach">(Планински) катерач</string>
+    <string name="sedalishte_Ekstenziq">1/2 гръбна екстензия с акцент върху седалището</string>
+    <string name="sedalishte_Klek">Класически клек с щанга зад врат </string>
+    <string name="sedalishte_LegPresa">Лег преса с акцент върху седалището</string>
+    <string name="sedalishte_MyrtvaTqga">Мъртва Тяга</string>
+    <string name="sedalishte_Napadi">Напади със собствено тегло и с дъмбели</string>
+    <string name="sedalishte_BoxJump">Скок върху кутия</string>
+    <string name="sedalishte_SkokKlek">Скок от клек</string>
+    <string name="sedalishte_TqgaPraviKraka">Тяга с прави крака</string>
+</resources>

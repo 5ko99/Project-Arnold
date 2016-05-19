@@ -1,2 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="korem_Mahalo">Weighted Lying Twist</string>
+    <string name="korem_VPresa">V-up</string>
+    <string name="korem_VertikalniPovdiganiq">Abdominal Hip Thrusts</string>
+    <string name="korem_GarhmyrPovigane">Garhammer raise</string>
+    <string name="korem_Presi">Sit-ups</string>
+    <string name="korem_Pank">Plank</string>
+    <string name="korem_Molitva">Cable Kneeling Crunch(prayer)</string>
+    <string name="korem_RuskoIzvivane">Russian Twist</string>
+    <string name="korem_Roler">Ab-wheel rollout</string>
+    <string name="korem_UsukvanePriVdigane">Decline Torso Rotations</string>
+    <string name="korem_Trenejor">Abdominal Press Machines</string>
+</resources>
