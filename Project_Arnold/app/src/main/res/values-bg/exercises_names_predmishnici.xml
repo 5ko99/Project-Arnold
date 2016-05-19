@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="predmishnici_BicepsovoSgyvaneNadhvat">Бицепсово сгъване с надхват</string>
+    <string name="predmishnici_ProniranoRazgyvane">Пронирано разгъване в китки за предмишници</string>
+    <string name="predmishnici_RadialnaAbdukcia">Радиална абдукция с гиричка за предмишници</string>
+    <string name="predmishnici_SgyvanePredmishnici">Сгъване за предмишници с щанга/дъмбел</string>
+    <string name="predmishnici_Chukovo">Чуково бицепсово сгъване</string>
+</resources>
