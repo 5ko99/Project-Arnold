@@ -20,7 +20,8 @@ public class MuscleGroupActivity extends AppCompatActivity {
     public int musculeGroupN; // int hat say number of muscule
     //List view exercises initialise data
     ListView lv;
-
+    String[] exercises;
+    int[] imgs;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -32,12 +33,11 @@ public class MuscleGroupActivity extends AppCompatActivity {
         ImageView image = getImage(musculeGroupN); //Set image to img_main from R.drawable depends on musculeGroupN
         setHeader(musculeGroupN); //Set header from R.string depends on musculeGroupN
         //Test initialise
-        final String[] exercises={getString(R.string.bedra_AduktorMashinaRaztvariane),getString(R.string.bedra_AduktorMashinaZatvariane),getString(R.string.bedra_BedrenoRazgyvane)};
-        int[] imgs={R.drawable.bedra_raztvariane_bedra_aduktor,R.drawable.bedra_zatvarqne_abduktor,R.drawable.bedra_razgyvane};
+
 
         //Fill exercises and imgs with data depend of musculeGroupN
-       /* exercises=setExercises(musculeGroupN);
-        imgs=setImgs(musculeGroupN)*/;
+        exercises=setExercises(musculeGroupN);
+        imgs=setImgs(musculeGroupN);
 
         //Set data to list view for exercises
         lv= (ListView) findViewById(R.id.list_exercises);
@@ -59,11 +59,36 @@ public class MuscleGroupActivity extends AppCompatActivity {
     private int[] setImgs(int musculeGroupN) {
         int[] imgs={};
 
+        switch (musculeGroupN){
+            case 0: imgs= new int[]{R.drawable.bedra_katerach,R.drawable.bedra_razgyvane,
+                    R.drawable.bedra_sgyvane,R.drawable.bedra_bylgarski_klek,
+                    R.drawable.bedra_zatvarqne_abduktor,R.drawable.bedra_klek_shtanga,
+                    R.drawable.bedra_leg_presa,R.drawable.bedra_myrtva_tqga,
+                    R.drawable.bedra_dumbbell_squat,R.drawable.bedra_otpadi,
+                    R.drawable.bedra_jumping_jack,R.drawable.bedra_raztvariane_bedra_aduktor,
+                    R.drawable.bedra_skok_klek,R.drawable.bedra_skok_kutia,
+                    R.drawable.bedra_shpagat};
+        }
+
         return imgs;
     }
 
     private String[] setExercises(int musculeGroupN) {
-        String[] exercises={};
+        //String[] exercises;
+
+        switch (musculeGroupN){
+            case 0: exercises= new String[]{getString(R.string.bedra_Katerach),getString(R.string.bedra_BedrenoRazgyvane),
+                    getString(R.string.bedra_BedrenoSgyvane),getString(R.string.bedra_BylgarskiKlek),
+                    getString(R.string.bedra_AduktorMashinaZatvariane),getString(R.string.bedra_KlekShtanga),
+                    getString(R.string.bedra_LegPresa),getString(R.string.bedra_MyrtvaTiaga),
+                    getString(R.string.bedra_PILE ),getString(R.string.bedra_Otpadi),
+                    getString(R.string.bedra_JumpingJack), getString(R.string.bedra_AduktorMashinaRaztvariane),
+                    getString(R.string.bedra_SkokKlek), getString(R.string.bedra_SkokKutia),
+                    getString(R.string.bedra_Shpagat)}; break;
+
+            //default: exercises=new String[]{"Not ready yet!"};
+        }
+
 
         return exercises;
     }
