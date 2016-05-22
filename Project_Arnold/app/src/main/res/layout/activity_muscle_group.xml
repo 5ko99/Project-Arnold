@@ -9,7 +9,7 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context=".Activities.MuscleGroupActivity">
 
-
+    <!-- TODO: Resize img_main size depends on screen size and orientation -->
     <ImageView
         android:id="@+id/img_main"
         android:layout_width="wrap_content"
