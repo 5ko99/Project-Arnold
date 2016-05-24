@@ -7,4 +7,6 @@
     <dimen name="exercise_model_text_size">20dp</dimen>
     <dimen name="exercise_model_img_exercise_widht">190dp</dimen>
     <dimen name="exercise_model_img_exerise_height">190dp</dimen>
+    <dimen name="mucule_group_img_main_width">300dp</dimen>
+    <dimen name="mucule_group_img_main_height">140dp</dimen>
 </resources>

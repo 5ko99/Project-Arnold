@@ -1,4 +1,12 @@
 <resources>
-    <string name="app_name">Project_Arnold</string>
+    <string name="app_name">Project Arnold</string>
     <string name="action_settings">Settings</string>
+    <string name="title_activity_start">StartActivity</string>
+    <string name="app_creator">Creator:Petko Kamenov</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="muscle_group_activity_title">Exercises</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
