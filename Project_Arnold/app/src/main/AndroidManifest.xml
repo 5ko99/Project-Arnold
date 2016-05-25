@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.aoc.project_arnold">
-    android:versionCode="1"
-    android:versionName="0.2"
+    android:versionCode="2"
+    android:versionName="0.3"
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_arnold"
@@ -11,9 +11,10 @@
         android:theme="@style/AppTheme">
 
         <activity
-            android:name=".Activities.MuscleGroupsActivity"
-            android:label="@string/muscle_group_activity_title"
-            android:theme="@style/AppTheme.NoActionBar">
+            android:name=".Activities.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:launchMode="singleTop">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
@@ -21,12 +22,21 @@
         </activity>
 
         <activity
+            android:name=".Activities.MuscleGroupsActivity"
+            android:label="@string/muscle_group_activity_title"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:parentActivityName="com.example.aoc.project_arnold.Activities.MainActivity"
+            android:launchMode="singleTop">
+        </activity>
+
+        <activity
             android:name=".Activities.MuscleGroupExercisesActivity"
-            android:parentActivityName=".Activities.MuscleGroupsActivity" />
+            android:parentActivityName="com.example.aoc.project_arnold.Activities.MuscleGroupsActivity"
+            />
 
         <activity
             android:name=".Activities.ExerciseActivity"
-            android:parentActivityName=".Activities.MuscleGroupExercisesActivity"></activity>
+            android:parentActivityName="com.example.aoc.project_arnold.Activities.MuscleGroupExercisesActivity" />
 
     </application>
 

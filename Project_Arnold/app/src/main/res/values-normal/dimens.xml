@@ -8,5 +8,5 @@
     <dimen name="exercise_model_img_exercise_widht">130dp</dimen>
     <dimen name="exercise_model_img_exerise_height">130dp</dimen>
     <dimen name="mucule_group_img_main_width">250dp</dimen>
-    <dimen name="mucule_group_img_main_height">80dp</dimen>
+    <dimen name="mucule_group_img_main_height">100dp</dimen>
 </resources>

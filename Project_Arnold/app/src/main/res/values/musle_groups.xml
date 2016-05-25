@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="muscle_group_activity_title">Exercises</string>
     <string name="Bedra">"Quadriceps"</string>
     <string name="Biceps">"Biceps"</string>
     <string name="Gryb">"Back"</string>

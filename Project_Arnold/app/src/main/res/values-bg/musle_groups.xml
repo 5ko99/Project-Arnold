@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="muscle_group_activity_title">Упражнения</string>
     <string name="Bedra">Бедра</string>
     <string name="Biceps">Бицепс</string>
     <string name="Gryb">Гръб</string>

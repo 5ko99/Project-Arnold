@@ -9,6 +9,7 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ImageView;
 import android.widget.ListView;
+import android.widget.Toast;
 
 import com.example.aoc.project_arnold.Adapters.ListViewAdapter;
 import com.example.aoc.project_arnold.R;
@@ -58,9 +59,16 @@ public class MuscleGroupExercisesActivity extends AppCompatActivity {
         });
             String ex1 = getString(R.string.triceps_DymbeliLeg);
             System.out.println(ex1);
+        //Toast.makeText(this,"onCreate()",Toast.LENGTH_SHORT).show();
     }
 
-    private void sendIntent(int positionMuscule,int positionExercise, int img,String exercise_text) {
+    @Override
+    protected void onResume() {
+        super.onResume();
+       // Toast.makeText(this,"onResume()",Toast.LENGTH_SHORT).show();
+    }
+
+    private void sendIntent(int positionMuscule, int positionExercise, int img, String exercise_text) {
         Intent mIntent = new Intent(this,ExerciseActivity.class);
         mIntent.putExtra(KEY,positionMuscule);
         mIntent.putExtra(KEYEXERCISE,positionExercise);
