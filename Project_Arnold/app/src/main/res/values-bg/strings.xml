@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="home">Начална Страница</string>
+    <string name="history">Дейности</string>
+    <string name="add_activity">Добави Дейност</string>
 </resources>

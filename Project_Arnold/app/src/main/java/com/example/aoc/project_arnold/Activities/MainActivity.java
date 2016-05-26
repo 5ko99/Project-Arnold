@@ -88,10 +88,14 @@ public class MainActivity extends AppCompatActivity
             Intent mIntent = new Intent(this,MuscleGroupsActivity.class);
             startActivity(mIntent);
 
-        } else if (id == R.id.nav_gallery) {
-
         } else if (id==R.id.nav_home){
             drawer.closeDrawer(Gravity.LEFT);
+        } else if(id==R.id.nav_history){
+            Intent mIntent = new Intent(this,HistoryActivity.class);
+            startActivity(mIntent);
+        }else if(id==R.id.nav_add_traning){
+            Intent mIntent = new Intent(this,AddTraningActivity.class);
+            startActivity(mIntent);
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);

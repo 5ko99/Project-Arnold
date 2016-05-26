@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
-    <!--TODO: Add more icons for more menu -->
+    <item
+        android:id="@+id/nav_add_traning"
+        android:icon="@drawable/ic_add"
+        android:title="@string/add_activity"
+        android:checked="true"/>
     <group >
         <item
             android:id="@+id/nav_home"
-            android:icon="@drawable/ic_menu_slideshow"
+            android:icon="@drawable/ic_home"
             android:title="@string/home"
             android:checked="true"/>
 
@@ -13,9 +17,9 @@
             android:icon="@drawable/ic_exercises"
             android:title="@string/muscle_group_activity_title" />
         <item
-            android:id="@+id/nav_gallery"
-            android:icon="@drawable/ic_menu_gallery"
-            android:title="Gallery" />
+            android:id="@+id/nav_history"
+            android:icon="@drawable/ic_history"
+            android:title="@string/history" />
     </group>
 
     <item android:title="Communicate">
