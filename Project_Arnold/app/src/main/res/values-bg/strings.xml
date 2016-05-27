@@ -3,4 +3,6 @@
     <string name="home">Начална Страница</string>
     <string name="history">Дейности</string>
     <string name="add_activity">Добави Дейност</string>
+    <string name="training_type">Тип Тренировка:</string>
+    <string name="number_of_exercises">Брой упражнения</string>
 </resources>

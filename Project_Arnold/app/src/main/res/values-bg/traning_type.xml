@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="traning_type">
+        <item>Гърди</item>
+        <item>Гръб</item>
+        <item>Ръце</item>
+        <item>Корем</item>
+        <item>Рамо</item>
+        <item>Крака</item>
+        <item>Кардио</item>
+    </string-array>
+</resources>

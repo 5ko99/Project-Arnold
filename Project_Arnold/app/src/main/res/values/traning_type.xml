@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="traning_type">
+        <item>Chest Training</item>
+        <item>Back Training</item>
+        <item>Hands Training</item>
+        <item>ABS Training</item>
+        <item>Shoulders Training</item>
+        <item>Legs Training</item>
+        <item>Cardio</item>
+    </string-array>
+</resources>
