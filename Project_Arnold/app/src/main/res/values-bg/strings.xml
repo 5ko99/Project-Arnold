@@ -4,5 +4,9 @@
     <string name="history">Дейности</string>
     <string name="add_activity">Добави Дейност</string>
     <string name="training_type">Тип Тренировка:</string>
-    <string name="number_of_exercises">Брой упражнения</string>
+    <string name="number_of_exercises">Брой упражнения:</string>
+    <string name="record">Рекорд:</string>
+    <string name="record_kg">Рекорд кг:</string>
+    <string name="kg">кг</string>
+    <string name="record_number_of_exercises">Рекорд брой повторения:</string>
 </resources>

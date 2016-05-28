@@ -2,10 +2,7 @@ package com.example.aoc.project_arnold.Activities;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
 import android.view.Gravity;
-import android.view.View;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
@@ -14,7 +11,6 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.widget.Toast;
 
 import com.example.aoc.project_arnold.R;
 
@@ -94,7 +90,7 @@ public class MainActivity extends AppCompatActivity
             Intent mIntent = new Intent(this,HistoryActivity.class);
             startActivity(mIntent);
         }else if(id==R.id.nav_add_traning){
-            Intent mIntent = new Intent(this,AddTraningActivity.class);
+            Intent mIntent = new Intent(this,AddTrainingActivity.class);
             startActivity(mIntent);
         }
 

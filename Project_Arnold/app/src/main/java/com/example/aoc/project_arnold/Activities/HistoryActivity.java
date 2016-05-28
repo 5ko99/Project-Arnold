@@ -4,7 +4,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
 import com.example.aoc.project_arnold.R;
-
+//TODO: Show info from Database
 public class HistoryActivity extends AppCompatActivity {
 
     @Override

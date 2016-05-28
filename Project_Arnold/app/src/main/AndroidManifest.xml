@@ -36,7 +36,7 @@
             android:name=".Activities.HistoryActivity"
             android:label="@string/history"
             android:parentActivityName=".Activities.MainActivity"></activity>
-        <activity android:name=".Activities.AddTraningActivity"
+        <activity android:name=".Activities.AddTrainingActivity"
             android:parentActivityName=".Activities.MainActivity"
             android:label="@string/add_activity"></activity>
     </application>

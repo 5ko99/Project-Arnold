@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="traning_records">
+        <item>Няма рекорд</item>
+        <item>Вдигане от лег(Лежанка)</item>
+        <item>Клек с Щанга</item>
+        <item>Мъртва Тяга</item>
+        <item>Бицепсово Сгъване с Щанга</item>
+        <item>Бицепсово Сгъване Скот</item>
+        <item>Лежанка Тесен Хват(Трицепс)</item>
+        <item>Френско</item>
+        <item>Лег преса(Крака)</item>
+        <item>Бицепсово Сгъване с Дъмбел</item>
+        <item>Гребане с лост</item>
+    </string-array>
+</resources>

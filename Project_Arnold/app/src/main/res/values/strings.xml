@@ -13,5 +13,11 @@
     <string name="history">Activity</string>
     <string name="add_activity">Add Activity</string>
     <string name="training_type">Training type:</string>
-    <string name="number_of_exercises">Number of exercises</string>
+    <string name="number_of_exercises">Number of exercises:</string>
+    <string name="record">Record:</string>
+    <string name="record_kg">Record kg:</string>
+    <string name="kg">kg</string>
+    <string name="record_number_of_exercises">Record Reps of Exercises:</string>
+
+
 </resources>
