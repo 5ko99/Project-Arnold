@@ -9,4 +9,6 @@
     <string name="record_kg">Рекорд кг:</string>
     <string name="kg">кг</string>
     <string name="record_number_of_exercises">Рекорд брой повторения:</string>
+    <string name="total_trainings">Общо Тренировки</string>
+    <string name="add">Добави</string>
 </resources>

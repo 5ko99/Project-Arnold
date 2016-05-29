@@ -38,6 +38,8 @@ public class DBHelper extends SQLiteOpenHelper {
         Log.d("D1",sb.toString());
         db.execSQL(sb.toString());//Изпълняваме sql  за създаване на базата данни заявката е изнесена в ресурси
         Log.d("D1","Created DB");
+        AddTrainingActivity.edit.putInt(AddTrainingActivity.traningCountInt,0);
+        AddTrainingActivity.edit.commit();
     }
 
     //Когато базата дани вече е създадена и има нова версия примерно да добавим нови полета

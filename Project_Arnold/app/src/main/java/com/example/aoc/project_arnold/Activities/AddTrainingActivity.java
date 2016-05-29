@@ -2,6 +2,7 @@ package com.example.aoc.project_arnold.Activities;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
@@ -26,6 +27,10 @@ public class AddTrainingActivity extends Activity implements AdapterView.OnItemS
     Spinner spinnerRecord;
     EditText etRecordKg;
     EditText etRecordReps;
+    public static String traningCountPreferneces = "traningsCount";
+    public static SharedPreferences sharedPreferences;
+    public static SharedPreferences.Editor edit;
+    public static String traningCountInt = "int";
 /*    public static  String DB_CREATE;*/
     public static BufferedReader DB_CREATE_TXT;
     @Override
@@ -40,6 +45,9 @@ public class AddTrainingActivity extends Activity implements AdapterView.OnItemS
             e.printStackTrace();
         }
         // DB_CREATE =  getString(R.string.DB_CREATE); // Set to string sql that will create database
+
+        sharedPreferences = getSharedPreferences(traningCountPreferneces,MODE_PRIVATE);
+        edit = sharedPreferences.edit();
 
         spinnerTraningType = (Spinner) findViewById(R.id.add_training_spinner_training_types);
         etNummberExercises = (EditText) findViewById(R.id.add_training_et_number_exercises);
@@ -92,7 +100,6 @@ public class AddTrainingActivity extends Activity implements AdapterView.OnItemS
         DBPref pref = new DBPref(getApplicationContext());
         String traningType = spinnerTraningType.getSelectedItem().toString();
         String recordExercise = spinnerRecord.getSelectedItem().toString();
-
         hideLayouts();
 
         if(etNummberExercises.getText().toString()==null || etNummberExercises.getText().toString().matches("")){

@@ -1,6 +1,7 @@
 package com.example.aoc.project_arnold.Activities;
 
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.Gravity;
 import android.support.design.widget.NavigationView;
@@ -11,6 +12,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.TextView;
 
 import com.example.aoc.project_arnold.R;
 
@@ -18,6 +20,7 @@ public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
     public DrawerLayout drawer;
     public NavigationView navigationView;
+    TextView tvCount;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -33,13 +36,16 @@ public class MainActivity extends AppCompatActivity
 
         navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
+        tvCount = (TextView) findViewById(R.id.main_activity_tv_count);
     }
 
     @Override
     protected void onResume() {
         super.onResume();
-      drawer.openDrawer(Gravity.LEFT);
-
+/*        drawer.openDrawer(Gravity.LEFT);*/
+        SharedPreferences sharedPreferences = getSharedPreferences(AddTrainingActivity.traningCountPreferneces,MODE_PRIVATE);
+        int count = sharedPreferences.getInt(AddTrainingActivity.traningCountInt,0);
+        tvCount.setText(Integer.toString(count));
     }
 
     @Override
