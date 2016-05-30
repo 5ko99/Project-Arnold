@@ -20,6 +20,7 @@
     <string name="record_number_of_exercises">Record Reps of Exercises:</string>
     <string name="total_trainings">Total Trainings</string>
     <string name="add">Add</string>
+    <string name="toast_history_null">Please add activity first!</string>
 
 
 </resources>

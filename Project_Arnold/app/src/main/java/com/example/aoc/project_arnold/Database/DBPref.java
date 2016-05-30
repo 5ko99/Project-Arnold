@@ -44,7 +44,8 @@ public class DBPref extends DBHelper {
     }
 
     public Cursor getVals(){
-        return this.db.query(DBHelper.tableActivity,new String[]{"type","n","record_exercise","record_kg","_id","date"},null,null,null,null,null); //Изпълняваме sql то си пише кое е where, order by и т.н.
+        db.execSQL("UPDATE activity SET date=date();");
+        return this.db.query(DBHelper.tableActivity,new String[]{"type","n","record_exercise","record_kg","_id","date"},null,null,null,null,"_id DESC"); //Изпълняваме sql то си пише кое е where, order by и т.н.
     }
 
     public boolean delete(int id)

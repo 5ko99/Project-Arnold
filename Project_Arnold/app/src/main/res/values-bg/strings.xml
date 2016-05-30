@@ -11,4 +11,5 @@
     <string name="record_number_of_exercises">Рекорд брой повторения:</string>
     <string name="total_trainings">Общо Тренировки</string>
     <string name="add">Добави</string>
+    <string name="toast_history_null">Моля добавете тренировка първо!</string>
 </resources>

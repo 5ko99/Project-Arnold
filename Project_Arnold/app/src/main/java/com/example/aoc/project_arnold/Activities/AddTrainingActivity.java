@@ -4,6 +4,8 @@ import android.app.Activity;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
+import android.util.Log;
+import android.view.KeyEvent;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.View;
@@ -73,6 +75,19 @@ public class AddTrainingActivity extends Activity implements AdapterView.OnItemS
         spinnerRecord.setOnItemSelectedListener(this);
     }
 
+    @Override
+    public boolean onKeyDown(int keyCode, KeyEvent event)  {
+        if (Integer.parseInt(android.os.Build.VERSION.SDK) > 5
+                && keyCode == KeyEvent.KEYCODE_BACK
+                && event.getRepeatCount() == 0) {
+            Intent intent = new Intent(this,MainActivity.class);
+            startActivity(intent);
+            return true;
+        }
+        return super.onKeyDown(keyCode, event);
+    }
+
+
 
     @Override
     public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
@@ -96,6 +111,8 @@ public class AddTrainingActivity extends Activity implements AdapterView.OnItemS
 
     }
 
+
+
     private void save() {
         DBPref pref = new DBPref(getApplicationContext());
         String traningType = spinnerTraningType.getSelectedItem().toString();
@@ -110,6 +127,7 @@ public class AddTrainingActivity extends Activity implements AdapterView.OnItemS
                 pref.addRecord(traningType, numberOfExercises);
                 Toast.makeText(this,"Successful save",Toast.LENGTH_SHORT).show();
                 pref.close();
+                HistoryActivity.countHistory++;
                 Intent intent = new Intent(this,HistoryActivity.class);
                 startActivity(intent);
             } else {
@@ -124,6 +142,7 @@ public class AddTrainingActivity extends Activity implements AdapterView.OnItemS
                         pref.addRecord(traningType, numberOfExercises, recordExercise, recordKg, recordRepsExercises);
                         Toast.makeText(this,"Successful save",Toast.LENGTH_SHORT).show();
                         pref.close();
+                        HistoryActivity.countHistory++;
                         Intent intent = new Intent(this,HistoryActivity.class);
                         startActivity(intent);
                     }

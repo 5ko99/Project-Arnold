@@ -20,6 +20,7 @@ public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
     public DrawerLayout drawer;
     public NavigationView navigationView;
+    public static int count;
     TextView tvCount;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -44,7 +45,7 @@ public class MainActivity extends AppCompatActivity
         super.onResume();
 /*        drawer.openDrawer(Gravity.LEFT);*/
         SharedPreferences sharedPreferences = getSharedPreferences(AddTrainingActivity.traningCountPreferneces,MODE_PRIVATE);
-        int count = sharedPreferences.getInt(AddTrainingActivity.traningCountInt,0);
+        count = sharedPreferences.getInt(AddTrainingActivity.traningCountInt,0);
         tvCount.setText(Integer.toString(count));
     }
 
