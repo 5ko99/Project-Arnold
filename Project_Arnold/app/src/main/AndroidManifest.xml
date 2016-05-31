@@ -20,35 +20,30 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <activity
             android:name=".Activities.MuscleGroupsActivity"
             android:label="@string/muscle_group_activity_title"
             android:launchMode="singleTop"
             android:parentActivityName=".Activities.MainActivity"
             android:theme="@style/AppTheme.NoActionBar" />
-
         <activity
             android:name=".Activities.MuscleGroupExercisesActivity"
             android:parentActivityName=".Activities.MuscleGroupsActivity" />
-
         <activity
             android:name=".Activities.ExerciseActivity"
             android:parentActivityName=".Activities.MuscleGroupExercisesActivity" />
-
         <activity
             android:name=".Activities.HistoryActivity"
             android:label="@string/history"
-            android:parentActivityName=".Activities.MainActivity"
             android:launchMode="singleTop"
-            android:theme="@style/AppTheme"></activity>
-
-        <activity android:name=".Activities.AddTrainingActivity"
             android:parentActivityName=".Activities.MainActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Activities.AddTrainingActivity"
             android:label="@string/add_activity"
-            android:launchMode="singleTop">
-        </activity>
-
+            android:launchMode="singleTop"
+            android:parentActivityName=".Activities.MainActivity"></activity>
+        <activity android:name=".Activities.TraningInfoActivity"></activity>
     </application>
 
 </manifest>

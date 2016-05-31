@@ -23,11 +23,12 @@ import java.util.ArrayList;
 import java.util.Collections;
 
 //TODO: Recreate database with image fild that stores pphotos from users
-//TODO: If you not have any records in db to not crash
 public class HistoryActivity extends Activity {
     ImageView imageView;
     public static int countHistory;
     ListView listView;
+    Cursor c;
+    DBPref pref;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -45,34 +46,28 @@ public class HistoryActivity extends Activity {
             DBPref pref = new DBPref(this);
             Cursor c = pref.getVals();
             startManagingCursor(c);
-            String[] from = new String[]{"date", "type"};
-            int[] to = new int[]{R.id.history_summary_tv_date, R.id.history_summary_tv_type};
+            String[] from = new String[]{"date", "type", "n"};
+            int[] to = new int[]{R.id.history_summary_tv_date, R.id.history_summary_tv_type,R.id.history_summary_n};
             SimpleCursorAdapter adapter = new SimpleCursorAdapter(this, R.layout.history_summary, c, from, to);
             listView.setAdapter(adapter);
-            imageView = (ImageView) findViewById(R.id.history_summary_img);
-
         }
 
 
 
-        /*ArrayList<ActivitySummary> activitySummaries = new ArrayList<ActivitySummary>();
-        for(int i=1;i<10;i++){
-            ActivitySummary activitySummary = new ActivitySummary();
-            activitySummary.setTraningType("Kraka"+String.valueOf(i));
-            activitySummary.setDate("26.06.199"+String.valueOf(i));
-            activitySummary.setImage(R.drawable.gryb);
-            activitySummaries.add(activitySummary);
-        }
-        ListView listView = (ListView) findViewById(R.id.list_history);
-        ActivitySummaryAdapter adapter = new ActivitySummaryAdapter(this,R.layout.history_summary,activitySummaries);
-        listView.setAdapter(adapter);*/
 
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener()
         {
             @Override
             public void onItemClick(AdapterView<?> arg0, View arg1, int position, long arg3)
             {
+                //TODO: Create and start new activity on click
                 Toast.makeText(HistoryActivity.this, "" + position, Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(HistoryActivity.this,TraningInfoActivity.class);
+                intent.putExtra("key",position);
+                TextView textView = (TextView) arg1.findViewById(R.id.history_summary_tv_type);
+                String type = textView.getText().toString();
+                intent.putExtra("key",type);
+                startActivity(intent);
             }
         });
     }
@@ -89,7 +84,19 @@ public class HistoryActivity extends Activity {
         return super.onKeyDown(keyCode, event);
     }
 
+    private void show(){
+        pref=new DBPref(getApplicationContext());
+        c=pref.getVals();
+        ArrayList<String> arrayList = new ArrayList<String>();
+        if(c.moveToFirst()){  // Слагаме курсора от начало ако няма записи това ще даде false ако има записи ще даде true
+            do{ // Обхождаме курсора
+                arrayList.add(getString(c.getColumnIndex("type")));
+            }while (c.moveToNext()); // Докато се премести на следващот
 
+            c.close(); //Затваряме курсора
+            pref.close(); // Затвяряме базата данни
+        }
+    }
 
 
 
