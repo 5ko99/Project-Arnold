@@ -63,10 +63,13 @@ public class HistoryActivity extends Activity {
                 //TODO: Create and start new activity on click
                 Toast.makeText(HistoryActivity.this, "" + position, Toast.LENGTH_SHORT).show();
                 Intent intent = new Intent(HistoryActivity.this,TraningInfoActivity.class);
-                intent.putExtra("key",position);
+                intent.putExtra("position",position);
                 TextView textView = (TextView) arg1.findViewById(R.id.history_summary_tv_type);
                 String type = textView.getText().toString();
-                intent.putExtra("key",type);
+                intent.putExtra("type",type);
+                textView= (TextView) arg1.findViewById(R.id.history_summary_tv_date);
+                String date = textView.getText().toString();
+                intent.putExtra("date",date);
                 startActivity(intent);
             }
         });
