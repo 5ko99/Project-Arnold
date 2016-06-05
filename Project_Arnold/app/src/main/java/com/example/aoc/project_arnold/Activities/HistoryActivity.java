@@ -27,8 +27,8 @@ public class HistoryActivity extends Activity {
     ImageView imageView;
     public static int countHistory;
     ListView listView;
-    Cursor c;
-    DBPref pref;
+    private Cursor c;
+    private DBPref pref;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -44,11 +44,11 @@ public class HistoryActivity extends Activity {
         }else {
             countHistory++;
             DBPref pref = new DBPref(this);
-            Cursor c = pref.getVals();
-            startManagingCursor(c);
+            Cursor mC = pref.getVals();
+            startManagingCursor(mC);
             String[] from = new String[]{"date", "type", "n"};
             int[] to = new int[]{R.id.history_summary_tv_date, R.id.history_summary_tv_type,R.id.history_summary_n};
-            SimpleCursorAdapter adapter = new SimpleCursorAdapter(this, R.layout.history_summary, c, from, to);
+            SimpleCursorAdapter adapter = new SimpleCursorAdapter(this, R.layout.history_summary, mC, from, to);
             listView.setAdapter(adapter);
         }
 
@@ -61,7 +61,6 @@ public class HistoryActivity extends Activity {
             public void onItemClick(AdapterView<?> arg0, View arg1, int position, long arg3)
             {
                 //TODO: Create and start new activity on click
-                Toast.makeText(HistoryActivity.this, "" + position, Toast.LENGTH_SHORT).show();
                 Intent intent = new Intent(HistoryActivity.this,TraningInfoActivity.class);
                 intent.putExtra("position",position);
                 TextView textView = (TextView) arg1.findViewById(R.id.history_summary_tv_type);

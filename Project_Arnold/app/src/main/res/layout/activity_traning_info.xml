@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -7,6 +7,28 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.aoc.project_arnold.Activities.TraningInfoActivity">
+    tools:context="com.example.aoc.project_arnold.Activities.TraningInfoActivity"
+    android:orientation="vertical">
 
-</RelativeLayout>
+    <TextView
+        android:id="@+id/tv_info_type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Training Type"
+        android:textStyle="bold"
+        android:textSize="40sp"
+        android:textColor="@color/colorPrimary"
+        android:layout_gravity="center_horizontal"/>
+
+    <TextView
+        android:id="@+id/tv_info_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Training Date"
+        android:textStyle="italic"
+        android:textSize="20sp"
+        android:textColor="@color/colorAccent"
+        android:layout_gravity="center_horizontal"/>
+
+
+</LinearLayout>
