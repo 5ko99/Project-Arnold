@@ -17,10 +17,11 @@
     <string name="record">Record:</string>
     <string name="record_kg">Record kg:</string>
     <string name="kg">kg</string>
-    <string name="record_number_of_exercises">Record Reps of Exercises:</string>
+    <string name="record_number_of_exercises">Record Reps:</string>
     <string name="total_trainings">Total Trainings</string>
     <string name="add">Add</string>
     <string name="toast_history_null">Please add activity first!</string>
+    <string name="record_exercise">Record Exercise:</string>
 
 
 </resources>
