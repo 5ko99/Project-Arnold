@@ -13,6 +13,7 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.example.aoc.project_arnold.R;
 
@@ -43,7 +44,10 @@ public class MainActivity extends AppCompatActivity
     @Override
     protected void onResume() {
         super.onResume();
-/*        drawer.openDrawer(Gravity.LEFT);*/
+        updateCount();
+    }
+
+    public void updateCount(){
         SharedPreferences sharedPreferences = getSharedPreferences(AddTrainingActivity.traningCountPreferneces,MODE_PRIVATE);
         count = sharedPreferences.getInt(AddTrainingActivity.traningCountInt,0);
         tvCount.setText(Integer.toString(count));

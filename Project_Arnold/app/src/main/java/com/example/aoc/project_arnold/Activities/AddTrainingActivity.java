@@ -4,10 +4,12 @@ import android.app.Activity;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.KeyEvent;
 import android.view.Menu;
 import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
@@ -23,7 +25,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class AddTrainingActivity extends Activity implements AdapterView.OnItemSelectedListener {
+public class AddTrainingActivity extends AppCompatActivity implements AdapterView.OnItemSelectedListener {
     Spinner spinnerTraningType;
     EditText etNummberExercises;
     Spinner spinnerRecord;
@@ -36,6 +38,7 @@ public class AddTrainingActivity extends Activity implements AdapterView.OnItemS
 /*    public static  String DB_CREATE;*/
     public static BufferedReader DB_CREATE_TXT;
     @Override
+
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_add_traning);
@@ -73,6 +76,24 @@ public class AddTrainingActivity extends Activity implements AdapterView.OnItemS
         spinnerRecord.setAdapter(adapterRecord);
         spinnerTraningType.setAdapter(adapter);
         spinnerRecord.setOnItemSelectedListener(this);
+    }
+
+    public boolean onCreateOptionsMenu(Menu menu) {
+        MenuInflater inflater = getMenuInflater();
+        inflater.inflate(R.menu.menu_main_no_settings, menu);
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
+
+            case android.R.id.home:
+                onBackPressed();
+                return true;
+        }
+
+        return super.onOptionsItemSelected(item);
     }
 
     @Override

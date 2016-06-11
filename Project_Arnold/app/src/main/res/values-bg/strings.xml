@@ -13,4 +13,7 @@
     <string name="add">Добави</string>
     <string name="toast_history_null">Моля добавете тренировка първо!</string>
     <string name="record_exercise">Упражнение с рекорд:</string>
+    <string name="delete">Изтриване</string>
+    <string name="edit">Редактиране</string>
+    <string name="traningInfo_Activity_label">Информация за тренировката</string>
 </resources>

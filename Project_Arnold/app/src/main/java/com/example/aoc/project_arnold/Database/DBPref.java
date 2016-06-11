@@ -2,9 +2,11 @@ package com.example.aoc.project_arnold.Database;
 
 import android.content.ContentValues;
 import android.content.Context;
+import android.content.SharedPreferences;
 import android.database.Cursor;
 
 import com.example.aoc.project_arnold.Activities.AddTrainingActivity;
+import com.example.aoc.project_arnold.Activities.MainActivity;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -32,6 +34,7 @@ public class DBPref extends DBHelper {
         count++;
         AddTrainingActivity.edit.putInt(AddTrainingActivity.traningCountInt,count);
         AddTrainingActivity.edit.commit();
+        MainActivity.count++;
     }
 
 
@@ -48,7 +51,7 @@ public class DBPref extends DBHelper {
         count++;
         AddTrainingActivity.edit.putInt(AddTrainingActivity.traningCountInt,count);
         AddTrainingActivity.edit.commit();
-        /*db.execSQL("UPDATE activity SET date=date();");*/
+        MainActivity.count++;
     }
 
     public Cursor getVals(){
@@ -61,13 +64,13 @@ public class DBPref extends DBHelper {
 
     public boolean delete(int id)
     {
-        //On delete activity -1 of overall activity count
         int count = AddTrainingActivity.sharedPreferences.getInt(AddTrainingActivity.traningCountInt,0);
         count--;
         AddTrainingActivity.edit.putInt(AddTrainingActivity.traningCountInt,count);
         AddTrainingActivity.edit.commit();
+        MainActivity.count--;
 
         String id_string = Integer.toString(id);
-        return db.delete(DBHelper.tableActivity,"id=?",new String[]{id_string}) > 0;
+        return db.delete(DBHelper.tableActivity,"_id=?",new String[]{id_string}) > 0;
     }
 }

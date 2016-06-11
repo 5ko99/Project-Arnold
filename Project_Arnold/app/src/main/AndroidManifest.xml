@@ -43,7 +43,11 @@
             android:label="@string/add_activity"
             android:launchMode="singleTop"
             android:parentActivityName=".Activities.MainActivity"></activity>
-        <activity android:name=".Activities.TraningInfoActivity"></activity>
+        <activity
+            android:name=".Activities.TraningInfoActivity"
+            android:label="@string/traningInfo_Activity_label"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Activities.HistoryActivity"></activity>
     </application>
 
 </manifest>

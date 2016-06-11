@@ -22,6 +22,9 @@
     <string name="add">Add</string>
     <string name="toast_history_null">Please add activity first!</string>
     <string name="record_exercise">Record Exercise:</string>
+    <string name="delete">Delete</string>
+    <string name="edit">Edit</string>
+    <string name="traningInfo_Activity_label">Info for Training</string>
 
 
 </resources>
