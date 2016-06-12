@@ -25,6 +25,11 @@
     <string name="delete">Delete</string>
     <string name="edit">Edit</string>
     <string name="traningInfo_Activity_label">Info for Training</string>
+    <string name="deletemsg">Are you sure you want to delete this training?</string>
+    <string name="deleteword">Delete</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="records">Records</string>
 
 
 </resources>

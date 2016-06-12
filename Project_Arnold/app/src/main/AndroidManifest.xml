@@ -42,11 +42,14 @@
             android:name=".Activities.AddTrainingActivity"
             android:label="@string/add_activity"
             android:launchMode="singleTop"
-            android:parentActivityName=".Activities.MainActivity"></activity>
+            android:parentActivityName=".Activities.MainActivity" />
         <activity
             android:name=".Activities.TraningInfoActivity"
             android:label="@string/traningInfo_Activity_label"
             android:launchMode="singleTop"
+            android:parentActivityName=".Activities.HistoryActivity" />
+        <activity android:name=".Activities.RecordsActivity"
+            android:label="@string/records"
             android:parentActivityName=".Activities.HistoryActivity"></activity>
     </application>
 

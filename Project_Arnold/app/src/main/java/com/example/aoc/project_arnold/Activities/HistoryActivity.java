@@ -1,13 +1,11 @@
 package com.example.aoc.project_arnold.Activities;
 
-import android.app.Activity;
+import android.content.DialogInterface;
 import android.content.Intent;
-import android.content.SharedPreferences;
 import android.database.Cursor;
 import android.os.Bundle;
-import android.support.v4.app.NavUtils;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
 import android.view.ContextMenu;
 import android.view.KeyEvent;
 import android.view.Menu;
@@ -66,7 +64,7 @@ public class HistoryActivity extends AppCompatActivity {
 
     public boolean onCreateOptionsMenu(Menu menu) {
         MenuInflater inflater = getMenuInflater();
-        inflater.inflate(R.menu.menu_main_no_settings, menu);
+        inflater.inflate(R.menu.menu_history, menu);
         return true;
     }
 
@@ -76,6 +74,11 @@ public class HistoryActivity extends AppCompatActivity {
 
             case android.R.id.home:
                 onBackPressed();
+                return true;
+
+            case R.id.action_records:
+                Intent intent = new Intent(this,RecordsActivity.class);
+                startActivity(intent);
                 return true;
         }
 
@@ -149,18 +152,29 @@ public class HistoryActivity extends AppCompatActivity {
                 // edit stuff here
                 return true;
             case R.id.delete:
-                TextView tvId = (TextView) findViewById(R.id.history_summary_id);
-                int id = Integer.parseInt(tvId.getText().toString());
-                DBPref pref = new DBPref(this);
-                pref.delete(id);
+                new AlertDialog.Builder(this).setIcon(android.R.drawable.ic_dialog_alert).setTitle(getString(R.string.deleteword))
+                        .setMessage(getString(R.string.deletemsg))
+                        .setPositiveButton(getString(R.string.yes), new DialogInterface.OnClickListener() {
+                            @Override
+                            public void onClick(DialogInterface dialog, int which) {
+                               deleteTraningFromDB();
+                            }
+                        }).setNegativeButton(getString(R.string.no), null).show();
 
-                setViewFromDb();
-                noTraningsCheck();
-                return true;
             default:
                 return super.onContextItemSelected(item);
         }
+        }
+
+    private void deleteTraningFromDB(){
+        TextView tvId = (TextView) findViewById(R.id.history_summary_id);
+        int id = Integer.parseInt(tvId.getText().toString());
+        DBPref pref = new DBPref(HistoryActivity.this);
+        pref.delete(id);
+        setViewFromDb();
+        noTraningsCheck();
     }
+
 
     private void noTraningsCheck() {
         countHistory = MainActivity.count;

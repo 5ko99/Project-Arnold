@@ -16,4 +16,9 @@
     <string name="delete">Изтриване</string>
     <string name="edit">Редактиране</string>
     <string name="traningInfo_Activity_label">Информация за тренировката</string>
+    <string name="deletemsg">Сигурни ли сте, че изкате да изтриете тренировката.</string>
+    <string name="deleteword">Изтриване</string>
+    <string name="yes">Да</string>
+    <string name="no">Не</string>
+    <string name="records">Рекорди</string>
 </resources>

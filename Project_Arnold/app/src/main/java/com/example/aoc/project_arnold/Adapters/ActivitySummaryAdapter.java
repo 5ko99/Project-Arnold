@@ -30,6 +30,7 @@ public class ActivitySummaryAdapter extends ArrayAdapter<ActivitySummary> {
     public View getView(int position, View convertView, ViewGroup parent) {
         LayoutInflater inflater = ((Activity)context).getLayoutInflater();
         View row = inflater.inflate(layoutId,parent,false);
+
         TextView  tv_type = (TextView) row.findViewById(R.id.history_summary_tv_type);
         TextView  tv_date = (TextView) row.findViewById(R.id.history_summary_tv_date);
 

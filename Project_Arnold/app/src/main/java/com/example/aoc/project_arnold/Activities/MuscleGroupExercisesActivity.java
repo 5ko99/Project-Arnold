@@ -22,9 +22,9 @@ public class MuscleGroupExercisesActivity extends AppCompatActivity {
     public static final String KEYEXERCISE_TEXT="exercise_text";
     public int musculeGroupN; // int hat say number of muscule
     //List view exercises initialise data
-    ListView lv;
-    public String[] exercises=new String[30];
-    public int[] imgs=new int[30];
+    private ListView lv;
+    private String[] exercises=new String[30];
+    private int[] imgs=new int[30];
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
