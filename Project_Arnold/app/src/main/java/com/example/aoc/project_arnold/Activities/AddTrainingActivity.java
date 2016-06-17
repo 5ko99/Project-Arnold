@@ -1,6 +1,7 @@
 package com.example.aoc.project_arnold.Activities;
 
 import android.app.Activity;
+import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
@@ -26,6 +27,8 @@ import com.example.aoc.project_arnold.R;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 
 public class AddTrainingActivity extends AppCompatActivity implements AdapterView.OnItemSelectedListener {
     Spinner spinnerTraningType;
@@ -34,6 +37,7 @@ public class AddTrainingActivity extends AppCompatActivity implements AdapterVie
     EditText etRecordKg;
     EditText etRecordReps;
     public static String traningCountPreferneces = "traningsCount";
+    public static String recordPref = "recordPref";
     public static SharedPreferences sharedPreferences;
     public static SharedPreferences.Editor edit;
     public static String traningCountInt = "int";
@@ -168,12 +172,28 @@ public class AddTrainingActivity extends AppCompatActivity implements AdapterVie
                         HistoryActivity.countHistory++;
                         Intent intent = new Intent(this,HistoryActivity.class);
                         startActivity(intent);
+                        setIfRecord(recordExercise,recordKg,recordRepsExercises);
                     }
                 }
 
             }
         }
 
+    }
+
+    private void setIfRecord(String recordExercise, int recordKg, int recordRepsExercises) {
+        //TODO: Fix bug here
+        String exercise = recordExercise;
+        SharedPreferences recordSharedPref = this.getSharedPreferences(recordPref, Context.MODE_PRIVATE);
+        SharedPreferences.Editor recordEdit = recordSharedPref.edit();
+        int recordKgPref = recordSharedPref.getInt(exercise,0);
+        if(recordKg>recordKgPref){
+            recordEdit.putInt(recordExercise,recordKg);
+            recordEdit.putInt(recordExercise+"reps",recordRepsExercises);
+            String date = new SimpleDateFormat("dd-MM-yyyy").format(new Date());
+            recordEdit.putString(recordExercise+"date",date);
+            recordEdit.commit();
+        }
     }
 
     private void hideLayouts(){

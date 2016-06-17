@@ -30,6 +30,7 @@
     <string name="yes">Yes</string>
     <string name="no">No</string>
     <string name="records">Records</string>
+    <string name="no_record_msg">You do not have record of this exercise at this time</string>
 
 
 </resources>
