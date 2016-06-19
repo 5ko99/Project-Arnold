@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="records">
+        <item>No Record</item>
+        <item>Barbell Bench Press</item>
+        <item>Barbell Squat</item>
+        <item>Dead Lift</item>
+        <item>Barbell Curl</item>
+        <item>Preacher Curl</item>
+        <item>Close Grip Bench Press</item>
+        <item>FrenchTricepsExtensions</item>
+        <item>Leg Press for Legs</item>
+        <item>Basic Dumbbell Curl</item>
+        <item>Barbell Bent- Over Row</item>
+    </string-array>
+</resources>

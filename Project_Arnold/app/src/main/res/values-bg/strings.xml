@@ -22,4 +22,5 @@
     <string name="no">Не</string>
     <string name="records">Рекорди</string>
     <string name="no_record_msg">Вие нямате рекорд на това упражнение все още</string>
+    <string name="reps"> повторения</string>
 </resources>

@@ -33,7 +33,7 @@ public class RecordsActivity extends AppCompatActivity {
 
     //TO delete record after delete exercise
     private void fillData(){
-        String[] recordsExercises = getResources().getStringArray(R.array.traning_records);
+        String[] recordsExercises = getResources().getStringArray(R.array.records);
         for(int i=1;i<recordsExercises.length;i++){
             Record temp=new Record();
             temp.setExercises(recordsExercises[i]);

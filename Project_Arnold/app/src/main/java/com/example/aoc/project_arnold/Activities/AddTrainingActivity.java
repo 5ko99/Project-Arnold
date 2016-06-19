@@ -29,6 +29,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.text.SimpleDateFormat;
 import java.util.Date;
+import java.util.Locale;
 
 public class AddTrainingActivity extends AppCompatActivity implements AdapterView.OnItemSelectedListener {
     Spinner spinnerTraningType;
@@ -184,6 +185,12 @@ public class AddTrainingActivity extends AppCompatActivity implements AdapterVie
     private void setIfRecord(String recordExercise, int recordKg, int recordRepsExercises) {
         //TODO: Fix bug here
         String exercise = recordExercise;
+        String language = Locale.getDefault().getDisplayLanguage();
+        if(language.equals("български")) {
+            // do your stuff for bulgarian
+            exercise = toEnglish(exercise);
+        }
+
         SharedPreferences recordSharedPref = this.getSharedPreferences(recordPref, Context.MODE_PRIVATE);
         SharedPreferences.Editor recordEdit = recordSharedPref.edit();
         int recordKgPref = recordSharedPref.getInt(exercise,0);
@@ -194,6 +201,20 @@ public class AddTrainingActivity extends AppCompatActivity implements AdapterVie
             recordEdit.putString(recordExercise+"date",date);
             recordEdit.commit();
         }
+    }
+
+    private String toEnglish(String exercise) {
+        String exerciseEnglish="";
+        String[] records = getResources().getStringArray(R.array.records);
+        String[] training_records = getResources().getStringArray(R.array.traning_records);
+        for(int i=0;i<records.length;i++){
+            if(training_records[i].equals(exercise)){
+                exerciseEnglish=records[i];
+                break;
+            }
+        }
+
+        return exerciseEnglish;
     }
 
     private void hideLayouts(){
