@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="exercises_bedra_text">
+        <item>STEP BY STEP GUIDE \n
+1.Assume a press up position so your hands are directly under your chest at shoulder width apart with straight arms \n
+2.Your body should form a straight line from your shoulders to your ankles \n
+3.Lift your right foot off the floor and slowly raise your knee as close to your chest as you can \n
+4.Return to the starting position and repeat with your left leg \n
+5.Continue alternating for the desired number of reps or time \n
+</item>
+
+        <item>1.For this exercise you will need to use a leg extension machine. First choose your weight and sit on
+            the machine with your legs under the pad (feet pointed forward) and the hands holding the side bars. This will be your starting position.
+            Tip: You will need to adjust the pad so that it falls on top of your lower leg (just above your feet).
+            Also, make sure that your legs form a 90-degree angle between the lower and upper leg. If the angle is less than 90-degrees then that means the knee is over the toes
+            which in turn creates undue stress at the knee joint. If the machine is designed that way, either look for another machine or just make sure that
+            when you start executing the exercise you stop going down once you hit the 90-degree angle. \n
+2.Using your quadriceps, extend your legs to the maximum as you exhale. Ensure that the rest of the body remains stationary on the seat. Pause a second on the contracted position. \n
+3.Slowly lower the weight back to the original position as you inhale, ensuring that you do not go past the 90-degree angle limit. \n
+4.Repeat for the recommended amount of times. \n </item>
+
+        <item>1.Adjust the machine lever to fit your height and sit on the machine with your back against the back support pad. \n
+2.Place the back of lower leg on top of padded lever (just a few inches under the calves) and secure the lap pad against your thighs,
+            just above the knees. Then grasp the side handles on the machine as you point your toes straight
+            (or you can also use any of the other two stances) and ensure that the legs are fully straight right in front of you.
+            This will be your starting position. \n
+3.As you exhale, pull the machine lever as far as possible to the back of your thighs by flexing at the knees.
+            Keep your torso stationary at all times. Hold the contracted position for a second. \n
+4.Slowly return to the starting position as you breathe in. \n
+5.Repeat for the recommended amount of repetitions. \n</item>
+    </string-array>
+</resources>

@@ -4,6 +4,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.MenuItem;
 import android.widget.ImageView;
+import android.widget.TextView;
 
 import com.example.aoc.project_arnold.R;
 
@@ -16,6 +17,7 @@ public class ExerciseActivity extends AppCompatActivity {
     public static final String KEYEXERCISE_TEXT = MuscleGroupExercisesActivity.KEYEXERCISE_TEXT;
     private int img;
     private String exercise_text;
+    private TextView tv_text;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -26,11 +28,14 @@ public class ExerciseActivity extends AppCompatActivity {
         exerciseN = bundle.getInt(KEYEXERCISE);
         img=bundle.getInt(KEYIMAGE);
         exercise_text =bundle.getString(KEYEXERCISE_TEXT);
-
+        tv_text =(TextView) findViewById(R.id.tv_activity_exercise_text);
         ImageView exerciseImage =(ImageView) findViewById(R.id.img_exerciseActivity_exercise);//Find image view
         exerciseImage.setImageResource(img); // set image
         setTitle(exercise_text); //set activity title
 
+        //TODO: Remove test of tv_text
+        String[] text = getResources().getStringArray(R.array.exercises_bedra_text);
+        tv_text.setText(text[0]);
 
     }
 
