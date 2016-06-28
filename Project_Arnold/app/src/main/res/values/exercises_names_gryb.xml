@@ -5,6 +5,8 @@
     <string name="gryb_GrebaneShtangaNapredNadhvat">Barbell Bent-over Row Overgrip</string>
     <string name="gryb_GrebaneShtangaNapredPodhvat">Barbell Underhand Bent-over Row</string>
     <string name="gryb_GrebaneShtanga">Barbell Lying Row</string>
+
+    //DOWN
     <string name="gryb_GrebaneDymbel">Dumbbell Bent-over Row</string>
     <string name="gryb_EdnostranoPridyrpvaneVertikalenSkripec">Unilateral Seated Pulldown</string>
     <string name="gryb_EdnostranoHorizontalnoGrebaneSkripecSedej">Unilateral Seated Cable Row</string>

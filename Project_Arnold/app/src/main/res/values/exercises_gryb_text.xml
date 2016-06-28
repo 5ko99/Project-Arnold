@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="exercises_gryb_text">
+        <item>1.Using a neutral grip, lean into an incline bench. \n
+2.Take a dumbbell in each hand with a neutral grip, beginning with the arms straight. This will be your starting position. \n
+3.Retract the shoulder blades and flex the elbows to row the dumbbells to your side. \n
+4.Pause at the top of the motion, and then return to the starting position. \n</item>
+        <item>1.Position a bar into a landmine or in a corner to keep it from moving. Load an appropriate weight onto your end. \n
+2.Stand over the bar, and position a Double D row handle around the bar next to the collar. Using your hips and legs, rise to a standing position. \n
+3.Assume a wide stance with your hips back and your chest up. Your arms should be extended. This will be your starting position. \n
+4.Pull the weight to your upper abdomen by retracting the shoulder blades and flexing the elbows. Do not jerk the weight or cheat during the movement. \n
+5.After a brief pause, return to the starting position. \n</item>
+        <item>1.Holding a barbell with a pronated grip (palms facing down), bend your knees slightly
+            and bring your torso forward, by bending at the waist, while keeping the back
+            straight until it is almost parallel to the floor. Tip: Make sure that you keep the head up.
+            The barbell should hang directly in front of you as your arms hang perpendicular to the floor
+            and your torso. This is your starting position. \n
+2.Now, while keeping the torso stationary, breathe out and lift the barbell to you. Keep the elbows close to the body and only use the forearms to hold the weight.
+            At the top contracted position, squeeze the back muscles and hold for a brief pause. \n
+3.Then inhale and slowly lower the barbell back to the starting position. \n
+4.Repeat for the recommended amount of repetitions. \n</item>
+        <item>1.Stand erect while holding a barbell with a supinated grip (palms facing up). \n
+2.Bend your knees slightly and bring your torso forward, by bending at the waist, while keeping the back straight until
+            it is almost parallel to the floor. Tip: Make sure that you keep the head up. The barbell should hang
+            directly in front of you as your arms hang perpendicular to the floor and your torso. This is your starting position. \n
+3.While keeping the torso stationary, lift the barbell as you breathe out, keeping the elbows close to the body and not doing any force
+            with the forearm other than holding the weights. On the top contracted position, squeeze the back muscles and hold for a second. \n
+4.Slowly lower the weight again to the starting position as you inhale. \n
+5.Repeat for the recommended amount of repetitions. \n</item>
+        <item>1.Place a cambered bar underneath an exercise bench. \n
+2.Lie face down on the exercise bench and grab the bar using a palms down (pronated grip) that is wider
+            than shoulder width. This will be your starting position. \n
+3.As you exhale row the bar up as you keep the elbows close to your body to either your chest, in order
+            to target the upper mid back, or to your stomach if targeting the lats is your goal. \n
+4.After a second hold at the top, lower back down to the starting position slowly as you inhale. \n</item>
+    </string-array>
+</resources>

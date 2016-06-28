@@ -2,6 +2,7 @@ package com.example.aoc.project_arnold.Activities;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.text.util.Linkify;
 import android.view.MenuItem;
 import android.widget.ImageView;
 import android.widget.TextView;
@@ -35,7 +36,10 @@ public class ExerciseActivity extends AppCompatActivity {
 
         //TODO: Remove test of tv_text
         String[] text = getResources().getStringArray(R.array.exercises_bedra_text);
-        tv_text.setText(text[0]);
+        if(exerciseN!=12) tv_text.setAutoLinkMask(Linkify.EMAIL_ADDRESSES);
+        else tv_text.setAutoLinkMask(Linkify.ALL);
+        tv_text.setText(text[exerciseN]);
+
 
     }
 
