@@ -1,6 +1,87 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="exercises_ramo_text">
-        <item></item>
+        <item>1.Sit on an exercise bench with back support and hold two dumbbells in front
+            of you at about upper chest level with your palms facing your body and your elbows bent. \n
+            Tip: Your arms should be next to your torso. The starting position should look like the
+            contracted portion of a dumbbell curl. \n
+2.Now to perform the movement, raise the dumbbells as you rotate the palms of
+            your hands until they are facing forward. \n
+3.Continue lifting the dumbbells until your arms are extended above you in straight arm
+            position. Breathe out as you perform this portion of the movement. \n
+4.After a second pause at the top, begin to lower the dumbbells to the original position by
+            rotating the palms of your hands towards you. Tip: The left arm will be rotated in
+            a counter clockwise manner while the right one will be rotated clockwise.
+            Breathe in as you perform this portion of the movement. \n
+5.Repeat for the recommended amount of repetitions. \n</item>
+        <item>1.Start by placing a barbell that is about chest high on a squat rack. Once you have
+            selected the weights, grab the barbell using a pronated (palms facing forward) grip.
+            Make sure to grip the bar wider than shoulder width apart from each other. \n
+2.Slightly bend the knees and place the barbell on your collar bone. Lift the barbell up keeping
+            it lying on your chest. Take a step back and position your feet shoulder width
+            apart from each other. \n
+3.Once you pick up the barbell with the correct grip length, lift the bar up over your head by
+            locking your arms. Hold at about shoulder level and slightly in front of your head.
+            This is your starting position. \n
+4.Lower the bar down to the collarbone slowly as you inhale. \n
+5.Lift the bar back up to the starting position as you exhale. \n
+6.Repeat for the recommended amount of repetitions. \n</item>
+        <item>Raise upper arms to sides until elbows are shoulder height.
+            Maintain elbows height above or equal to wrists. Lower and repeat.</item>
+        <item>1.Pick a couple of dumbbells and stand with a straight torso and the dumbbells on front of your thighs
+            at arms length with the palms of the hand facing your thighs. This will be your starting position. \n
+2.While maintaining the torso stationary (no swinging), lift the left dumbbell to the front with a slight
+            bend on the elbow and the palms of the hands always facing down. Continue to go up until you arm is
+            slightly above parallel to the floor. Exhale as you execute this portion of the movement and pause
+            for a second at the top. Inhale after the second pause. \n
+3.Now lower the dumbbell back down slowly to the starting position as you
+            simultaneously lift the right dumbbell. \n
+4.Continue alternating in this fashion until all of the recommended amount
+            of repetitions have been performed for each arm. \n</item>
+        <item>1.Grasp a barbell with an overhand grip that is slightly less than shoulder width.
+            The bar should be resting on the top of your thighs with your arms extended and a slight bend in your elbows.
+            Your back should also be straight. This will be your starting position. \n
+2.Now exhale and use the sides of your shoulders to lift the bar, raising your elbows up and to the side.
+            Keep the bar close to your body as you raise it. Continue to lift the bar until it nearly touches your chin.
+            Tip: Your elbows should drive the motion, and should always be higher than your forearms. Remember to
+            keep your torso stationary and pause for a second at the top of the movement. \n
+3.Lower the bar back down slowly to the starting position. Inhale as you perform this portion of the movement. \n
+4.Repeat for the recommended amount of repetitions. \n</item>
+        <item>Execution \n
+Drive hips forward, torso upright, and knees straight so kettlebell is pushed forward and upward.
+            Allow kettlebell to swing back down. As kettlebell approaches lower position, fold at hips while
+            bending knees. Forearms make contact with inner thighs permitting kettlebell to swing back under hips.
+            Immediately repeat movement and continue to swing kettlebell. Maintain shoulder to eye level height swings. \n
+Return \n
+Swing kettlebell back down between legs. Allow kettlebell to swing forward but do not extend hips and knees (as
+            would be required to continue the swing). Slow kettlebells swing and place on floor in original
+            deadlift posture. \m</item>
+        <item>Preparation \n
+Stand with cable columns to each side. Grasp left stirrup with right hand and right stirrup
+            with left hand. Bend knees and bend over at hips, so torso is approximately horizontal
+            with back straight. Point elbows outward with arms slightly bent. \n
+Execution \n
+Raise upper arms to sides until elbows are shoulder height. Maintain upper arms perpendicular
+            to torso and slight bend in elbows as arms are raised to sides. Lower and repeat. \n</item>
+        <!--TODO: ADD info abbout  Peck-Back Machine Shoulder Blades Adduction down-->
+        <item>No info abbout this exercise</item>
+        <item>1.Sit on a bench with back support in a squat rack. Position a barbell at a height
+            that is just above your head. Grab the barbell with a pronated grip (palms facing forward). \n
+2.Once you pick up the barbell with the correct grip width, lift the bar up over your head by locking
+            your arms. Hold at about shoulder level and slightly in front of your head. This is
+            your starting position. \n
+3.Lower the bar down to the shoulders slowly as you inhale. \n
+4.Lift the bar back up to the starting position as you exhale. \n
+5.Repeat for the recommended amount of repetitions. \n</item>
+        <item>1.While holding a dumbbell in each hand, sit on a military press bench or utility bench
+            that has back support. Place the dumbbells upright on top of your thighs. \n
+2.Now raise the dumbbells to shoulder height one at a time using your thighs to help propel
+            them up into position. \n
+3.Make sure to rotate your wrists so that the palms of your hands are facing forward. This
+            is your starting position. \n
+4.Now, exhale and push the dumbbells upward until they touch at the top. \n
+5.Then, after a brief pause at the top contracted position, slowly lower the weights
+            back down to the starting position while inhaling. \n
+6.Repeat for the recommended amount of repetitions. \n</item>
     </string-array>
 </resources>
