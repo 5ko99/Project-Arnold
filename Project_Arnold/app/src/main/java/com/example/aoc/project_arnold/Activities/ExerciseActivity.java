@@ -6,6 +6,7 @@ import android.text.util.Linkify;
 import android.view.MenuItem;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.example.aoc.project_arnold.R;
 
@@ -35,12 +36,31 @@ public class ExerciseActivity extends AppCompatActivity {
         setTitle(exercise_text); //set activity title
 
         //TODO: Remove test of tv_text
-        String[] text = getResources().getStringArray(R.array.exercises_bedra_text);
+        String[] text =  setText(musculeGroupN);
         if(exerciseN!=12) tv_text.setAutoLinkMask(Linkify.EMAIL_ADDRESSES);
         else tv_text.setAutoLinkMask(Linkify.ALL);
         tv_text.setText(text[exerciseN]);
 
 
+    }
+
+    private String[] setText(int musculeGroupN) {
+        String[] arr = new String[20];
+        switch (musculeGroupN){
+            case 0 : arr=getResources().getStringArray(R.array.exercises_bedra_text); break;
+            case 1 : arr=getResources().getStringArray(R.array.exercises_biceps_text); break;
+            case 2 : arr=getResources().getStringArray(R.array.exercises_gryb_text); break;
+            case 3 : arr=getResources().getStringArray(R.array.exercises_gyrdi_text); break;
+            case 4 : arr=getResources().getStringArray(R.array.exercises_korem_text); break;
+            case 5 : arr=getResources().getStringArray(R.array.exercises_prasec_text); break;
+            case 6 : arr=getResources().getStringArray(R.array.exercises_predmishnici_text); break;
+            case 7 : arr=getResources().getStringArray(R.array.exercises_ramo_text); break;
+            case 8 : arr=getResources().getStringArray(R.array.exercises_sedalishte_text); break;
+            case 9 : arr=getResources().getStringArray(R.array.exercises_triceps_text); break;
+            default: break;
+        }
+
+        return arr;
     }
 
     public boolean onOptionsItemSelected(MenuItem item) {
