@@ -183,7 +183,6 @@ public class AddTrainingActivity extends AppCompatActivity implements AdapterVie
     }
 
     private void setIfRecord(String recordExercise, int recordKg, int recordRepsExercises) {
-        //TODO: Fix bug here
         String exercise = recordExercise;
         String language = Locale.getDefault().getDisplayLanguage();
         if(language.equals("български")) {

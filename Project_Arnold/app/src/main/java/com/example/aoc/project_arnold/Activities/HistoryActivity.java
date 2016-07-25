@@ -149,7 +149,7 @@ public class HistoryActivity extends AppCompatActivity {
         AdapterView.AdapterContextMenuInfo info = (AdapterView.AdapterContextMenuInfo) item.getMenuInfo();
         switch (item.getItemId()) {
             case R.id.edit:
-                // edit stuff here
+                // TODO: edit traning
                 return true;
             case R.id.delete:
                 new AlertDialog.Builder(this).setIcon(android.R.drawable.ic_dialog_alert).setTitle(getString(R.string.deleteword))
@@ -157,14 +157,14 @@ public class HistoryActivity extends AppCompatActivity {
                         .setPositiveButton(getString(R.string.yes), new DialogInterface.OnClickListener() {
                             @Override
                             public void onClick(DialogInterface dialog, int which) {
-                               deleteTraningFromDB();
+                                deleteTraningFromDB();
                             }
                         }).setNegativeButton(getString(R.string.no), null).show();
 
             default:
                 return super.onContextItemSelected(item);
         }
-        }
+    }
 
     private void deleteTraningFromDB(){
         TextView tvId = (TextView) findViewById(R.id.history_summary_id);
