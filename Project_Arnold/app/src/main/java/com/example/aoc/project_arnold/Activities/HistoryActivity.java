@@ -148,9 +148,8 @@ public class HistoryActivity extends AppCompatActivity {
     public boolean onContextItemSelected(MenuItem item) {
         AdapterView.AdapterContextMenuInfo info = (AdapterView.AdapterContextMenuInfo) item.getMenuInfo();
         switch (item.getItemId()) {
-            case R.id.edit:
-                // TODO: edit traning
-                return true;
+           /* case R.id.edit:
+                // TODO: edit traning*/
             case R.id.delete:
                 new AlertDialog.Builder(this).setIcon(android.R.drawable.ic_dialog_alert).setTitle(getString(R.string.deleteword))
                         .setMessage(getString(R.string.deletemsg))

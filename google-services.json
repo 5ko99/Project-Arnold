@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "857594394445",
+    "firebase_url": "https://fitnesspal-d6183.firebaseio.com",
+    "project_id": "fitnesspal-d6183",
+    "storage_bucket": "fitnesspal-d6183.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:857594394445:android:8e72bddf5bf14cf0",
+        "android_client_info": {
+          "package_name": "com.fiveko.fitnesspal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "857594394445-dmh7sfed31m7k1nv2qtcc3fjf0uun21h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBYf3kERGkf6PEQEu2dq70ozOfGiZ-FijY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
