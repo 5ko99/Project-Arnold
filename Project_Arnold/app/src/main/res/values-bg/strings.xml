@@ -23,4 +23,8 @@
     <string name="records">Рекорди</string>
     <string name="no_record_msg">Вие нямате рекорд на това упражнение все още</string>
     <string name="reps"> повторения</string>
+    <string name="settings">Настройки</string>
+    <string name="primary_color">Главен Цвят</string>
+    <string name="save">Запази</string>
+    <string name="colorChange">Цветът е променен</string>
 </resources>

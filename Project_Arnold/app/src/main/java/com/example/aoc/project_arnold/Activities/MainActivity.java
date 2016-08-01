@@ -1,23 +1,26 @@
 package com.example.aoc.project_arnold.Activities;
 
+import android.app.ActionBar;
+import android.app.Activity;
+import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
-import android.view.Gravity;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.view.Gravity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.TextView;
-import com.google.android.gms.ads.AdRequest;
-import com.google.android.gms.ads.AdView;
-
 
 import com.example.aoc.project_arnold.R;
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
 import com.google.android.gms.ads.MobileAds;
 
 public class MainActivity extends AppCompatActivity
@@ -27,7 +30,8 @@ public class MainActivity extends AppCompatActivity
     public static int count;
     TextView tvCount;
     AdView mAdView;
-
+    public static SharedPreferences sharedPreferencesPrimaryColors;
+    public static String colorSPKey = "color";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -51,6 +55,10 @@ public class MainActivity extends AppCompatActivity
         AdRequest adRequest = new AdRequest.Builder().build();
         mAdView.loadAd(adRequest);
 
+        //Setting Color
+        sharedPreferencesPrimaryColors = this.getPreferences(Context.MODE_PRIVATE);
+        int primaryColor = sharedPreferencesPrimaryColors.getInt(colorSPKey,android.R.color.holo_red_light);
+        //TODO: Change color
     }
 
     public void onPause() {
@@ -115,6 +123,8 @@ public class MainActivity extends AppCompatActivity
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
+            Intent intent = new Intent(MainActivity.this,SettingsActivity.class);
+            startActivity(intent);
             return true;
         }
 

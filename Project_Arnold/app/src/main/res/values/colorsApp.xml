@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="colorApp">
+        <item>Red</item>
+        <item>Blue</item>
+        <item>Purple</item>
+        <item>Orange</item>
+        <item>Green</item>
+        <item>Light Orange</item>
+    </array>
+</resources>

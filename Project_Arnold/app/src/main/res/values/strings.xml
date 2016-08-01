@@ -34,6 +34,10 @@
     <string name="reps"> reps</string>
 
     <string name="banner_ad_unit_id">ca-app-pub-0044965499066904/1657834100</string>
+    <string name="settings">Settings</string>
+    <string name="primary_color">Primary Color</string>
+    <string name="save">Save</string>
+    <string name="colorChange">Color Changed</string>
 
     <!-- This is an ad unit ID for a test ad. Replace with your own banner ad unit id. -->
     <!--<string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>-->
