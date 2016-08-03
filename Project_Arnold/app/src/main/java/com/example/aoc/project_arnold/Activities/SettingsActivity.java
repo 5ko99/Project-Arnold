@@ -1,7 +1,10 @@
 package com.example.aoc.project_arnold.Activities;
 
 import android.annotation.TargetApi;
+import android.content.Context;
 import android.content.SharedPreferences;
+import android.content.pm.PackageInfo;
+import android.content.pm.PackageManager;
 import android.os.Build;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -9,6 +12,7 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Spinner;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.aoc.project_arnold.R;
@@ -35,7 +39,7 @@ public class SettingsActivity extends AppCompatActivity {
         exampleBox.invalidate();
 
         //Setting default  value to primaryColor
-        sharedPreferencesColor = MainActivity.sharedPreferencesPrimaryColors;
+        sharedPreferencesColor = getSharedPreferences("colorKey",MODE_PRIVATE);
 
         //On item selected catch event
         spinnerColor.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
@@ -60,7 +64,16 @@ public class SettingsActivity extends AppCompatActivity {
 
         });
 
-
+        //TODO: Try if this wrok
+        PackageInfo pInfo = null;
+        try {
+            pInfo = getPackageManager().getPackageInfo(getPackageName(),0);
+        } catch (PackageManager.NameNotFoundException e) {
+            e.printStackTrace();
+        }
+        String version = pInfo.versionName;
+        TextView tvVersion = (TextView) findViewById(R.id.setting_version_tv);
+        tvVersion.setText("Version:"+version);
 
 
 
@@ -71,12 +84,12 @@ public class SettingsActivity extends AppCompatActivity {
     private int setColor(String colorString) {
         int color=0;
         switch(colorString){
-            case "Red" : color=android.R.color.holo_red_light; break;
-            case "Blue" : color=android.R.color.holo_blue_light; break;
-            case "Purple" : color=android.R.color.holo_purple; break;
-            case "Orange" : color=android.R.color.holo_orange_dark; break;
-            case "Green" : color=android.R.color.holo_green_light; break;
-            case "Light Orange" : color=android.R.color.holo_orange_light; break;
+            case "White" :  color=R.color.colorWhite; break;
+            case "Grey" : color=R.color.grey; break;
+            case "Papaya" : color=R.color.papayawhip; break;
+            case "Blue" : color=R.color.powderblue; break;
+            case "Silver" : color=R.color.silver; break;
+            case "Green" : color=R.color.darkseagreen; break;
             default: color=android.R.color.holo_red_light; break;
         }
         return color;
@@ -85,8 +98,7 @@ public class SettingsActivity extends AppCompatActivity {
     public void onClickSave(View view) {
         //Set selected color in sharedPreferencesColor
         SharedPreferences.Editor editor = sharedPreferencesColor.edit();
-        editor.putInt(colorSPKey,primaryColor);
-        editor.putString(colorSPKey,colorString);
+        editor.putString(colorSPKey,Integer.toString(primaryColor));
         editor.commit();
         Toast.makeText(SettingsActivity.this, R.string.colorChange,Toast.LENGTH_SHORT).show();
     }

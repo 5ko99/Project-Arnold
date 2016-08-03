@@ -7,16 +7,20 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
+import android.support.annotation.IntegerRes;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.util.Log;
 import android.view.Gravity;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.example.aoc.project_arnold.R;
 import com.google.android.gms.ads.AdRequest;
@@ -30,7 +34,7 @@ public class MainActivity extends AppCompatActivity
     public static int count;
     TextView tvCount;
     AdView mAdView;
-    public static SharedPreferences sharedPreferencesPrimaryColors;
+    private  SharedPreferences sharedPreferencesPrimaryColors;
     public static String colorSPKey = "color";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -56,10 +60,10 @@ public class MainActivity extends AppCompatActivity
         mAdView.loadAd(adRequest);
 
         //Setting Color
-        sharedPreferencesPrimaryColors = this.getPreferences(Context.MODE_PRIVATE);
-        int primaryColor = sharedPreferencesPrimaryColors.getInt(colorSPKey,android.R.color.holo_red_light);
-        //TODO: Change color
+        sharedPreferencesPrimaryColors = getSharedPreferences("colorKey",MODE_PRIVATE);
+
     }
+
 
     public void onPause() {
         if (mAdView != null) {
@@ -76,6 +80,12 @@ public class MainActivity extends AppCompatActivity
         if (mAdView != null) {
             mAdView.resume();
         }
+
+        int primaryColor = Integer.parseInt(sharedPreferencesPrimaryColors.getString(colorSPKey,Integer.toString(R.color.colorPrimary)));
+
+        //TODO: Change color
+        RelativeLayout relativeLayout = (RelativeLayout) findViewById(R.id.main_activity_relative);
+        relativeLayout.setBackgroundColor(getResources().getColor(primaryColor));
     }
 
     public void onDestroy() {

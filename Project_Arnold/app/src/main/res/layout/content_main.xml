@@ -12,7 +12,8 @@
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="com.example.aoc.project_arnold.Activities.MainActivity"
     tools:showIn="@layout/app_bar_main"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:id="@+id/main_activity_relative">
 
     <TextView
         android:layout_width="wrap_content"

@@ -10,5 +10,11 @@
     <color name="colorIcons">#FFFFFF</color>
     <color name="colorWhite">#FFFFFF</color>
     <color name="colorDivider">#B6B6B6</color>
+    <color name="grey">#EEEEEE</color>
+    <color name="silver">#C0C0C0</color>
+    <color name="powderblue">#B0E0E6</color>
+    <color name="papayawhip">#F0F0E1</color>
+    <color name="darkseagreen">#8FBC8F</color>
+    <color name="black">#000000</color>
 
 </resources>
