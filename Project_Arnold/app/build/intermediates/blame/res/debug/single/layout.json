@@ -1,0 +1,270 @@
+[
+    {
+        "merged": "/home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/res/merged/debug/layout/abc_expanded_menu_layout.xml",
+        "source": "/home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/layout/abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "/home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/res/merged/debug/layout/nav_header_main.xml",
+        "source": "/home/petko/Workspace/Project-Arnold/Project_Arnold/app/src/main/res/layout/nav_header_main.xml"
+    },
+    {
+        "merged": "/home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/res/merged/debug/layout/content_main.xml",
+        "source": "/home/petko/Workspace/Project-Arnold/Project_Arnold/app/src/main/res/layout/content_main.xml"
+    },
+    {
+        "merged": "/home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view_list_item.xml",
+        "source": "/home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/layout/abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "/home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/res/merged/debug/layout/design_navigation_item_subheader.xml",
+        "source": "/home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/design/24.1.1/res/layout/design_navigation_item_subheader.xml"
+    },
+    {
+        "merged": "/home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/res/merged/debug/layout/abc_action_menu_item_layout.xml",
+        "source": "/home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/layout/abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "/home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_icon.xml",
+        "source": "/home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/layout/abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "/home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/res/merged/debug/layout/design_navigation_menu.xml",
+        "source": "/home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/design/24.1.1/res/layout/design_navigation_menu.xml"
+    },
+    {
+        "merged": "/home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/res/merged/debug/layout/activity_traning_info.xml",
+        "source": "/home/petko/Workspace/Project-Arnold/Project_Arnold/app/src/main/res/layout/activity_traning_info.xml"
+    },
+    {
+        "merged": "/home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/res/merged/debug/layout/abc_select_dialog_material.xml",
+        "source": "/home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/layout/abc_select_dialog_material.xml"
+    },
+    {
+        "merged": "/home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/res/merged/debug/layout/design_navigation_menu_item.xml",
+        "source": "/home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/design/24.1.1/res/layout/design_navigation_menu_item.xml"
+    },
+    {
+        "merged": "/home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/res/merged/debug/layout/abc_screen_content_include.xml",
+        "source": "/home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/layout/abc_screen_content_include.xml"
+    },
+    {
+        "merged": "/home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/res/merged/debug/layout/abc_action_mode_bar.xml",
+        "source": "/home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/layout/abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "/home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/res/merged/debug/layout/activity_muscle_group_exercises.xml",
+        "source": "/home/petko/Workspace/Project-Arnold/Project_Arnold/app/src/main/res/layout/activity_muscle_group_exercises.xml"
+    },
+    {
+        "merged": "/home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/res/merged/debug/layout/activity_muscle_groups.xml",
+        "source": "/home/petko/Workspace/Project-Arnold/Project_Arnold/app/src/main/res/layout/activity_muscle_groups.xml"
+    },
+    {
+        "merged": "/home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/res/merged/debug/layout/design_layout_snackbar_include.xml",
+        "source": "/home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/design/24.1.1/res/layout/design_layout_snackbar_include.xml"
+    },
+    {
+        "merged": "/home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/res/merged/debug/layout/select_dialog_singlechoice_material.xml",
+        "source": "/home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/layout/select_dialog_singlechoice_material.xml"
+    },
+    {
+        "merged": "/home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/res/merged/debug/layout/notification_template_big_media_narrow.xml",
+        "source": "/home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/layout/notification_template_big_media_narrow.xml"
+    },
+    {
+        "merged": "/home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/res/merged/debug/layout/activity_history.xml",
+        "source": "/home/petko/Workspace/Project-Arnold/Project_Arnold/app/src/main/res/layout/activity_history.xml"
+    },
+    {
+        "merged": "/home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/res/merged/debug/layout/abc_action_bar_view_list_nav_layout.xml",
+        "source": "/home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/layout/abc_action_bar_view_list_nav_layout.xml"
+    },
+    {
+        "merged": "/home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view.xml",
+        "source": "/home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/layout/abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "/home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/res/merged/debug/layout/notification_template_part_chronometer.xml",
+        "source": "/home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/layout/notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "/home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_radio.xml",
+        "source": "/home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/layout/abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "/home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/res/merged/debug/layout/design_navigation_item_header.xml",
+        "source": "/home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/design/24.1.1/res/layout/design_navigation_item_header.xml"
+    },
+    {
+        "merged": "/home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/res/merged/debug/layout/app_bar_main.xml",
+        "source": "/home/petko/Workspace/Project-Arnold/Project_Arnold/app/src/main/res/layout/app_bar_main.xml"
+    },
+    {
+        "merged": "/home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/res/merged/debug/layout/abc_dialog_title_material.xml",
+        "source": "/home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/layout/abc_dialog_title_material.xml"
+    },
+    {
+        "merged": "/home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/res/merged/debug/layout/abc_popup_menu_item_layout.xml",
+        "source": "/home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/layout/abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "/home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/res/merged/debug/layout/design_layout_snackbar.xml",
+        "source": "/home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/design/24.1.1/res/layout/design_layout_snackbar.xml"
+    },
+    {
+        "merged": "/home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/res/merged/debug/layout/design_layout_tab_text.xml",
+        "source": "/home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/design/24.1.1/res/layout/design_layout_tab_text.xml"
+    },
+    {
+        "merged": "/home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/res/merged/debug/layout/notification_media_cancel_action.xml",
+        "source": "/home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/layout/notification_media_cancel_action.xml"
+    },
+    {
+        "merged": "/home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/res/merged/debug/layout/abc_screen_simple_overlay_action_mode.xml",
+        "source": "/home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/layout/abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "/home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/res/merged/debug/layout/abc_popup_menu_header_item_layout.xml",
+        "source": "/home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/layout/abc_popup_menu_header_item_layout.xml"
+    },
+    {
+        "merged": "/home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/res/merged/debug/layout/design_navigation_item.xml",
+        "source": "/home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/design/24.1.1/res/layout/design_navigation_item.xml"
+    },
+    {
+        "merged": "/home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/res/merged/debug/layout/abc_action_mode_close_item_material.xml",
+        "source": "/home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/layout/abc_action_mode_close_item_material.xml"
+    },
+    {
+        "merged": "/home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/res/merged/debug/layout/abc_alert_dialog_material.xml",
+        "source": "/home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/layout/abc_alert_dialog_material.xml"
+    },
+    {
+        "merged": "/home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/res/merged/debug/layout/history_summary.xml",
+        "source": "/home/petko/Workspace/Project-Arnold/Project_Arnold/app/src/main/res/layout/history_summary.xml"
+    },
+    {
+        "merged": "/home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/res/merged/debug/layout/design_menu_item_action_area.xml",
+        "source": "/home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/design/24.1.1/res/layout/design_menu_item_action_area.xml"
+    },
+    {
+        "merged": "/home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_layout.xml",
+        "source": "/home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/layout/abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "/home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/res/merged/debug/layout/notification_template_part_time.xml",
+        "source": "/home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/layout/notification_template_part_time.xml"
+    },
+    {
+        "merged": "/home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/res/merged/debug/layout/design_bottom_sheet_dialog.xml",
+        "source": "/home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/design/24.1.1/res/layout/design_bottom_sheet_dialog.xml"
+    },
+    {
+        "merged": "/home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/res/merged/debug/layout/activity_exercise.xml",
+        "source": "/home/petko/Workspace/Project-Arnold/Project_Arnold/app/src/main/res/layout/activity_exercise.xml"
+    },
+    {
+        "merged": "/home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/res/merged/debug/layout/content_muscle_groups.xml",
+        "source": "/home/petko/Workspace/Project-Arnold/Project_Arnold/app/src/main/res/layout/content_muscle_groups.xml"
+    },
+    {
+        "merged": "/home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/res/merged/debug/layout/abc_action_bar_up_container.xml",
+        "source": "/home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/layout/abc_action_bar_up_container.xml"
+    },
+    {
+        "merged": "/home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/res/merged/debug/layout/activity_main.xml",
+        "source": "/home/petko/Workspace/Project-Arnold/Project_Arnold/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/res/merged/debug/layout/notification_template_big_media.xml",
+        "source": "/home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/layout/notification_template_big_media.xml"
+    },
+    {
+        "merged": "/home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/res/merged/debug/layout/support_simple_spinner_dropdown_item.xml",
+        "source": "/home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/layout/support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "/home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/res/merged/debug/layout/notification_media_action.xml",
+        "source": "/home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/layout/notification_media_action.xml"
+    },
+    {
+        "merged": "/home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/res/merged/debug/layout/abc_alert_dialog_button_bar_material.xml",
+        "source": "/home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/layout/abc_alert_dialog_button_bar_material.xml"
+    },
+    {
+        "merged": "/home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/res/merged/debug/layout/abc_search_dropdown_item_icons_2line.xml",
+        "source": "/home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/layout/abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "/home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/res/merged/debug/layout/design_navigation_item_separator.xml",
+        "source": "/home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/design/24.1.1/res/layout/design_navigation_item_separator.xml"
+    },
+    {
+        "merged": "/home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/res/merged/debug/layout/abc_search_view.xml",
+        "source": "/home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/layout/abc_search_view.xml"
+    },
+    {
+        "merged": "/home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/res/merged/debug/layout/record_model.xml",
+        "source": "/home/petko/Workspace/Project-Arnold/Project_Arnold/app/src/main/res/layout/record_model.xml"
+    },
+    {
+        "merged": "/home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/res/merged/debug/layout/abc_screen_simple.xml",
+        "source": "/home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/layout/abc_screen_simple.xml"
+    },
+    {
+        "merged": "/home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/res/merged/debug/layout/activity_add_traning.xml",
+        "source": "/home/petko/Workspace/Project-Arnold/Project_Arnold/app/src/main/res/layout/activity_add_traning.xml"
+    },
+    {
+        "merged": "/home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/res/merged/debug/layout/activity_settings.xml",
+        "source": "/home/petko/Workspace/Project-Arnold/Project_Arnold/app/src/main/res/layout/activity_settings.xml"
+    },
+    {
+        "merged": "/home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/res/merged/debug/layout/notification_template_media.xml",
+        "source": "/home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/layout/notification_template_media.xml"
+    },
+    {
+        "merged": "/home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/res/merged/debug/layout/exercise_model.xml",
+        "source": "/home/petko/Workspace/Project-Arnold/Project_Arnold/app/src/main/res/layout/exercise_model.xml"
+    },
+    {
+        "merged": "/home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/res/merged/debug/layout/abc_action_bar_title_item.xml",
+        "source": "/home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/layout/abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "/home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/res/merged/debug/layout/abc_action_menu_layout.xml",
+        "source": "/home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/layout/abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "/home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/res/merged/debug/layout/select_dialog_multichoice_material.xml",
+        "source": "/home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/layout/select_dialog_multichoice_material.xml"
+    },
+    {
+        "merged": "/home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/res/merged/debug/layout/design_layout_tab_icon.xml",
+        "source": "/home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/design/24.1.1/res/layout/design_layout_tab_icon.xml"
+    },
+    {
+        "merged": "/home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/res/merged/debug/layout/list_view_item.xml",
+        "source": "/home/petko/Workspace/Project-Arnold/Project_Arnold/app/src/main/res/layout/list_view_item.xml"
+    },
+    {
+        "merged": "/home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/res/merged/debug/layout/select_dialog_item_material.xml",
+        "source": "/home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/layout/select_dialog_item_material.xml"
+    },
+    {
+        "merged": "/home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/res/merged/debug/layout/abc_screen_toolbar.xml",
+        "source": "/home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/layout/abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "/home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_checkbox.xml",
+        "source": "/home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/layout/abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "/home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/res/merged/debug/layout/activity_records.xml",
+        "source": "/home/petko/Workspace/Project-Arnold/Project_Arnold/app/src/main/res/layout/activity_records.xml"
+    },
+    {
+        "merged": "/home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/res/merged/debug/layout/notification_template_lines.xml",
+        "source": "/home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/layout/notification_template_lines.xml"
+    }
+]

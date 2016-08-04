@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/img_records"
+            android:layout_width="140dp"
+            android:layout_height="75dp"
+            android:src="@drawable/bedra" />
+
+
+        <TextView
+            android:id="@+id/tv_records_exercise"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Exercise"
+            android:textSize="@dimen/exercise_model_text_size"
+            android:paddingRight="0dp"
+            android:paddingLeft="20dp"
+            android:paddingTop="35dp"
+            android:textColor="@color/colorPrimary"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/tv_records_reps"
+            android:layout_toEndOf="@+id/tv_records_reps" />
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_records_kg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kg"
+            android:textSize="@dimen/exercise_model_text_size"
+            android:paddingLeft="20dp"
+            android:textColor="@color/colorAccent"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/kg"
+            android:textSize="12sp"
+            android:textColor="@color/colorAccent"
+            android:layout_alignBottom="@+id/tv_records_kg"
+            android:layout_toRightOf="@+id/tv_records_kg"
+            android:layout_toEndOf="@+id/tv_records_kg"
+            android:layout_gravity="center_horizontal"
+            android:paddingLeft="4dp" />
+
+        <TextView
+            android:id="@+id/tv_records_reps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Reps"
+            android:textSize="@dimen/exercise_model_text_size"
+            android:paddingLeft="20dp"
+            android:textColor="@color/colorAccent"
+            android:layout_alignTop="@+id/tv_records_kg"
+            android:layout_toRightOf="@+id/img_records"
+            android:layout_toEndOf="@+id/img_records"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/reps"
+            android:textSize="12sp"
+            android:textColor="@color/colorAccent"
+            android:layout_alignBottom="@+id/tv_records_reps"
+            android:layout_alignLeft="@+id/tv_records_exercise"
+            android:layout_alignStart="@+id/tv_records_exercise"
+            android:layout_gravity="center_horizontal"
+            android:paddingLeft="4dp" />
+
+        <TextView
+            android:id="@+id/tv_records_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Date"
+            android:textSize="@dimen/exercise_model_text_size"
+            android:paddingLeft="20dp"
+            android:textColor="@color/colorAccent"
+            android:layout_alignBottom="@+id/img_records"
+            android:layout_toRightOf="@+id/tv_records_reps"
+            android:layout_toEndOf="@+id/tv_records_reps"
+            android:layout_gravity="center_horizontal" />
+</LinearLayout>
+
+
+
+</LinearLayout>

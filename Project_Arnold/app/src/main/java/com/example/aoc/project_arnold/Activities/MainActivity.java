@@ -5,7 +5,9 @@ import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.content.pm.ResolveInfo;
 import android.graphics.drawable.ColorDrawable;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.annotation.IntegerRes;
 import android.support.design.widget.NavigationView;
@@ -27,6 +29,8 @@ import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
 import com.google.android.gms.ads.MobileAds;
 
+import java.util.List;
+
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
     public DrawerLayout drawer;
@@ -34,7 +38,7 @@ public class MainActivity extends AppCompatActivity
     public static int count;
     TextView tvCount;
     AdView mAdView;
-    private  SharedPreferences sharedPreferencesPrimaryColors;
+    public static   SharedPreferences sharedPreferencesPrimaryColors;
     public static String colorSPKey = "color";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -81,7 +85,7 @@ public class MainActivity extends AppCompatActivity
             mAdView.resume();
         }
 
-        int primaryColor = Integer.parseInt(sharedPreferencesPrimaryColors.getString(colorSPKey,Integer.toString(R.color.colorPrimary)));
+        int primaryColor = Integer.parseInt(sharedPreferencesPrimaryColors.getString(colorSPKey,Integer.toString(R.color.colorWhite)));
 
         //TODO: Change color
         RelativeLayout relativeLayout = (RelativeLayout) findViewById(R.id.main_activity_relative);
@@ -138,6 +142,7 @@ public class MainActivity extends AppCompatActivity
             return true;
         }
 
+
         return super.onOptionsItemSelected(item);
     }
 
@@ -159,6 +164,8 @@ public class MainActivity extends AppCompatActivity
         }else if(id==R.id.nav_add_traning){
             Intent mIntent = new Intent(this,AddTrainingActivity.class);
             startActivity(mIntent);
+        }else if (id==R.id.nav_share){
+            shareFacebook();
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
@@ -166,5 +173,31 @@ public class MainActivity extends AppCompatActivity
         return true;
     }
 
+    public void shareFacebook() {
+        String urlToShare = "http://stackoverflow.com/questions/7545254";
+        Intent intent = new Intent(Intent.ACTION_SEND);
+        intent.setType("text/plain");
+// intent.putExtra(Intent.EXTRA_SUBJECT, "Foo bar"); // NB: has no effect!
+        intent.putExtra(Intent.EXTRA_TEXT, urlToShare);
+
+// See if official Facebook app is found
+        boolean facebookAppFound = false;
+        List<ResolveInfo> matches = getPackageManager().queryIntentActivities(intent, 0);
+        for (ResolveInfo info : matches) {
+            if (info.activityInfo.packageName.toLowerCase().startsWith("com.facebook.katana")) {
+                intent.setPackage(info.activityInfo.packageName);
+                facebookAppFound = true;
+                break;
+            }
+        }
+
+// As fallback, launch sharer.php in a browser
+        if (!facebookAppFound) {
+            String sharerUrl = "https://www.facebook.com/sharer/sharer.php?u=" + urlToShare;
+            intent = new Intent(Intent.ACTION_VIEW, Uri.parse(sharerUrl));
+        }
+
+        startActivity(intent);
+    }
 
 }

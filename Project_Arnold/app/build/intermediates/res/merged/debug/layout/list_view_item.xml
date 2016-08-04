@@ -1,0 +1,7 @@
+<TextView android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/list_view_item"
+    android:textSize="@dimen/list_view_text_size"
+    android:textColor="@color/list_view_text_color"
+    xmlns:android="http://schemas.android.com/apk/res/android" />
+

@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "/home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/res/merged/debug/menu/menu_main_no_settings.xml",
+        "source": "/home/petko/Workspace/Project-Arnold/Project_Arnold/app/src/main/res/menu/menu_main_no_settings.xml"
+    },
+    {
+        "merged": "/home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/res/merged/debug/menu/menu_hisory_on_long_press.xml",
+        "source": "/home/petko/Workspace/Project-Arnold/Project_Arnold/app/src/main/res/menu/menu_hisory_on_long_press.xml"
+    },
+    {
+        "merged": "/home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/res/merged/debug/menu/menu_history.xml",
+        "source": "/home/petko/Workspace/Project-Arnold/Project_Arnold/app/src/main/res/menu/menu_history.xml"
+    },
+    {
+        "merged": "/home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/res/merged/debug/menu/menu_main.xml",
+        "source": "/home/petko/Workspace/Project-Arnold/Project_Arnold/app/src/main/res/menu/menu_main.xml"
+    },
+    {
+        "merged": "/home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/res/merged/debug/menu/activity_main_drawer.xml",
+        "source": "/home/petko/Workspace/Project-Arnold/Project_Arnold/app/src/main/res/menu/activity_main_drawer.xml"
+    },
+    {
+        "merged": "/home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/res/merged/debug/menu/main.xml",
+        "source": "/home/petko/Workspace/Project-Arnold/Project_Arnold/app/src/main/res/menu/main.xml"
+    },
+    {
+        "merged": "/home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/res/merged/debug/menu/menu_record_on_long_press.xml",
+        "source": "/home/petko/Workspace/Project-Arnold/Project_Arnold/app/src/main/res/menu/menu_record_on_long_press.xml"
+    }
+]

@@ -14,6 +14,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.ListView;
 import android.widget.SimpleCursorAdapter;
 import android.widget.TextView;
@@ -182,6 +183,18 @@ public class HistoryActivity extends AppCompatActivity {
             Intent intent = new Intent(this, MainActivity.class);
             startActivity(intent);
         }
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        updateBackground();
+    }
+
+    private void updateBackground(){
+        int primaryColor = Integer.parseInt(MainActivity.sharedPreferencesPrimaryColors.getString(MainActivity.colorSPKey,Integer.toString(R.color.colorWhite)));
+        LinearLayout linearLayout = (LinearLayout) findViewById(R.id.history_activity_linear_layout);
+        linearLayout.setBackgroundColor(getResources().getColor(primaryColor));
     }
 
 

@@ -8,6 +8,7 @@ import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -120,6 +121,18 @@ public class TraningInfoActivity extends AppCompatActivity {
             tv_recordKg.setText(Integer.toString(recordKg));
             tv_recordReps.setText(Integer.toString(recordReps));
         }
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        updateBackground();
+    }
+
+    private void updateBackground(){
+        int primaryColor = Integer.parseInt(MainActivity.sharedPreferencesPrimaryColors.getString(MainActivity.colorSPKey,Integer.toString(R.color.colorWhite)));
+        LinearLayout linearLayout = (LinearLayout) findViewById(R.id.traning_info_activity_linear_layout);
+        linearLayout.setBackgroundColor(getResources().getColor(primaryColor));
     }
 
 }

@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.text.util.Linkify;
 import android.view.MenuItem;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -74,4 +75,18 @@ public class ExerciseActivity extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
 
+    @Override
+    protected void onResume() {
+        super.onResume();
+        updateBackground();
+    }
+
+    private void updateBackground(){
+        int primaryColor = Integer.parseInt(MainActivity.sharedPreferencesPrimaryColors.getString(MainActivity.colorSPKey,Integer.toString(R.color.colorWhite)));
+        LinearLayout linearLayout = (LinearLayout) findViewById(R.id.exercise_activity_linear_layout);
+        linearLayout.setBackgroundColor(getResources().getColor(primaryColor));
+    }
+
+
 }
+

@@ -1,16 +1,14 @@
 package com.example.aoc.project_arnold.Activities;
 
 import android.annotation.TargetApi;
-import android.content.Context;
 import android.content.SharedPreferences;
-import android.content.pm.PackageInfo;
-import android.content.pm.PackageManager;
 import android.os.Build;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+import android.widget.LinearLayout;
 import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -25,7 +23,8 @@ public class SettingsActivity extends AppCompatActivity {
     private SharedPreferences sharedPreferencesColor;
     String colorSPKey = MainActivity.colorSPKey;
 
-    @TargetApi(Build.VERSION_CODES.M)
+    //TODO: Check if this if problem
+    //@TargetApi(Build.VERSION_CODES.M)
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -64,22 +63,23 @@ public class SettingsActivity extends AppCompatActivity {
 
         });
 
-        //TODO: Try if this wrok
-        PackageInfo pInfo = null;
-        try {
-            pInfo = getPackageManager().getPackageInfo(getPackageName(),0);
-        } catch (PackageManager.NameNotFoundException e) {
-            e.printStackTrace();
-        }
-        String version = pInfo.versionName;
+        String versionName = getResources().getString(R.string.versionName).toString();
         TextView tvVersion = (TextView) findViewById(R.id.setting_version_tv);
-        tvVersion.setText("Version:"+version);
-
-
+        tvVersion.setText("Version:"+versionName);
 
     }
 
+    @Override
+    protected void onResume() {
+        super.onResume();
+        updateBackground();
+    }
 
+    private void updateBackground(){
+        int primaryColor = Integer.parseInt(MainActivity.sharedPreferencesPrimaryColors.getString(colorSPKey,Integer.toString(R.color.colorWhite)));
+        LinearLayout linearLayout = (LinearLayout) findViewById(R.id.settings_activity_linear_layout);
+        linearLayout.setBackgroundColor(getResources().getColor(primaryColor));
+    }
 
     private int setColor(String colorString) {
         int color=0;
@@ -100,6 +100,9 @@ public class SettingsActivity extends AppCompatActivity {
         SharedPreferences.Editor editor = sharedPreferencesColor.edit();
         editor.putString(colorSPKey,Integer.toString(primaryColor));
         editor.commit();
+        updateBackground();
         Toast.makeText(SettingsActivity.this, R.string.colorChange,Toast.LENGTH_SHORT).show();
     }
+
+
 }

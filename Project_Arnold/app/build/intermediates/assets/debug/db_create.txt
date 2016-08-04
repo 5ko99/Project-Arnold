@@ -1,0 +1,1 @@
+create table activity (_id INTEGER primary key autoincrement, date DATETIME DEFAULT CURRENT_TIMESTAMP, type TEXT not null, n INTEGER not null, record_exercise TEXT DEFAULT 'No record',record_kg INTEGER DEFAULT 0, record_reps INTEGER DEFAULT 0);

@@ -18,6 +18,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.GridView;
+import android.widget.LinearLayout;
 import android.widget.Toast;
 
 import com.example.aoc.project_arnold.Adapters.ImageAdapter;
@@ -60,7 +61,13 @@ public class MuscleGroupsActivity extends AppCompatActivity {
     @Override
     protected void onResume() {
         super.onResume();
-        //Toast.makeText(this,"onResume()",Toast.LENGTH_SHORT).show();
+        updateBackground();
+    }
+
+    private void updateBackground(){
+        int primaryColor = Integer.parseInt(MainActivity.sharedPreferencesPrimaryColors.getString(MainActivity.colorSPKey,Integer.toString(R.color.colorWhite)));
+        LinearLayout linearLayout = (LinearLayout) findViewById(R.id.muscle_groups_activity_linear_layout);
+        linearLayout.setBackgroundColor(getResources().getColor(primaryColor));
     }
 
     private void sendIntent(int position){

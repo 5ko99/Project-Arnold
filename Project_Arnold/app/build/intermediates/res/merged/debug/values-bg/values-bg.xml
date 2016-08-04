@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="traning_records">
+        <item>Няма рекорд</item>
+        <item>Вдигане от лег(Лежанка)</item>
+        <item>Клек с Щанга</item>
+        <item>Мъртва Тяга</item>
+        <item>Бицепсово Сгъване с Щанга</item>
+        <item>Бицепсово Сгъване Скот</item>
+        <item>Лежанка Тесен Хват(Трицепс)</item>
+        <item>Френско</item>
+        <item>Лег преса(Крака)</item>
+        <item>Бицепсово Сгъване с Дъмбел</item>
+        <item>Гребане с лост</item>
+    </string-array>
+    <string-array name="traning_type">
+        <item>Гърди</item>
+        <item>Гръб</item>
+        <item>Ръце</item>
+        <item>Корем</item>
+        <item>Рамо</item>
+        <item>Крака</item>
+        <item>Кардио</item>
+    </string-array>
+    <string name="Bedra">Бедра</string>
+    <string name="Biceps">Бицепс</string>
+    <string name="Gryb">Гръб</string>
+    <string name="Gyrdi">Гърди</string>
+    <string name="Korem">Корем</string>
+    <string name="Prasec">Прасец</string>
+    <string name="Predmishnici">Предмишници</string>
+    <string name="Ramo">Рамо</string>
+    <string name="Sedalishte">Седалище</string>
+    <string name="Triceps">Трицепс</string>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Придвижване към „Начало“"</string>
+    <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"„%1$s“ – %2$s"</string>
+    <string msgid="6623331958280229229" name="abc_action_bar_home_subtitle_description_format">"„%1$s“, „%2$s“ – %3$s"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"Придвижване нагоре"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"Още опции"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"Готово"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"Вижте всички"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"Изберете приложение"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"ИЗКЛ."</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"ВКЛ."</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"Търсете…"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"Изчистване на заявката"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"Заявка за търсене"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"Търсене"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"Изпращане на заявката"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"Гласово търсене"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Споделяне със:"</string>
+    <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"Споделяне със: %s"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"Свиване"</string>
+    <string msgid="6361267646005304214" name="accept">"Приемам"</string>
+    <string name="add">Добави</string>
+    <string name="add_activity">Добави Дейност</string>
+    <string name="bedra_AduktorMashinaRaztvariane">Разтваряне на Абдуктор машина с акцент върху бедрата</string>
+    <string name="bedra_AduktorMashinaZatvariane">Затваряне на бедра на Аддуктор машина</string>
+    <string name="bedra_BedrenoRazgyvane">Бедрено разгъване</string>
+    <string name="bedra_BedrenoSgyvane">Бедрено сгъване</string>
+    <string name="bedra_BylgarskiKlek">Български клек</string>
+    <string name="bedra_JumpingJack">Джъмпинг джак </string>
+    <string name="bedra_Katerach">(Планински) Катерач</string>
+    <string name="bedra_KlekShtanga">Клек с щанга зад врат</string>
+    <string name="bedra_LegPresa">Лег Преса</string>
+    <string name="bedra_MyrtvaTiaga">Мъртва Тяга</string>
+    <string name="bedra_Otpadi">Отпади (напади назад)</string>
+    <string name="bedra_PILE">Плие (Клек с дъмбел от разкрачен стоеж)</string>
+    <string name="bedra_Shpagat">Шпагат</string>
+    <string name="bedra_SkokKlek">Скок от клек</string>
+    <string name="bedra_SkokKutia">Скок върху кутия</string>
+    <string name="biceps_Chukovo">Чуково бицепсово сгъване</string>
+    <string name="biceps_ChukovoKrystosano">Кръстосано чуково сгъване с дъмбели</string>
+    <string name="biceps_DymbeliNakolnenSedej">Бицепсово сгъване с дъмбели от наклонен седеж</string>
+    <string name="biceps_KoncentriranoSgyvane">Концентрирано сгъване</string>
+    <string name="biceps_NabiraneNeutralen">Набиране с неутрален (успореден)</string>
+    <string name="biceps_NabiranePOdhvat">Набиране с подхват</string>
+    <string name="biceps_PortalenSkripec">Двойно бицепсово сгъване на портален скрипец</string>
+    <string name="biceps_SgyvaneDymbeli">Бицепсово сгъване с дъмбели</string>
+    <string name="biceps_SkotovoSgyvane">Скотово сгъване</string>
+    <string name="biceps_Zotman">“Зотман” сгъване с дъмбели</string>
+    <string name="biceps_dolenSkripec">Бицепсово сгъване на долен скрипец</string>
+    <string name="biceps_shtanga">Бицепсово сгъване с щанга</string>
+    <string name="colorChange">Цветът е променен</string>
+    <string msgid="4770915072144378781" name="common_google_play_services_api_unavailable_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> изисква една или повече услуги за Google Play, които понастоящем не са налице. Моля, свържете се с програмиста за съдействие."</string>
+    <string msgid="2050101795821476669" name="common_google_play_services_enable_button">"Услуги за Google Play: Актив."</string>
+    <string msgid="7045129128108380659" name="common_google_play_services_enable_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> няма да работи, освен ако не активирате услугите за Google Play."</string>
+    <string msgid="3147157405986503375" name="common_google_play_services_enable_title">"Активиране на услугите за Google Play"</string>
+    <string msgid="7118643132557593940" name="common_google_play_services_install_button">"Изтегляне на услугите за Google Play"</string>
+    <string msgid="1666261992894286769" name="common_google_play_services_install_text_phone">"<ns1:g id="APP_NAME">%1$s</ns1:g> няма да се изпълнява, тъй като услугите за Google Play не са инсталирани на телефона ви."</string>
+    <string msgid="1701766622451829291" name="common_google_play_services_install_text_tablet">"<ns1:g id="APP_NAME">%1$s</ns1:g> няма да се изпълнява, тъй като услугите за Google Play не са инсталирани на таблета ви."</string>
+    <string msgid="7442193194585196676" name="common_google_play_services_install_title">"Изтегляне на услугите за Google Play"</string>
+    <string msgid="479501935061677276" name="common_google_play_services_invalid_account_text">"Посоченият профил не съществува на това устройство. Моля, изберете друг."</string>
+    <string msgid="5775407690646375078" name="common_google_play_services_invalid_account_title">"Невалиден профил"</string>
+    <string msgid="6857745590248226927" name="common_google_play_services_network_error_text">"За свързване с услугите за Google Play се изисква връзка за данни."</string>
+    <string msgid="4183541461338112307" name="common_google_play_services_network_error_title">"Грешка в мрежата"</string>
+    <string msgid="180394615667698242" name="common_google_play_services_notification_ticker">"Грешка в услугите за Google Play"</string>
+    <string msgid="8897126254633757462" name="common_google_play_services_resolution_required_text">"Моля, извършете действието, изисквано от <ns1:g id="APP_NAME">%1$s</ns1:g>."</string>
+    <string msgid="7524004365913123453" name="common_google_play_services_resolution_required_title">"Услуги за Google Play: Нужно е действие"</string>
+    <string msgid="3111284987662714014" name="common_google_play_services_restricted_profile_text">"Осъществяването на достъп до профили от ограничен потребителски профил не се поддържа."</string>
+    <string msgid="8137798410446890929" name="common_google_play_services_restricted_profile_title">"Ограничен потребителски профил"</string>
+    <string msgid="2431909537598981235" name="common_google_play_services_sign_in_failed_text">"При влизането в посочения профил възникна грешка. Моля, изберете друг."</string>
+    <string msgid="4402642931312190213" name="common_google_play_services_sign_in_failed_title">"Влизането в профила не бе успешно"</string>
+    <string msgid="9089562800660647919" name="common_google_play_services_unknown_issue">"<ns1:g id="APP_NAME">%1$s</ns1:g> има проблем с услугите за Google Play. Ако той не се отстрани, моля, свържете се с програмиста за съдействие."</string>
+    <string msgid="1064791666906610763" name="common_google_play_services_unsupported_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> разчита на услугите за Google Play, които не се поддържат от устройството ви. Свържете се с производителя за съдействие."</string>
+    <string msgid="539866123733096737" name="common_google_play_services_unsupported_title">"Услуги за Google Play"</string>
+    <string msgid="8172070149091615356" name="common_google_play_services_update_button">"Актуализиране"</string>
+    <string msgid="7773943415006962566" name="common_google_play_services_update_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> няма да се изпълнява, освен ако не актуализирате услугите за Google Play."</string>
+    <string msgid="8706675115216073244" name="common_google_play_services_update_title">"Актуализиране на услугите за Google Play"</string>
+    <string msgid="7894275749778928941" name="common_google_play_services_updating_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> няма да се изпълнява без услугите за Google Play. Понастоящем те се актуализират."</string>
+    <string msgid="2270671469198016014" name="common_google_play_services_updating_title">"Услугите за Google Play се актуализират"</string>
+    <string msgid="2804989272736383918" name="common_google_play_services_wear_update_text">"Необходима е нова версия на услугите за Google Play. Скоро тя ще се актуализира автоматично."</string>
+    <string msgid="5201977337835724196" name="common_open_on_phone">"Отваряне на телефона"</string>
+    <string msgid="3441753203274453993" name="common_signin_button_text">"Вход"</string>
+    <string msgid="669893613918351210" name="common_signin_button_text_long">"Вход с Google"</string>
+    <string msgid="6585634416571795096" name="create_calendar_message">"Да се разреши ли на рекламата да създаде събитие в календара?"</string>
+    <string msgid="5763102366548941325" name="create_calendar_title">"Създаване на събитие в календара"</string>
+    <string msgid="6520798050439307862" name="decline">"Отхвърлям"</string>
+    <string name="delete">Изтриване</string>
+    <string name="deletemsg">Сигурни ли сте, че изкате да изтриете тренировката.</string>
+    <string name="deleteword">Изтриване</string>
+    <string name="edit">Редактиране</string>
+    <string name="gryb_DolenSkripec">Придърпване на долен скрипец</string>
+    <string name="gryb_EdnostranoHorizontalnoGrebaneSkripecSedej">Едностранно хоризонтално гребане на скрипец от седеж</string>
+    <string name="gryb_EdnostranoPridyrpvaneVertikalenSkripec">Едностранно придърпване на вертикален скрипец от седеж</string>
+    <string name="gryb_GorenSkripec">Привеждане на горен скрипец с прави ръце</string>
+    <string name="gryb_GrebaneDymbel">Едностранно гребане с дъмбел</string>
+    <string name="gryb_GrebaneDymbeliLeg">Гребане с дъмбели от лицев лег</string>
+    <string name="gryb_GrebaneShtanga">Гребане с щанга, чукчета</string>
+    <string name="gryb_GrebaneShtangaNapredNadhvat">Гребане с щанга от наклон напред - надхват</string>
+    <string name="gryb_GrebaneShtangaNapredPodhvat">Гребане с щанга от наклон напред - подхват</string>
+    <string name="gryb_Hyperextension">Хиперекстензия</string>
+    <string name="gryb_MyrtvaTiaga">Мъртва тяга</string>
+    <string name="gryb_Nabirania">Набирания</string>
+    <string name="gryb_PekDekRaztvariane">Разтваряне на пек-бек машина</string>
+    <string name="gryb_Pullover">Пулоувър</string>
+    <string name="gryb_SkripecKymLiceto">Придърпване на горен скрипец към лицето</string>
+    <string name="gryb_TShtanga">Гребане с Т-щанга</string>
+    <string name="gryb_VertikalenSkripecShirokHvat">Придърпване на вертикален скрипец с раменен и широк хват</string>
+    <string name="gyrdi_DymbeliHorizontalen">Повдигане на дъмбели от хоризонтален тилен лег</string>
+    <string name="gyrdi_DymbeliNakolnenLeg">Избутване на дъмбели от наклонен лег</string>
+    <string name="gyrdi_DymbeliObratenNakoln">Повдигане на дъмбели от лег с обратен наклон</string>
+    <string name="gyrdi_Flais">Флайс с дъмбели</string>
+    <string name="gyrdi_Kofichki">Кофички</string>
+    <string name="gyrdi_KrosouvyrGyrdi">Кросоувър затваряне за гърди на скрипец</string>
+    <string name="gyrdi_LiceviOpori">Лицеви опори</string>
+    <string name="gyrdi_MashinaGrydniMuskuli">Избутване на машина за гръдни мускули</string>
+    <string name="gyrdi_PeckDeck">Пек-дек</string>
+    <string name="gyrdi_Pulovar">Пулоувър с щанга или с дъмбел</string>
+    <string name="gyrdi_ShtangaLegPodhvat">Изтласкване на щанга от лег с подхват</string>
+    <string name="gyrdi_ShtangaObratenNaklon">Повдигане на щанга от обратен наклон</string>
+    <string name="gyrdi_ShtangaPoluLeg">Повдигане на щанга от полулег</string>
+    <string name="gyrdi_ZatvarianeNaRyceTilenLEg">Затваряне на ръце с кабели от тилен лег</string>
+    <string name="gyrdi_bypari">Бърпи</string>
+    <string name="gyrdi_lejanka">Повдигане на щанга от тилен лег (Лежанка)</string>
+    <string name="history">Дейности</string>
+    <string name="home">Начална Страница</string>
+    <string name="kg">кг</string>
+    <string name="korem_GarhmyrPovigane">Гархамър повдигане</string>
+    <string name="korem_Mahalo">“Махало” на земя за коремната мускулатура</string>
+    <string name="korem_Molitva">Привеждане на горен скрипец(Молитва)</string>
+    <string name="korem_Pank">Планк</string>
+    <string name="korem_Presi">Коремни преси</string>
+    <string name="korem_Roler">Спускане и вдигане до предна опора с ролер</string>
+    <string name="korem_RuskoIzvivane">Руско извиване</string>
+    <string name="korem_Trenejor">Тренажори за коремна мускулатура</string>
+    <string name="korem_UsukvanePriVdigane">Усуквания при повдигане на торса от тилен лег</string>
+    <string name="korem_VPresa">V-преса</string>
+    <string name="korem_VertikalniPovdiganiq">Вертикални коремно-тазобедрени повдигания</string>
+    <string name="muscle_group_activity_title">Упражнения</string>
+    <string name="no">Не</string>
+    <string name="no_record_msg">Вие нямате рекорд на това упражнение все още</string>
+    <string name="number_of_exercises">Брой упражнения:</string>
+    <string name="prasec_JumpingJack">Подскок с разтваряне на ръцете и краката (Джъмпинг джак)</string>
+    <string name="prasec_KalfMashina">Калф машини</string>
+    <string name="prasec_PovdiganeNaPrysti">Повдигане на пръсти от стоеж/седеж</string>
+    <string name="prasec_PrystiLegPresa">Повдигане на пръсти на лег преса</string>
+    <string name="prasec_SkokVyrhuKutiq">Скок върху кутия</string>
+    <string name="predmishnici_BicepsovoSgyvaneNadhvat">Бицепсово сгъване с надхват</string>
+    <string name="predmishnici_Chukovo">Чуково бицепсово сгъване</string>
+    <string name="predmishnici_ProniranoRazgyvane">Пронирано разгъване в китки за предмишници</string>
+    <string name="predmishnici_RadialnaAbdukcia">Радиална абдукция с гиричка за предмишници</string>
+    <string name="predmishnici_SgyvanePredmishnici">Сгъване за предмишници с щанга/дъмбел</string>
+    <string name="primary_color">Главен Цвят</string>
+    <string name="ramo_Arnold">“Арнолд” раменни преси с дъмбели</string>
+    <string name="ramo_Presi">Раменни преси</string>
+    <string name="ramo_PresiDymbel">Раменни преси с дъмбели от седеж</string>
+    <string name="ramo_RaztvarianePeckDeck">Разтваряне на пек-бек машина</string>
+    <string name="ramo_RaztvarianeVstraniNaklon">Разтваряне встрани от наклон на портален скрипец</string>
+    <string name="ramo_RuskiSwing">Преден суинг с пудовка (Руски суинг)</string>
+    <string name="ramo_RyceNapred">Повдигане на ръцете напред</string>
+    <string name="ramo_RyceStrani">Повдигане на ръце встрани</string>
+    <string name="ramo_Vertolet">Повдигане на щанга до брадата(Вертолет)</string>
+    <string name="ramo_VoenaPresa">Военна преса(Раменни преси с щанга)</string>
+    <string name="record">Рекорд:</string>
+    <string name="record_exercise">Упражнение с рекорд:</string>
+    <string name="record_kg">Рекорд кг:</string>
+    <string name="record_number_of_exercises">Рекорд брой повторения:</string>
+    <string name="records">Рекорди</string>
+    <string name="reps"> повторения</string>
+    <string name="save">Запази</string>
+    <string name="sedalishte_BoxJump">Скок върху кутия</string>
+    <string name="sedalishte_Ekstenziq">1/2 гръбна екстензия с акцент върху седалището</string>
+    <string name="sedalishte_Klek">Класически клек с щанга зад врат </string>
+    <string name="sedalishte_LegPresa">Лег преса с акцент върху седалището</string>
+    <string name="sedalishte_MyrtvaTqga">Мъртва Тяга</string>
+    <string name="sedalishte_Napadi">Напади със собствено тегло и с дъмбели</string>
+    <string name="sedalishte_PlaninskiKaterach">(Планински) катерач</string>
+    <string name="sedalishte_SkokKlek">Скок от клек</string>
+    <string name="sedalishte_TqgaPraviKraka">Тяга с прави крака</string>
+    <string name="settings">Настройки</string>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
+    <string msgid="9018493135943017231" name="store_picture_message">"Да се разреши ли на рекламата да съхрани изображение в галерията със снимки?"</string>
+    <string msgid="3745622764880844111" name="store_picture_title">"Запазване на изображението"</string>
+    <string name="toast_history_null">Моля добавете тренировка първо!</string>
+    <string name="total_trainings">Общо Тренировки</string>
+    <string name="training_type">Тип Тренировка:</string>
+    <string name="traningInfo_Activity_label">Информация за тренировката</string>
+    <string name="triceps_DymbeliLeg">Трицепсово изтласкване на дъмбели от лег</string>
+    <string name="triceps_Frensko">Френско разгъване с щанга от лег</string>
+    <string name="triceps_GorenSkripec">Трицепсово разгъване на горен скрипец</string>
+    <string name="triceps_KickBack">Кик-бек</string>
+    <string name="triceps_Kofichi">Кофички</string>
+    <string name="triceps_KofichkiPeika">Кофички на пейка (полукофички)</string>
+    <string name="triceps_KofichkiSAkcent">Кофички с акцент върху трицепсите</string>
+    <string name="triceps_Lejanka">Изтласкване на щанга от лег с тесен хват</string>
+    <string name="triceps_LiceviOpori">Лицеви опори</string>
+    <string name="triceps_LiceviTriceps">Трицепсови лицеви опори</string>
+    <string name="triceps_LiceviTriygylnik">Лицеви опори с тясно разположени длани - тип “триъгълник”</string>
+    <string name="triceps_RazgyvaneDymbeliLeg">Трицепсово разгъване с дъмбели от лег</string>
+    <string name="triceps_RazgyvaneZadGlava">Едностранно трицепсово разгъване с дъмбел зад глава </string>
+    <string name="yes">Да</string>
+</resources>

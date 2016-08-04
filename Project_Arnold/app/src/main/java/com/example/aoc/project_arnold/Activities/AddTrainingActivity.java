@@ -122,6 +122,13 @@ public class AddTrainingActivity extends AppCompatActivity implements AdapterVie
     protected void onResume() {
         super.onResume();
         hideLayouts();
+        updateBackground();
+    }
+
+    private void updateBackground(){
+        int primaryColor = Integer.parseInt(MainActivity.sharedPreferencesPrimaryColors.getString(MainActivity.colorSPKey,Integer.toString(R.color.colorWhite)));
+        LinearLayout linearLayout = (LinearLayout) findViewById(R.id.add_traning_activity_linear_layout);
+        linearLayout.setBackgroundColor(getResources().getColor(primaryColor));
     }
 
     @Override
