@@ -1,18 +1,18 @@
 [
     {
-        "merged": "/home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/ic_exercises.xml",
-        "source": "/home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_exercises.xml"
+        "merged": "/home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/ic_history.xml",
+        "source": "/home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_history.xml"
     },
     {
-        "merged": "/home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/ic_history.xml",
-        "source": "/home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_history.xml"
+        "merged": "/home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/ic_exercises.xml",
+        "source": "/home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_exercises.xml"
     },
     {
-        "merged": "/home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/ic_add.xml",
-        "source": "/home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_add.xml"
+        "merged": "/home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/ic_add.xml",
+        "source": "/home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_add.xml"
     },
     {
-        "merged": "/home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/ic_home.xml",
-        "source": "/home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_home.xml"
+        "merged": "/home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/ic_home.xml",
+        "source": "/home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_home.xml"
     }
 ]

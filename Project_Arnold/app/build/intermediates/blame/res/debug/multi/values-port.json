@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "/home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/res/merged/debug/values-port/values-port.xml",
+        "outputFile": "/home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/res/merged/debug/values-port/values-port.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 106
                 },
                 "from": {
-                    "file": "/home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/values-port/values-port.xml",
+                    "file": "/home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/values-port/values-port.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,

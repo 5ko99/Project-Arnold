@@ -19,6 +19,9 @@ import android.widget.Toast;
 
 import com.example.aoc.project_arnold.Database.DBPref;
 import com.example.aoc.project_arnold.R;
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
+import com.google.android.gms.ads.MobileAds;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -38,6 +41,7 @@ public class AddTrainingActivity extends AppCompatActivity implements AdapterVie
     public static SharedPreferences sharedPreferences;
     public static SharedPreferences.Editor edit;
     public static String traningCountInt = "int";
+    AdView mAdView;
 /*    public static  String DB_CREATE;*/
     public static BufferedReader DB_CREATE_TXT;
     @Override
@@ -79,6 +83,12 @@ public class AddTrainingActivity extends AppCompatActivity implements AdapterVie
         spinnerRecord.setAdapter(adapterRecord);
         spinnerTraningType.setAdapter(adapter);
         spinnerRecord.setOnItemSelectedListener(this);
+
+        //Add initialise
+        MobileAds.initialize(getApplicationContext(), "ca-app-pub-0044965499066904~9181100901");
+        mAdView = (AdView) findViewById(R.id.add_traning_activity_adView);
+        AdRequest adRequest = new AdRequest.Builder().build();
+        mAdView.loadAd(adRequest);
     }
 
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -123,6 +133,24 @@ public class AddTrainingActivity extends AppCompatActivity implements AdapterVie
         super.onResume();
         hideLayouts();
         updateBackground();
+
+        if (mAdView != null) {
+            mAdView.resume();
+        }
+    }
+
+    public void onPause() {
+        if (mAdView != null) {
+            mAdView.pause();
+        }
+        super.onPause();
+    }
+
+    public void onDestroy() {
+        if (mAdView != null) {
+            mAdView.destroy();
+        }
+        super.onDestroy();
     }
 
     private void updateBackground(){

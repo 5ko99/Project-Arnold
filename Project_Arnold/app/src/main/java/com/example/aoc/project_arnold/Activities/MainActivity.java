@@ -87,7 +87,6 @@ public class MainActivity extends AppCompatActivity
 
         int primaryColor = Integer.parseInt(sharedPreferencesPrimaryColors.getString(colorSPKey,Integer.toString(R.color.colorWhite)));
 
-        //TODO: Change color
         RelativeLayout relativeLayout = (RelativeLayout) findViewById(R.id.main_activity_relative);
         relativeLayout.setBackgroundColor(getResources().getColor(primaryColor));
     }
@@ -149,7 +148,6 @@ public class MainActivity extends AppCompatActivity
     @SuppressWarnings("StatementWithEmptyBody")
     @Override
     public boolean onNavigationItemSelected(MenuItem item) {
-        // TODO: Handle navigation view item clicks here.
         int id = item.getItemId();
 
         if (id == R.id.nav_muscule_groups_acttivity) {
@@ -174,6 +172,7 @@ public class MainActivity extends AppCompatActivity
     }
 
     public void shareFacebook() {
+        //TODO: Change this link bellow with link to app in GooglePlay
         String urlToShare = "http://stackoverflow.com/questions/7545254";
         Intent intent = new Intent(Intent.ACTION_SEND);
         intent.setType("text/plain");

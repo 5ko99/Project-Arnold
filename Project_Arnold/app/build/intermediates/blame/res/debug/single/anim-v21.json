@@ -1,14 +1,14 @@
 [
     {
-        "merged": "/home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/res/merged/debug/anim-v21/design_bottom_sheet_slide_out.xml",
-        "source": "/home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/design/24.1.1/res/anim-v21/design_bottom_sheet_slide_out.xml"
+        "merged": "/home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/res/merged/debug/anim-v21/design_bottom_sheet_slide_in.xml",
+        "source": "/home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/design/24.1.1/res/anim-v21/design_bottom_sheet_slide_in.xml"
     },
     {
-        "merged": "/home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/res/merged/debug/anim-v21/design_bottom_sheet_slide_in.xml",
-        "source": "/home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/design/24.1.1/res/anim-v21/design_bottom_sheet_slide_in.xml"
+        "merged": "/home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/res/merged/debug/anim-v21/design_appbar_state_list_animator.xml",
+        "source": "/home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/design/24.1.1/res/anim-v21/design_appbar_state_list_animator.xml"
     },
     {
-        "merged": "/home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/res/merged/debug/anim-v21/design_appbar_state_list_animator.xml",
-        "source": "/home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/design/24.1.1/res/anim-v21/design_appbar_state_list_animator.xml"
+        "merged": "/home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/res/merged/debug/anim-v21/design_bottom_sheet_slide_out.xml",
+        "source": "/home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/design/24.1.1/res/anim-v21/design_bottom_sheet_slide_out.xml"
     }
 ]

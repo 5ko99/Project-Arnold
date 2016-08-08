@@ -53,7 +53,6 @@ public class TraningInfoActivity extends AppCompatActivity {
         dbPref = new DBPref(this);
         mCursor = dbPref.getVals(type, date);
 
-        //TODO: Fix error with reading form db
         if (mCursor.moveToFirst()) {
             do {
                 recordExercise = mCursor.getString(mCursor.getColumnIndexOrThrow("record_exercise"));

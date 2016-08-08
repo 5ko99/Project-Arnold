@@ -23,8 +23,6 @@ public class SettingsActivity extends AppCompatActivity {
     private SharedPreferences sharedPreferencesColor;
     String colorSPKey = MainActivity.colorSPKey;
 
-    //TODO: Check if this if problem
-    //@TargetApi(Build.VERSION_CODES.M)
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -52,7 +50,7 @@ public class SettingsActivity extends AppCompatActivity {
                 primaryColor = setColor(colorString);
 
                 //Setting color to example box
-                exampleBox.setBackgroundColor(getColor(primaryColor));
+                exampleBox.setBackgroundColor(primaryColor);
                 exampleBox.invalidate();
             }
 

@@ -1,38 +1,38 @@
 [
     {
-        "merged": "/home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/res/merged/debug/drawable-v21/ic_menu_send.xml",
-        "source": "/home/petko/Workspace/Project-Arnold/Project_Arnold/app/src/main/res/drawable-v21/ic_menu_send.xml"
+        "merged": "/home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/res/merged/debug/drawable-v21/ic_menu_gallery.xml",
+        "source": "/home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/res/drawable-v21/ic_menu_gallery.xml"
     },
     {
-        "merged": "/home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/res/merged/debug/drawable-v21/ic_menu_share.xml",
-        "source": "/home/petko/Workspace/Project-Arnold/Project_Arnold/app/src/main/res/drawable-v21/ic_menu_share.xml"
+        "merged": "/home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/res/merged/debug/drawable-v21/ic_menu_manage.xml",
+        "source": "/home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/res/drawable-v21/ic_menu_manage.xml"
     },
     {
-        "merged": "/home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/res/merged/debug/drawable-v21/abc_btn_colored_material.xml",
-        "source": "/home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/drawable-v21/abc_btn_colored_material.xml"
+        "merged": "/home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/res/merged/debug/drawable-v21/ic_menu_camera.xml",
+        "source": "/home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/res/drawable-v21/ic_menu_camera.xml"
     },
     {
-        "merged": "/home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/res/merged/debug/drawable-v21/ic_menu_slideshow.xml",
-        "source": "/home/petko/Workspace/Project-Arnold/Project_Arnold/app/src/main/res/drawable-v21/ic_menu_slideshow.xml"
+        "merged": "/home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/res/merged/debug/drawable-v21/abc_btn_colored_material.xml",
+        "source": "/home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/drawable-v21/abc_btn_colored_material.xml"
     },
     {
-        "merged": "/home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/res/merged/debug/drawable-v21/ic_menu_camera.xml",
-        "source": "/home/petko/Workspace/Project-Arnold/Project_Arnold/app/src/main/res/drawable-v21/ic_menu_camera.xml"
+        "merged": "/home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/res/merged/debug/drawable-v21/ic_menu_share.xml",
+        "source": "/home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/res/drawable-v21/ic_menu_share.xml"
     },
     {
-        "merged": "/home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/res/merged/debug/drawable-v21/ic_menu_manage.xml",
-        "source": "/home/petko/Workspace/Project-Arnold/Project_Arnold/app/src/main/res/drawable-v21/ic_menu_manage.xml"
+        "merged": "/home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/res/merged/debug/drawable-v21/ic_menu_send.xml",
+        "source": "/home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/res/drawable-v21/ic_menu_send.xml"
     },
     {
-        "merged": "/home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/res/merged/debug/drawable-v21/abc_action_bar_item_background_material.xml",
-        "source": "/home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/drawable-v21/abc_action_bar_item_background_material.xml"
+        "merged": "/home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/res/merged/debug/drawable-v21/ic_menu_slideshow.xml",
+        "source": "/home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/res/drawable-v21/ic_menu_slideshow.xml"
     },
     {
-        "merged": "/home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/res/merged/debug/drawable-v21/ic_menu_gallery.xml",
-        "source": "/home/petko/Workspace/Project-Arnold/Project_Arnold/app/src/main/res/drawable-v21/ic_menu_gallery.xml"
+        "merged": "/home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/res/merged/debug/drawable-v21/abc_edit_text_material.xml",
+        "source": "/home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/drawable-v21/abc_edit_text_material.xml"
     },
     {
-        "merged": "/home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/res/merged/debug/drawable-v21/abc_edit_text_material.xml",
-        "source": "/home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/drawable-v21/abc_edit_text_material.xml"
+        "merged": "/home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/res/merged/debug/drawable-v21/abc_action_bar_item_background_material.xml",
+        "source": "/home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/drawable-v21/abc_action_bar_item_background_material.xml"
     }
 ]

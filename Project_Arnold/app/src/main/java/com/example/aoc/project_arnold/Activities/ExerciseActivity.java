@@ -36,7 +36,6 @@ public class ExerciseActivity extends AppCompatActivity {
         exerciseImage.setImageResource(img); // set image
         setTitle(exercise_text); //set activity title
 
-        //TODO: Remove test of tv_text
         String[] text =  setText(musculeGroupN);
         if(exerciseN!=12) tv_text.setAutoLinkMask(Linkify.EMAIL_ADDRESSES);
         else tv_text.setAutoLinkMask(Linkify.ALL);

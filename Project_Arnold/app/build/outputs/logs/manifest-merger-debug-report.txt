@@ -1,542 +1,542 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/petko/Workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:2:1-68:12
+ADDED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:2:1-68:12
 	package
-		ADDED from /home/petko/Workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:3:5-45
-		INJECTED from /home/petko/Workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml
-		INJECTED from /home/petko/Workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml
+		ADDED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:3:5-45
+		INJECTED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml
+		INJECTED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml
 	android:versionName
-		ADDED from /home/petko/Workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:4:5-46
-		INJECTED from /home/petko/Workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml
-		INJECTED from /home/petko/Workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml
+		ADDED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:4:5-46
+		INJECTED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml
+		INJECTED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml
 	android:versionCode
-		ADDED from /home/petko/Workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:5:5-28
-		INJECTED from /home/petko/Workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml
-		INJECTED from /home/petko/Workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml
+		ADDED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:5:5-28
+		INJECTED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml
+		INJECTED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /home/petko/Workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:2:11-69
+		ADDED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:2:11-69
 uses-permission#android.permission.INTERNET
-ADDED from /home/petko/Workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:6:5-67
-MERGED from [com.google.android.gms:play-services-ads-lite:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads-lite/9.2.1/AndroidManifest.xml:20:5-66
-MERGED from [com.google.android.gms:play-services-analytics:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/9.2.1/AndroidManifest.xml:21:5-67
-MERGED from [com.google.android.gms:play-services-analytics-impl:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics-impl/9.2.1/AndroidManifest.xml:21:5-67
-MERGED from [com.google.firebase:firebase-analytics:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/9.2.1/AndroidManifest.xml:21:5-67
-MERGED from [com.google.firebase:firebase-analytics-impl:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/9.2.1/AndroidManifest.xml:21:5-67
-MERGED from [com.google.firebase:firebase-iid:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/9.2.1/AndroidManifest.xml:21:5-67
+ADDED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:6:5-67
+MERGED from [com.google.android.gms:play-services-ads-lite:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads-lite/9.2.1/AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-analytics:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/9.2.1/AndroidManifest.xml:21:5-67
+MERGED from [com.google.android.gms:play-services-analytics-impl:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics-impl/9.2.1/AndroidManifest.xml:21:5-67
+MERGED from [com.google.firebase:firebase-analytics:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/9.2.1/AndroidManifest.xml:21:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/9.2.1/AndroidManifest.xml:21:5-67
+MERGED from [com.google.firebase:firebase-iid:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/9.2.1/AndroidManifest.xml:21:5-67
 	android:name
-		ADDED from /home/petko/Workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:6:22-64
+		ADDED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:6:22-64
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from /home/petko/Workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:7:5-79
-MERGED from [com.google.android.gms:play-services-ads-lite:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads-lite/9.2.1/AndroidManifest.xml:21:5-78
-MERGED from [com.google.android.gms:play-services-analytics:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/9.2.1/AndroidManifest.xml:22:5-79
-MERGED from [com.google.android.gms:play-services-analytics-impl:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics-impl/9.2.1/AndroidManifest.xml:22:5-79
-MERGED from [com.google.firebase:firebase-analytics:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/9.2.1/AndroidManifest.xml:22:5-79
-MERGED from [com.google.firebase:firebase-analytics-impl:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/9.2.1/AndroidManifest.xml:22:5-79
-MERGED from [com.google.firebase:firebase-iid:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/9.2.1/AndroidManifest.xml:20:5-79
+ADDED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:7:5-79
+MERGED from [com.google.android.gms:play-services-ads-lite:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads-lite/9.2.1/AndroidManifest.xml:21:5-78
+MERGED from [com.google.android.gms:play-services-analytics:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/9.2.1/AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.gms:play-services-analytics-impl:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics-impl/9.2.1/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-analytics:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/9.2.1/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-analytics-impl:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/9.2.1/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/9.2.1/AndroidManifest.xml:20:5-79
 	android:name
-		ADDED from /home/petko/Workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:7:22-76
+		ADDED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:7:22-76
 application
-ADDED from /home/petko/Workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:9:5-66:19
-MERGED from [com.android.support:appcompat-v7:24.1.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:animated-vector-drawable:24.1.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.1.1/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-vector-drawable:24.1.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.1.1/AndroidManifest.xml:23:5-20
-MERGED from [com.android.support:support-v4:24.1.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-v4:24.1.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-vector-drawable:24.1.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.1.1/AndroidManifest.xml:23:5-20
-MERGED from [com.android.support:support-v4:24.1.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:design:24.1.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/design/24.1.1/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-v4:24.1.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-v4:24.1.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:appcompat-v7:24.1.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:animated-vector-drawable:24.1.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.1.1/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-vector-drawable:24.1.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.1.1/AndroidManifest.xml:23:5-20
-MERGED from [com.android.support:support-v4:24.1.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-v4:24.1.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-vector-drawable:24.1.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.1.1/AndroidManifest.xml:23:5-20
-MERGED from [com.android.support:support-v4:24.1.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:25:5-20
-MERGED from [de.hdodenhof:circleimageview:1.3.0] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/de.hdodenhof/circleimageview/1.3.0/AndroidManifest.xml:9:5-20
-MERGED from [com.android.support:support-v4:24.1.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:25:5-20
-MERGED from [com.google.android.gms:play-services-ads-lite:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads-lite/9.2.1/AndroidManifest.xml:24:5-32:19
-MERGED from [com.google.android.gms:play-services-basement:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.1/AndroidManifest.xml:20:5-24:19
-MERGED from [com.android.support:support-v4:24.1.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:25:5-20
-MERGED from [com.google.android.gms:play-services-base:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.2.1/AndroidManifest.xml:19:5-23:19
-MERGED from [com.google.android.gms:play-services-basement:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.1/AndroidManifest.xml:20:5-24:19
-MERGED from [com.android.support:support-v4:24.1.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:25:5-20
-MERGED from [com.google.android.gms:play-services-tasks:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/9.2.1/AndroidManifest.xml:5:5-20
-MERGED from [com.google.android.gms:play-services-basement:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.1/AndroidManifest.xml:20:5-24:19
-MERGED from [com.android.support:support-v4:24.1.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:25:5-20
-MERGED from [com.google.android.gms:play-services-clearcut:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-clearcut/9.2.1/AndroidManifest.xml:19:5-20
-MERGED from [com.google.android.gms:play-services-base:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.2.1/AndroidManifest.xml:19:5-23:19
-MERGED from [com.google.android.gms:play-services-basement:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.1/AndroidManifest.xml:20:5-24:19
-MERGED from [com.android.support:support-v4:24.1.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:25:5-20
-MERGED from [com.google.android.gms:play-services-tasks:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/9.2.1/AndroidManifest.xml:5:5-20
-MERGED from [com.google.android.gms:play-services-basement:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.1/AndroidManifest.xml:20:5-24:19
-MERGED from [com.android.support:support-v4:24.1.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:25:5-20
-MERGED from [com.google.android.gms:play-services-basement:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.1/AndroidManifest.xml:20:5-24:19
-MERGED from [com.android.support:support-v4:24.1.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:25:5-20
-MERGED from [com.google.android.gms:play-services-basement:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.1/AndroidManifest.xml:20:5-24:19
-MERGED from [com.android.support:support-v4:24.1.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:25:5-20
-MERGED from [com.google.android.gms:play-services-gass:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gass/9.2.1/AndroidManifest.xml:19:5-20
-MERGED from [com.google.android.gms:play-services-basement:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.1/AndroidManifest.xml:20:5-24:19
-MERGED from [com.android.support:support-v4:24.1.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:25:5-20
-MERGED from [com.google.android.gms:play-services-analytics:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/9.2.1/AndroidManifest.xml:27:5-20
-MERGED from [com.google.android.gms:play-services-analytics-impl:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics-impl/9.2.1/AndroidManifest.xml:27:5-20
-MERGED from [com.google.android.gms:play-services-base:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.2.1/AndroidManifest.xml:19:5-23:19
-MERGED from [com.google.android.gms:play-services-basement:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.1/AndroidManifest.xml:20:5-24:19
-MERGED from [com.android.support:support-v4:24.1.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:25:5-20
-MERGED from [com.google.android.gms:play-services-tasks:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/9.2.1/AndroidManifest.xml:5:5-20
-MERGED from [com.google.android.gms:play-services-basement:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.1/AndroidManifest.xml:20:5-24:19
-MERGED from [com.android.support:support-v4:24.1.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:25:5-20
-MERGED from [com.google.android.gms:play-services-basement:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.1/AndroidManifest.xml:20:5-24:19
-MERGED from [com.android.support:support-v4:24.1.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:25:5-20
-MERGED from [com.google.android.gms:play-services-base:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.2.1/AndroidManifest.xml:19:5-23:19
-MERGED from [com.google.android.gms:play-services-basement:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.1/AndroidManifest.xml:20:5-24:19
-MERGED from [com.android.support:support-v4:24.1.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:25:5-20
-MERGED from [com.google.android.gms:play-services-tasks:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/9.2.1/AndroidManifest.xml:5:5-20
-MERGED from [com.google.android.gms:play-services-basement:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.1/AndroidManifest.xml:20:5-24:19
-MERGED from [com.android.support:support-v4:24.1.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:25:5-20
-MERGED from [com.google.android.gms:play-services-basement:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.1/AndroidManifest.xml:20:5-24:19
-MERGED from [com.android.support:support-v4:24.1.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:25:5-20
-MERGED from [com.google.android.gms:play-services-auth:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth/9.2.1/AndroidManifest.xml:20:5-32:19
-MERGED from [com.google.android.gms:play-services-base:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.2.1/AndroidManifest.xml:19:5-23:19
-MERGED from [com.google.android.gms:play-services-basement:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.1/AndroidManifest.xml:20:5-24:19
-MERGED from [com.android.support:support-v4:24.1.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:25:5-20
-MERGED from [com.google.android.gms:play-services-tasks:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/9.2.1/AndroidManifest.xml:5:5-20
-MERGED from [com.google.android.gms:play-services-basement:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.1/AndroidManifest.xml:20:5-24:19
-MERGED from [com.android.support:support-v4:24.1.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:25:5-20
-MERGED from [com.google.android.gms:play-services-basement:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.1/AndroidManifest.xml:20:5-24:19
-MERGED from [com.android.support:support-v4:24.1.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:25:5-20
-MERGED from [com.google.android.gms:play-services-base:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.2.1/AndroidManifest.xml:19:5-23:19
-MERGED from [com.google.android.gms:play-services-basement:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.1/AndroidManifest.xml:20:5-24:19
-MERGED from [com.android.support:support-v4:24.1.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:25:5-20
-MERGED from [com.google.android.gms:play-services-tasks:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/9.2.1/AndroidManifest.xml:5:5-20
-MERGED from [com.google.android.gms:play-services-basement:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.1/AndroidManifest.xml:20:5-24:19
-MERGED from [com.android.support:support-v4:24.1.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:25:5-20
-MERGED from [com.google.android.gms:play-services-basement:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.1/AndroidManifest.xml:20:5-24:19
-MERGED from [com.android.support:support-v4:24.1.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:25:5-20
-MERGED from [com.google.firebase:firebase-core:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.firebase/firebase-core/9.2.1/AndroidManifest.xml:5:5-20
-MERGED from [com.google.firebase:firebase-analytics:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/9.2.1/AndroidManifest.xml:26:5-41:19
-MERGED from [com.google.android.gms:play-services-basement:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.1/AndroidManifest.xml:20:5-24:19
-MERGED from [com.android.support:support-v4:24.1.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:25:5-20
-MERGED from [com.google.firebase:firebase-common:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/9.2.1/AndroidManifest.xml:5:5-12:19
-MERGED from [com.google.android.gms:play-services-basement:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.1/AndroidManifest.xml:20:5-24:19
-MERGED from [com.android.support:support-v4:24.1.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:25:5-20
-MERGED from [com.google.android.gms:play-services-tasks:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/9.2.1/AndroidManifest.xml:5:5-20
-MERGED from [com.google.android.gms:play-services-basement:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.1/AndroidManifest.xml:20:5-24:19
-MERGED from [com.android.support:support-v4:24.1.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:25:5-20
-MERGED from [com.google.firebase:firebase-analytics-impl:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/9.2.1/AndroidManifest.xml:26:5-41:19
-MERGED from [com.google.android.gms:play-services-basement:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.1/AndroidManifest.xml:20:5-24:19
-MERGED from [com.android.support:support-v4:24.1.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:25:5-20
-MERGED from [com.google.firebase:firebase-iid:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/9.2.1/AndroidManifest.xml:30:5-59:19
-MERGED from [com.google.android.gms:play-services-basement:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.1/AndroidManifest.xml:20:5-24:19
-MERGED from [com.android.support:support-v4:24.1.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:25:5-20
-MERGED from [com.google.firebase:firebase-common:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/9.2.1/AndroidManifest.xml:5:5-12:19
-MERGED from [com.google.android.gms:play-services-basement:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.1/AndroidManifest.xml:20:5-24:19
-MERGED from [com.android.support:support-v4:24.1.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:25:5-20
-MERGED from [com.google.android.gms:play-services-tasks:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/9.2.1/AndroidManifest.xml:5:5-20
-MERGED from [com.google.android.gms:play-services-basement:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.1/AndroidManifest.xml:20:5-24:19
-MERGED from [com.android.support:support-v4:24.1.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:25:5-20
-MERGED from [com.google.firebase:firebase-common:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/9.2.1/AndroidManifest.xml:5:5-12:19
-MERGED from [com.google.android.gms:play-services-basement:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.1/AndroidManifest.xml:20:5-24:19
-MERGED from [com.android.support:support-v4:24.1.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:25:5-20
-MERGED from [com.google.android.gms:play-services-tasks:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/9.2.1/AndroidManifest.xml:5:5-20
-MERGED from [com.google.android.gms:play-services-basement:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.1/AndroidManifest.xml:20:5-24:19
-MERGED from [com.android.support:support-v4:24.1.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:25:5-20
+ADDED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:9:5-66:19
+MERGED from [com.android.support:appcompat-v7:24.1.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:24.1.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.1.1/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:24.1.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.1.1/AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:support-v4:24.1.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:24.1.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-vector-drawable:24.1.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.1.1/AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:support-v4:24.1.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:design:24.1.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/design/24.1.1/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:24.1.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:24.1.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:appcompat-v7:24.1.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:24.1.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.1.1/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:24.1.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.1.1/AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:support-v4:24.1.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:24.1.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-vector-drawable:24.1.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.1.1/AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:support-v4:24.1.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:25:5-20
+MERGED from [de.hdodenhof:circleimageview:1.3.0] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/de.hdodenhof/circleimageview/1.3.0/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:support-v4:24.1.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-ads-lite:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads-lite/9.2.1/AndroidManifest.xml:24:5-32:19
+MERGED from [com.google.android.gms:play-services-basement:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.1/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:24.1.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-base:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.2.1/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-basement:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.1/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:24.1.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-tasks:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/9.2.1/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.1/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:24.1.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-clearcut:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-clearcut/9.2.1/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-base:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.2.1/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-basement:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.1/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:24.1.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-tasks:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/9.2.1/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.1/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:24.1.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-basement:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.1/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:24.1.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-basement:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.1/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:24.1.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-gass:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gass/9.2.1/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-basement:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.1/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:24.1.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-analytics:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/9.2.1/AndroidManifest.xml:27:5-20
+MERGED from [com.google.android.gms:play-services-analytics-impl:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics-impl/9.2.1/AndroidManifest.xml:27:5-20
+MERGED from [com.google.android.gms:play-services-base:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.2.1/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-basement:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.1/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:24.1.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-tasks:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/9.2.1/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.1/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:24.1.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-basement:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.1/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:24.1.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-base:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.2.1/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-basement:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.1/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:24.1.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-tasks:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/9.2.1/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.1/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:24.1.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-basement:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.1/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:24.1.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-auth:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth/9.2.1/AndroidManifest.xml:20:5-32:19
+MERGED from [com.google.android.gms:play-services-base:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.2.1/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-basement:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.1/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:24.1.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-tasks:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/9.2.1/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.1/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:24.1.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-basement:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.1/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:24.1.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-base:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.2.1/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-basement:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.1/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:24.1.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-tasks:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/9.2.1/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.1/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:24.1.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-basement:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.1/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:24.1.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:25:5-20
+MERGED from [com.google.firebase:firebase-core:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.firebase/firebase-core/9.2.1/AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-analytics:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/9.2.1/AndroidManifest.xml:26:5-41:19
+MERGED from [com.google.android.gms:play-services-basement:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.1/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:24.1.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:25:5-20
+MERGED from [com.google.firebase:firebase-common:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/9.2.1/AndroidManifest.xml:5:5-12:19
+MERGED from [com.google.android.gms:play-services-basement:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.1/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:24.1.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-tasks:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/9.2.1/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.1/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:24.1.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:25:5-20
+MERGED from [com.google.firebase:firebase-analytics-impl:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/9.2.1/AndroidManifest.xml:26:5-41:19
+MERGED from [com.google.android.gms:play-services-basement:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.1/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:24.1.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:25:5-20
+MERGED from [com.google.firebase:firebase-iid:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/9.2.1/AndroidManifest.xml:30:5-59:19
+MERGED from [com.google.android.gms:play-services-basement:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.1/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:24.1.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:25:5-20
+MERGED from [com.google.firebase:firebase-common:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/9.2.1/AndroidManifest.xml:5:5-12:19
+MERGED from [com.google.android.gms:play-services-basement:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.1/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:24.1.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-tasks:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/9.2.1/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.1/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:24.1.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:25:5-20
+MERGED from [com.google.firebase:firebase-common:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/9.2.1/AndroidManifest.xml:5:5-12:19
+MERGED from [com.google.android.gms:play-services-basement:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.1/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:24.1.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-tasks:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/9.2.1/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.1/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:24.1.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:25:5-20
 	android:label
-		ADDED from /home/petko/Workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:12:9-41
+		ADDED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:12:9-41
 	android:supportsRtl
-		ADDED from /home/petko/Workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:13:9-35
+		ADDED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:13:9-35
 	android:allowBackup
-		ADDED from /home/petko/Workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:10:9-35
+		ADDED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:10:9-35
 	android:icon
-		ADDED from /home/petko/Workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:11:9-41
+		ADDED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:11:9-41
 	android:theme
-		ADDED from /home/petko/Workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:14:9-40
+		ADDED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:14:9-40
 activity#com.example.aoc.project_arnold.Activities.MainActivity
-ADDED from /home/petko/Workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:15:9-25:20
+ADDED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:15:9-25:20
 	android:label
-		ADDED from /home/petko/Workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:17:13-45
+		ADDED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:17:13-45
 	android:launchMode
-		ADDED from /home/petko/Workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:18:13-43
+		ADDED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:18:13-43
 	android:theme
-		ADDED from /home/petko/Workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:19:13-56
+		ADDED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:19:13-56
 	android:name
-		ADDED from /home/petko/Workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:16:13-52
+		ADDED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:16:13-52
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from /home/petko/Workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:20:13-24:29
+ADDED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:20:13-24:29
 action#android.intent.action.MAIN
-ADDED from /home/petko/Workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:21:17-69
+ADDED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:21:17-69
 	android:name
-		ADDED from /home/petko/Workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:21:25-66
+		ADDED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:21:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /home/petko/Workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:23:17-77
+ADDED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:23:17-77
 	android:name
-		ADDED from /home/petko/Workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:23:27-74
+		ADDED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:23:27-74
 activity#com.example.aoc.project_arnold.Activities.MuscleGroupsActivity
-ADDED from /home/petko/Workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:26:9-31:59
+ADDED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:26:9-31:59
 	android:label
-		ADDED from /home/petko/Workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:28:13-64
+		ADDED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:28:13-64
 	android:parentActivityName
-		ADDED from /home/petko/Workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:30:13-66
+		ADDED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:30:13-66
 	android:launchMode
-		ADDED from /home/petko/Workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:29:13-43
+		ADDED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:29:13-43
 	android:theme
-		ADDED from /home/petko/Workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:31:13-56
+		ADDED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:31:13-56
 	android:name
-		ADDED from /home/petko/Workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:27:13-60
+		ADDED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:27:13-60
 activity#com.example.aoc.project_arnold.Activities.MuscleGroupExercisesActivity
-ADDED from /home/petko/Workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:32:9-34:77
+ADDED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:32:9-34:77
 	android:parentActivityName
-		ADDED from /home/petko/Workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:34:13-74
+		ADDED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:34:13-74
 	android:name
-		ADDED from /home/petko/Workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:33:13-68
+		ADDED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:33:13-68
 activity#com.example.aoc.project_arnold.Activities.ExerciseActivity
-ADDED from /home/petko/Workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:35:9-37:85
+ADDED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:35:9-37:85
 	android:parentActivityName
-		ADDED from /home/petko/Workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:37:13-82
+		ADDED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:37:13-82
 	android:name
-		ADDED from /home/petko/Workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:36:13-56
+		ADDED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:36:13-56
 activity#com.example.aoc.project_arnold.Activities.HistoryActivity
-ADDED from /home/petko/Workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:38:9-43:47
+ADDED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:38:9-43:47
 	android:label
-		ADDED from /home/petko/Workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:40:13-44
+		ADDED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:40:13-44
 	android:parentActivityName
-		ADDED from /home/petko/Workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:42:13-66
+		ADDED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:42:13-66
 	android:launchMode
-		ADDED from /home/petko/Workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:41:13-43
+		ADDED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:41:13-43
 	android:theme
-		ADDED from /home/petko/Workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:43:13-44
+		ADDED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:43:13-44
 	android:name
-		ADDED from /home/petko/Workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:39:13-55
+		ADDED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:39:13-55
 activity#com.example.aoc.project_arnold.Activities.AddTrainingActivity
-ADDED from /home/petko/Workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:44:9-48:69
+ADDED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:44:9-48:69
 	android:label
-		ADDED from /home/petko/Workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:46:13-49
+		ADDED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:46:13-49
 	android:parentActivityName
-		ADDED from /home/petko/Workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:48:13-66
+		ADDED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:48:13-66
 	android:launchMode
-		ADDED from /home/petko/Workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:47:13-43
+		ADDED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:47:13-43
 	android:name
-		ADDED from /home/petko/Workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:45:13-59
+		ADDED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:45:13-59
 activity#com.example.aoc.project_arnold.Activities.TraningInfoActivity
-ADDED from /home/petko/Workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:49:9-53:72
+ADDED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:49:9-53:72
 	android:label
-		ADDED from /home/petko/Workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:51:13-63
+		ADDED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:51:13-63
 	android:parentActivityName
-		ADDED from /home/petko/Workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:53:13-69
+		ADDED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:53:13-69
 	android:launchMode
-		ADDED from /home/petko/Workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:52:13-43
+		ADDED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:52:13-43
 	android:name
-		ADDED from /home/petko/Workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:50:13-59
+		ADDED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:50:13-59
 activity#com.example.aoc.project_arnold.Activities.RecordsActivity
-ADDED from /home/petko/Workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:54:9-57:72
+ADDED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:54:9-57:72
 	android:label
-		ADDED from /home/petko/Workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:56:13-44
+		ADDED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:56:13-44
 	android:parentActivityName
-		ADDED from /home/petko/Workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:57:13-69
+		ADDED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:57:13-69
 	android:name
-		ADDED from /home/petko/Workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:55:13-55
+		ADDED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:55:13-55
 meta-data#com.google.android.gms.version
-ADDED from /home/petko/Workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:59:9-61:69
-MERGED from [com.google.android.gms:play-services-basement:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.1/AndroidManifest.xml:21:9-23:69
-MERGED from [com.google.android.gms:play-services-basement:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.1/AndroidManifest.xml:21:9-23:69
-MERGED from [com.google.android.gms:play-services-basement:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.1/AndroidManifest.xml:21:9-23:69
-MERGED from [com.google.android.gms:play-services-basement:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.1/AndroidManifest.xml:21:9-23:69
-MERGED from [com.google.android.gms:play-services-basement:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.1/AndroidManifest.xml:21:9-23:69
-MERGED from [com.google.android.gms:play-services-basement:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.1/AndroidManifest.xml:21:9-23:69
-MERGED from [com.google.android.gms:play-services-basement:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.1/AndroidManifest.xml:21:9-23:69
-MERGED from [com.google.android.gms:play-services-basement:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.1/AndroidManifest.xml:21:9-23:69
-MERGED from [com.google.android.gms:play-services-basement:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.1/AndroidManifest.xml:21:9-23:69
-MERGED from [com.google.android.gms:play-services-basement:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.1/AndroidManifest.xml:21:9-23:69
-MERGED from [com.google.android.gms:play-services-basement:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.1/AndroidManifest.xml:21:9-23:69
-MERGED from [com.google.android.gms:play-services-basement:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.1/AndroidManifest.xml:21:9-23:69
-MERGED from [com.google.android.gms:play-services-basement:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.1/AndroidManifest.xml:21:9-23:69
-MERGED from [com.google.android.gms:play-services-basement:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.1/AndroidManifest.xml:21:9-23:69
-MERGED from [com.google.android.gms:play-services-basement:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.1/AndroidManifest.xml:21:9-23:69
-MERGED from [com.google.android.gms:play-services-basement:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.1/AndroidManifest.xml:21:9-23:69
-MERGED from [com.google.android.gms:play-services-basement:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.1/AndroidManifest.xml:21:9-23:69
-MERGED from [com.google.android.gms:play-services-basement:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.1/AndroidManifest.xml:21:9-23:69
-MERGED from [com.google.android.gms:play-services-basement:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.1/AndroidManifest.xml:21:9-23:69
-MERGED from [com.google.android.gms:play-services-basement:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.1/AndroidManifest.xml:21:9-23:69
-MERGED from [com.google.android.gms:play-services-basement:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.1/AndroidManifest.xml:21:9-23:69
-MERGED from [com.google.android.gms:play-services-basement:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.1/AndroidManifest.xml:21:9-23:69
-MERGED from [com.google.android.gms:play-services-basement:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.1/AndroidManifest.xml:21:9-23:69
-MERGED from [com.google.android.gms:play-services-basement:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.1/AndroidManifest.xml:21:9-23:69
-MERGED from [com.google.android.gms:play-services-basement:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.1/AndroidManifest.xml:21:9-23:69
-MERGED from [com.google.android.gms:play-services-basement:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.1/AndroidManifest.xml:21:9-23:69
-MERGED from [com.google.android.gms:play-services-basement:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.1/AndroidManifest.xml:21:9-23:69
-MERGED from [com.google.android.gms:play-services-basement:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.1/AndroidManifest.xml:21:9-23:69
-MERGED from [com.google.android.gms:play-services-basement:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.1/AndroidManifest.xml:21:9-23:69
+ADDED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:59:9-61:69
+MERGED from [com.google.android.gms:play-services-basement:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.1/AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.1/AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.1/AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.1/AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.1/AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.1/AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.1/AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.1/AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.1/AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.1/AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.1/AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.1/AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.1/AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.1/AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.1/AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.1/AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.1/AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.1/AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.1/AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.1/AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.1/AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.1/AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.1/AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.1/AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.1/AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.1/AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.1/AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.1/AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.1/AndroidManifest.xml:21:9-23:69
 	android:value
-		ADDED from /home/petko/Workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:61:13-66
+		ADDED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:61:13-66
 	android:name
-		ADDED from /home/petko/Workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:60:13-58
+		ADDED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:60:13-58
 activity#com.example.aoc.project_arnold.Activities.SettingsActivity
-ADDED from /home/petko/Workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:63:9-65:47
+ADDED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:63:9-65:47
 	android:label
-		ADDED from /home/petko/Workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:65:13-45
+		ADDED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:65:13-45
 	android:parentActivityName
-		ADDED from /home/petko/Workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:64:13-66
+		ADDED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:64:13-66
 	android:name
-		ADDED from /home/petko/Workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:63:19-62
+		ADDED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:63:19-62
 uses-sdk
-INJECTED from /home/petko/Workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-MERGED from [com.android.support:appcompat-v7:24.1.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:animated-vector-drawable:24.1.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.1.1/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:24.1.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.1.1/AndroidManifest.xml:21:5-43
-MERGED from [com.android.support:support-v4:24.1.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-v4:24.1.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-vector-drawable:24.1.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.1.1/AndroidManifest.xml:21:5-43
-MERGED from [com.android.support:support-v4:24.1.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:design:24.1.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/design/24.1.1/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-v4:24.1.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:recyclerview-v7:24.1.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/24.1.1/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-v4:24.1.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:appcompat-v7:24.1.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:animated-vector-drawable:24.1.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.1.1/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:24.1.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.1.1/AndroidManifest.xml:21:5-43
-MERGED from [com.android.support:support-v4:24.1.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-v4:24.1.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-vector-drawable:24.1.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.1.1/AndroidManifest.xml:21:5-43
-MERGED from [com.android.support:support-v4:24.1.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:21:5-23:54
-MERGED from [de.hdodenhof:circleimageview:1.3.0] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/de.hdodenhof/circleimageview/1.3.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support:support-v4:24.1.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:21:5-23:54
-MERGED from [com.google.android.gms:play-services-ads:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/9.2.1/AndroidManifest.xml:19:5-42
-MERGED from [com.google.android.gms:play-services-ads-lite:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads-lite/9.2.1/AndroidManifest.xml:23:5-42
-MERGED from [com.google.android.gms:play-services-basement:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.1/AndroidManifest.xml:18:5-42
-MERGED from [com.android.support:support-v4:24.1.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:21:5-23:54
-MERGED from [com.google.android.gms:play-services-base:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.2.1/AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-basement:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.1/AndroidManifest.xml:18:5-42
-MERGED from [com.android.support:support-v4:24.1.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:21:5-23:54
-MERGED from [com.google.android.gms:play-services-tasks:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/9.2.1/AndroidManifest.xml:4:5-43
-MERGED from [com.google.android.gms:play-services-basement:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.1/AndroidManifest.xml:18:5-42
-MERGED from [com.android.support:support-v4:24.1.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:21:5-23:54
-MERGED from [com.google.android.gms:play-services-clearcut:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-clearcut/9.2.1/AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-base:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.2.1/AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-basement:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.1/AndroidManifest.xml:18:5-42
-MERGED from [com.android.support:support-v4:24.1.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:21:5-23:54
-MERGED from [com.google.android.gms:play-services-tasks:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/9.2.1/AndroidManifest.xml:4:5-43
-MERGED from [com.google.android.gms:play-services-basement:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.1/AndroidManifest.xml:18:5-42
-MERGED from [com.android.support:support-v4:24.1.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:21:5-23:54
-MERGED from [com.google.android.gms:play-services-basement:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.1/AndroidManifest.xml:18:5-42
-MERGED from [com.android.support:support-v4:24.1.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:21:5-23:54
-MERGED from [com.google.android.gms:play-services-basement:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.1/AndroidManifest.xml:18:5-42
-MERGED from [com.android.support:support-v4:24.1.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:21:5-23:54
-MERGED from [com.google.android.gms:play-services-gass:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gass/9.2.1/AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-basement:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.1/AndroidManifest.xml:18:5-42
-MERGED from [com.android.support:support-v4:24.1.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:21:5-23:54
-MERGED from [com.google.android.gms:play-services-analytics:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/9.2.1/AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-analytics-impl:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics-impl/9.2.1/AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-base:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.2.1/AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-basement:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.1/AndroidManifest.xml:18:5-42
-MERGED from [com.android.support:support-v4:24.1.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:21:5-23:54
-MERGED from [com.google.android.gms:play-services-tasks:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/9.2.1/AndroidManifest.xml:4:5-43
-MERGED from [com.google.android.gms:play-services-basement:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.1/AndroidManifest.xml:18:5-42
-MERGED from [com.android.support:support-v4:24.1.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:21:5-23:54
-MERGED from [com.google.android.gms:play-services-basement:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.1/AndroidManifest.xml:18:5-42
-MERGED from [com.android.support:support-v4:24.1.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:21:5-23:54
-MERGED from [com.google.android.gms:play-services-base:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.2.1/AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-basement:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.1/AndroidManifest.xml:18:5-42
-MERGED from [com.android.support:support-v4:24.1.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:21:5-23:54
-MERGED from [com.google.android.gms:play-services-tasks:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/9.2.1/AndroidManifest.xml:4:5-43
-MERGED from [com.google.android.gms:play-services-basement:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.1/AndroidManifest.xml:18:5-42
-MERGED from [com.android.support:support-v4:24.1.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:21:5-23:54
-MERGED from [com.google.android.gms:play-services-basement:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.1/AndroidManifest.xml:18:5-42
-MERGED from [com.android.support:support-v4:24.1.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:21:5-23:54
-MERGED from [com.google.android.gms:play-services-auth:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth/9.2.1/AndroidManifest.xml:18:5-43
-MERGED from [com.google.android.gms:play-services-auth-base:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth-base/9.2.1/AndroidManifest.xml:5:5-43
-MERGED from [com.google.android.gms:play-services-base:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.2.1/AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-basement:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.1/AndroidManifest.xml:18:5-42
-MERGED from [com.android.support:support-v4:24.1.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:21:5-23:54
-MERGED from [com.google.android.gms:play-services-tasks:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/9.2.1/AndroidManifest.xml:4:5-43
-MERGED from [com.google.android.gms:play-services-basement:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.1/AndroidManifest.xml:18:5-42
-MERGED from [com.android.support:support-v4:24.1.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:21:5-23:54
-MERGED from [com.google.android.gms:play-services-basement:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.1/AndroidManifest.xml:18:5-42
-MERGED from [com.android.support:support-v4:24.1.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:21:5-23:54
-MERGED from [com.google.android.gms:play-services-base:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.2.1/AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-basement:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.1/AndroidManifest.xml:18:5-42
-MERGED from [com.android.support:support-v4:24.1.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:21:5-23:54
-MERGED from [com.google.android.gms:play-services-tasks:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/9.2.1/AndroidManifest.xml:4:5-43
-MERGED from [com.google.android.gms:play-services-basement:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.1/AndroidManifest.xml:18:5-42
-MERGED from [com.android.support:support-v4:24.1.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:21:5-23:54
-MERGED from [com.google.android.gms:play-services-basement:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.1/AndroidManifest.xml:18:5-42
-MERGED from [com.android.support:support-v4:24.1.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:21:5-23:54
-MERGED from [com.google.firebase:firebase-core:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.firebase/firebase-core/9.2.1/AndroidManifest.xml:4:5-42
-MERGED from [com.google.firebase:firebase-analytics:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/9.2.1/AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-basement:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.1/AndroidManifest.xml:18:5-42
-MERGED from [com.android.support:support-v4:24.1.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:21:5-23:54
-MERGED from [com.google.firebase:firebase-common:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/9.2.1/AndroidManifest.xml:4:5-43
-MERGED from [com.google.android.gms:play-services-basement:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.1/AndroidManifest.xml:18:5-42
-MERGED from [com.android.support:support-v4:24.1.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:21:5-23:54
-MERGED from [com.google.android.gms:play-services-tasks:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/9.2.1/AndroidManifest.xml:4:5-43
-MERGED from [com.google.android.gms:play-services-basement:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.1/AndroidManifest.xml:18:5-42
-MERGED from [com.android.support:support-v4:24.1.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:21:5-23:54
-MERGED from [com.google.firebase:firebase-analytics-impl:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/9.2.1/AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-basement:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.1/AndroidManifest.xml:18:5-42
-MERGED from [com.android.support:support-v4:24.1.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:21:5-23:54
-MERGED from [com.google.firebase:firebase-iid:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/9.2.1/AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-basement:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.1/AndroidManifest.xml:18:5-42
-MERGED from [com.android.support:support-v4:24.1.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:21:5-23:54
-MERGED from [com.google.firebase:firebase-common:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/9.2.1/AndroidManifest.xml:4:5-43
-MERGED from [com.google.android.gms:play-services-basement:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.1/AndroidManifest.xml:18:5-42
-MERGED from [com.android.support:support-v4:24.1.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:21:5-23:54
-MERGED from [com.google.android.gms:play-services-tasks:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/9.2.1/AndroidManifest.xml:4:5-43
-MERGED from [com.google.android.gms:play-services-basement:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.1/AndroidManifest.xml:18:5-42
-MERGED from [com.android.support:support-v4:24.1.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:21:5-23:54
-MERGED from [com.google.firebase:firebase-common:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/9.2.1/AndroidManifest.xml:4:5-43
-MERGED from [com.google.android.gms:play-services-basement:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.1/AndroidManifest.xml:18:5-42
-MERGED from [com.android.support:support-v4:24.1.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:21:5-23:54
-MERGED from [com.google.android.gms:play-services-tasks:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/9.2.1/AndroidManifest.xml:4:5-43
-MERGED from [com.google.android.gms:play-services-basement:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.1/AndroidManifest.xml:18:5-42
-MERGED from [com.android.support:support-v4:24.1.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:21:5-23:54
+INJECTED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:appcompat-v7:24.1.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:24.1.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:24.1.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.1.1/AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:support-v4:24.1.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:24.1.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-vector-drawable:24.1.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.1.1/AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:support-v4:24.1.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:design:24.1.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/design/24.1.1/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:24.1.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:recyclerview-v7:24.1.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/24.1.1/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:24.1.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:appcompat-v7:24.1.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:24.1.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:24.1.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.1.1/AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:support-v4:24.1.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:24.1.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-vector-drawable:24.1.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.1.1/AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:support-v4:24.1.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:21:5-23:54
+MERGED from [de.hdodenhof:circleimageview:1.3.0] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/de.hdodenhof/circleimageview/1.3.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-v4:24.1.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:21:5-23:54
+MERGED from [com.google.android.gms:play-services-ads:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/9.2.1/AndroidManifest.xml:19:5-42
+MERGED from [com.google.android.gms:play-services-ads-lite:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads-lite/9.2.1/AndroidManifest.xml:23:5-42
+MERGED from [com.google.android.gms:play-services-basement:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.1/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:24.1.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:21:5-23:54
+MERGED from [com.google.android.gms:play-services-base:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.2.1/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.1/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:24.1.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:21:5-23:54
+MERGED from [com.google.android.gms:play-services-tasks:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/9.2.1/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.1/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:24.1.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:21:5-23:54
+MERGED from [com.google.android.gms:play-services-clearcut:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-clearcut/9.2.1/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.2.1/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.1/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:24.1.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:21:5-23:54
+MERGED from [com.google.android.gms:play-services-tasks:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/9.2.1/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.1/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:24.1.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:21:5-23:54
+MERGED from [com.google.android.gms:play-services-basement:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.1/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:24.1.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:21:5-23:54
+MERGED from [com.google.android.gms:play-services-basement:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.1/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:24.1.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:21:5-23:54
+MERGED from [com.google.android.gms:play-services-gass:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gass/9.2.1/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.1/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:24.1.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:21:5-23:54
+MERGED from [com.google.android.gms:play-services-analytics:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/9.2.1/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-analytics-impl:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics-impl/9.2.1/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.2.1/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.1/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:24.1.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:21:5-23:54
+MERGED from [com.google.android.gms:play-services-tasks:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/9.2.1/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.1/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:24.1.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:21:5-23:54
+MERGED from [com.google.android.gms:play-services-basement:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.1/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:24.1.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:21:5-23:54
+MERGED from [com.google.android.gms:play-services-base:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.2.1/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.1/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:24.1.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:21:5-23:54
+MERGED from [com.google.android.gms:play-services-tasks:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/9.2.1/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.1/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:24.1.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:21:5-23:54
+MERGED from [com.google.android.gms:play-services-basement:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.1/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:24.1.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:21:5-23:54
+MERGED from [com.google.android.gms:play-services-auth:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth/9.2.1/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-auth-base:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth-base/9.2.1/AndroidManifest.xml:5:5-43
+MERGED from [com.google.android.gms:play-services-base:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.2.1/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.1/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:24.1.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:21:5-23:54
+MERGED from [com.google.android.gms:play-services-tasks:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/9.2.1/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.1/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:24.1.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:21:5-23:54
+MERGED from [com.google.android.gms:play-services-basement:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.1/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:24.1.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:21:5-23:54
+MERGED from [com.google.android.gms:play-services-base:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.2.1/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.1/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:24.1.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:21:5-23:54
+MERGED from [com.google.android.gms:play-services-tasks:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/9.2.1/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.1/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:24.1.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:21:5-23:54
+MERGED from [com.google.android.gms:play-services-basement:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.1/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:24.1.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:21:5-23:54
+MERGED from [com.google.firebase:firebase-core:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.firebase/firebase-core/9.2.1/AndroidManifest.xml:4:5-42
+MERGED from [com.google.firebase:firebase-analytics:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/9.2.1/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.1/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:24.1.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:21:5-23:54
+MERGED from [com.google.firebase:firebase-common:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/9.2.1/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.1/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:24.1.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:21:5-23:54
+MERGED from [com.google.android.gms:play-services-tasks:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/9.2.1/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.1/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:24.1.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:21:5-23:54
+MERGED from [com.google.firebase:firebase-analytics-impl:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/9.2.1/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.1/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:24.1.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:21:5-23:54
+MERGED from [com.google.firebase:firebase-iid:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/9.2.1/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.1/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:24.1.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:21:5-23:54
+MERGED from [com.google.firebase:firebase-common:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/9.2.1/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.1/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:24.1.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:21:5-23:54
+MERGED from [com.google.android.gms:play-services-tasks:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/9.2.1/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.1/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:24.1.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:21:5-23:54
+MERGED from [com.google.firebase:firebase-common:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/9.2.1/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.1/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:24.1.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:21:5-23:54
+MERGED from [com.google.android.gms:play-services-tasks:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/9.2.1/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.1/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:24.1.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:21:5-23:54
 	tools:overrideLibrary
-		ADDED from [com.android.support:appcompat-v7:24.1.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/AndroidManifest.xml:23:9-75
+		ADDED from [com.android.support:appcompat-v7:24.1.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/AndroidManifest.xml:23:9-75
 	android:targetSdkVersion
-		INJECTED from /home/petko/Workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml
-		INJECTED from /home/petko/Workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml
+		INJECTED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml
+		INJECTED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /home/petko/Workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml
-		INJECTED from /home/petko/Workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml
+		INJECTED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml
+		INJECTED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml
 activity#com.google.android.gms.ads.AdActivity
-ADDED from [com.google.android.gms:play-services-ads-lite:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads-lite/9.2.1/AndroidManifest.xml:26:9-29:64
+ADDED from [com.google.android.gms:play-services-ads-lite:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads-lite/9.2.1/AndroidManifest.xml:26:9-29:64
 	android:configChanges
-		ADDED from [com.google.android.gms:play-services-ads-lite:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads-lite/9.2.1/AndroidManifest.xml:28:13-122
+		ADDED from [com.google.android.gms:play-services-ads-lite:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads-lite/9.2.1/AndroidManifest.xml:28:13-122
 	android:theme
-		ADDED from [com.google.android.gms:play-services-ads-lite:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads-lite/9.2.1/AndroidManifest.xml:29:13-61
+		ADDED from [com.google.android.gms:play-services-ads-lite:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads-lite/9.2.1/AndroidManifest.xml:29:13-61
 	android:name
-		ADDED from [com.google.android.gms:play-services-ads-lite:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads-lite/9.2.1/AndroidManifest.xml:27:13-65
+		ADDED from [com.google.android.gms:play-services-ads-lite:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads-lite/9.2.1/AndroidManifest.xml:27:13-65
 activity#com.google.android.gms.ads.purchase.InAppPurchaseActivity
-ADDED from [com.google.android.gms:play-services-ads-lite:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads-lite/9.2.1/AndroidManifest.xml:30:9-31:52
+ADDED from [com.google.android.gms:play-services-ads-lite:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads-lite/9.2.1/AndroidManifest.xml:30:9-31:52
 	android:theme
-		ADDED from [com.google.android.gms:play-services-ads-lite:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads-lite/9.2.1/AndroidManifest.xml:31:13-50
+		ADDED from [com.google.android.gms:play-services-ads-lite:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads-lite/9.2.1/AndroidManifest.xml:31:13-50
 	android:name
-		ADDED from [com.google.android.gms:play-services-ads-lite:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads-lite/9.2.1/AndroidManifest.xml:30:19-91
+		ADDED from [com.google.android.gms:play-services-ads-lite:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads-lite/9.2.1/AndroidManifest.xml:30:19-91
 activity#com.google.android.gms.common.api.GoogleApiActivity
-ADDED from [com.google.android.gms:play-services-base:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.2.1/AndroidManifest.xml:20:9-22:45
-MERGED from [com.google.android.gms:play-services-base:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.2.1/AndroidManifest.xml:20:9-22:45
-MERGED from [com.google.android.gms:play-services-base:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.2.1/AndroidManifest.xml:20:9-22:45
-MERGED from [com.google.android.gms:play-services-base:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.2.1/AndroidManifest.xml:20:9-22:45
-MERGED from [com.google.android.gms:play-services-base:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.2.1/AndroidManifest.xml:20:9-22:45
-MERGED from [com.google.android.gms:play-services-base:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.2.1/AndroidManifest.xml:20:9-22:45
+ADDED from [com.google.android.gms:play-services-base:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.2.1/AndroidManifest.xml:20:9-22:45
+MERGED from [com.google.android.gms:play-services-base:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.2.1/AndroidManifest.xml:20:9-22:45
+MERGED from [com.google.android.gms:play-services-base:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.2.1/AndroidManifest.xml:20:9-22:45
+MERGED from [com.google.android.gms:play-services-base:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.2.1/AndroidManifest.xml:20:9-22:45
+MERGED from [com.google.android.gms:play-services-base:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.2.1/AndroidManifest.xml:20:9-22:45
+MERGED from [com.google.android.gms:play-services-base:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.2.1/AndroidManifest.xml:20:9-22:45
 	android:exported
-		ADDED from [com.google.android.gms:play-services-base:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.2.1/AndroidManifest.xml:22:19-43
+		ADDED from [com.google.android.gms:play-services-base:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.2.1/AndroidManifest.xml:22:19-43
 	android:theme
-		ADDED from [com.google.android.gms:play-services-base:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.2.1/AndroidManifest.xml:21:19-78
+		ADDED from [com.google.android.gms:play-services-base:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.2.1/AndroidManifest.xml:21:19-78
 	android:name
-		ADDED from [com.google.android.gms:play-services-base:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.2.1/AndroidManifest.xml:20:19-85
+		ADDED from [com.google.android.gms:play-services-base:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.2.1/AndroidManifest.xml:20:19-85
 uses-permission#android.permission.WAKE_LOCK
-ADDED from [com.google.android.gms:play-services-analytics:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/9.2.1/AndroidManifest.xml:25:5-67
-MERGED from [com.google.android.gms:play-services-analytics-impl:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics-impl/9.2.1/AndroidManifest.xml:25:5-67
-MERGED from [com.google.firebase:firebase-analytics:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/9.2.1/AndroidManifest.xml:24:5-67
-MERGED from [com.google.firebase:firebase-analytics-impl:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/9.2.1/AndroidManifest.xml:24:5-67
-MERGED from [com.google.firebase:firebase-iid:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/9.2.1/AndroidManifest.xml:22:5-68
+ADDED from [com.google.android.gms:play-services-analytics:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/9.2.1/AndroidManifest.xml:25:5-67
+MERGED from [com.google.android.gms:play-services-analytics-impl:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics-impl/9.2.1/AndroidManifest.xml:25:5-67
+MERGED from [com.google.firebase:firebase-analytics:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/9.2.1/AndroidManifest.xml:24:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/9.2.1/AndroidManifest.xml:24:5-67
+MERGED from [com.google.firebase:firebase-iid:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/9.2.1/AndroidManifest.xml:22:5-68
 	android:name
-		ADDED from [com.google.android.gms:play-services-analytics:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/9.2.1/AndroidManifest.xml:25:22-65
+		ADDED from [com.google.android.gms:play-services-analytics:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/9.2.1/AndroidManifest.xml:25:22-65
 activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
-ADDED from [com.google.android.gms:play-services-auth:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth/9.2.1/AndroidManifest.xml:21:9-24:46
+ADDED from [com.google.android.gms:play-services-auth:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth/9.2.1/AndroidManifest.xml:21:9-24:46
 	android:excludeFromRecents
-		ADDED from [com.google.android.gms:play-services-auth:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth/9.2.1/AndroidManifest.xml:23:19-52
+		ADDED from [com.google.android.gms:play-services-auth:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth/9.2.1/AndroidManifest.xml:23:19-52
 	android:exported
-		ADDED from [com.google.android.gms:play-services-auth:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth/9.2.1/AndroidManifest.xml:24:19-43
+		ADDED from [com.google.android.gms:play-services-auth:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth/9.2.1/AndroidManifest.xml:24:19-43
 	android:theme
-		ADDED from [com.google.android.gms:play-services-auth:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth/9.2.1/AndroidManifest.xml:22:19-78
+		ADDED from [com.google.android.gms:play-services-auth:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth/9.2.1/AndroidManifest.xml:22:19-78
 	android:name
-		ADDED from [com.google.android.gms:play-services-auth:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth/9.2.1/AndroidManifest.xml:21:19-68
+		ADDED from [com.google.android.gms:play-services-auth:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth/9.2.1/AndroidManifest.xml:21:19-68
 service#com.google.android.gms.auth.api.signin.RevocationBoundService
-ADDED from [com.google.android.gms:play-services-auth:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth/9.2.1/AndroidManifest.xml:28:9-31:110
+ADDED from [com.google.android.gms:play-services-auth:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth/9.2.1/AndroidManifest.xml:28:9-31:110
 	android:exported
-		ADDED from [com.google.android.gms:play-services-auth:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth/9.2.1/AndroidManifest.xml:30:13-36
+		ADDED from [com.google.android.gms:play-services-auth:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth/9.2.1/AndroidManifest.xml:30:13-36
 	android:permission
-		ADDED from [com.google.android.gms:play-services-auth:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth/9.2.1/AndroidManifest.xml:31:13-107
+		ADDED from [com.google.android.gms:play-services-auth:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth/9.2.1/AndroidManifest.xml:31:13-107
 	android:name
-		ADDED from [com.google.android.gms:play-services-auth:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth/9.2.1/AndroidManifest.xml:29:13-58
+		ADDED from [com.google.android.gms:play-services-auth:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth/9.2.1/AndroidManifest.xml:29:13-58
 receiver#com.google.android.gms.measurement.AppMeasurementReceiver
-ADDED from [com.google.firebase:firebase-analytics:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/9.2.1/AndroidManifest.xml:28:7-34:18
-MERGED from [com.google.firebase:firebase-analytics-impl:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/9.2.1/AndroidManifest.xml:28:7-34:18
+ADDED from [com.google.firebase:firebase-analytics:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/9.2.1/AndroidManifest.xml:28:7-34:18
+MERGED from [com.google.firebase:firebase-analytics-impl:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/9.2.1/AndroidManifest.xml:28:7-34:18
 	android:enabled
-		ADDED from [com.google.firebase:firebase-analytics:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/9.2.1/AndroidManifest.xml:30:11-33
+		ADDED from [com.google.firebase:firebase-analytics:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/9.2.1/AndroidManifest.xml:30:11-33
 	android:name
-		ADDED from [com.google.firebase:firebase-analytics:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/9.2.1/AndroidManifest.xml:29:11-83
+		ADDED from [com.google.firebase:firebase-analytics:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/9.2.1/AndroidManifest.xml:29:11-83
 intent-filter#com.google.android.gms.measurement.UPLOAD
-ADDED from [com.google.firebase:firebase-analytics:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/9.2.1/AndroidManifest.xml:31:9-33:25
+ADDED from [com.google.firebase:firebase-analytics:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/9.2.1/AndroidManifest.xml:31:9-33:25
 action#com.google.android.gms.measurement.UPLOAD
-ADDED from [com.google.firebase:firebase-analytics:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/9.2.1/AndroidManifest.xml:32:11-77
+ADDED from [com.google.firebase:firebase-analytics:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/9.2.1/AndroidManifest.xml:32:11-77
 	android:name
-		ADDED from [com.google.firebase:firebase-analytics:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/9.2.1/AndroidManifest.xml:32:19-75
+		ADDED from [com.google.firebase:firebase-analytics:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/9.2.1/AndroidManifest.xml:32:19-75
 service#com.google.android.gms.measurement.AppMeasurementService
-ADDED from [com.google.firebase:firebase-analytics:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/9.2.1/AndroidManifest.xml:36:7-39:37
-MERGED from [com.google.firebase:firebase-analytics-impl:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/9.2.1/AndroidManifest.xml:36:7-39:37
+ADDED from [com.google.firebase:firebase-analytics:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/9.2.1/AndroidManifest.xml:36:7-39:37
+MERGED from [com.google.firebase:firebase-analytics-impl:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/9.2.1/AndroidManifest.xml:36:7-39:37
 	android:enabled
-		ADDED from [com.google.firebase:firebase-analytics:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/9.2.1/AndroidManifest.xml:38:11-33
+		ADDED from [com.google.firebase:firebase-analytics:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/9.2.1/AndroidManifest.xml:38:11-33
 	android:exported
-		ADDED from [com.google.firebase:firebase-analytics:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/9.2.1/AndroidManifest.xml:39:11-35
+		ADDED from [com.google.firebase:firebase-analytics:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/9.2.1/AndroidManifest.xml:39:11-35
 	android:name
-		ADDED from [com.google.firebase:firebase-analytics:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/9.2.1/AndroidManifest.xml:37:11-82
+		ADDED from [com.google.firebase:firebase-analytics:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/9.2.1/AndroidManifest.xml:37:11-82
 provider#com.google.firebase.provider.FirebaseInitProvider
-ADDED from [com.google.firebase:firebase-common:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/9.2.1/AndroidManifest.xml:7:9-11:39
-MERGED from [com.google.firebase:firebase-common:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/9.2.1/AndroidManifest.xml:7:9-11:39
-MERGED from [com.google.firebase:firebase-common:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/9.2.1/AndroidManifest.xml:7:9-11:39
+ADDED from [com.google.firebase:firebase-common:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/9.2.1/AndroidManifest.xml:7:9-11:39
+MERGED from [com.google.firebase:firebase-common:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/9.2.1/AndroidManifest.xml:7:9-11:39
+MERGED from [com.google.firebase:firebase-common:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/9.2.1/AndroidManifest.xml:7:9-11:39
 	android:authorities
-		ADDED from [com.google.firebase:firebase-common:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/9.2.1/AndroidManifest.xml:8:13-72
+		ADDED from [com.google.firebase:firebase-common:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/9.2.1/AndroidManifest.xml:8:13-72
 	android:exported
-		ADDED from [com.google.firebase:firebase-common:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/9.2.1/AndroidManifest.xml:10:13-37
+		ADDED from [com.google.firebase:firebase-common:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/9.2.1/AndroidManifest.xml:10:13-37
 	android:initOrder
-		ADDED from [com.google.firebase:firebase-common:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/9.2.1/AndroidManifest.xml:11:13-36
+		ADDED from [com.google.firebase:firebase-common:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/9.2.1/AndroidManifest.xml:11:13-36
 	android:name
-		ADDED from [com.google.firebase:firebase-common:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/9.2.1/AndroidManifest.xml:9:13-58
+		ADDED from [com.google.firebase:firebase-common:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/9.2.1/AndroidManifest.xml:9:13-58
 uses-permission#com.google.android.c2dm.permission.RECEIVE
-ADDED from [com.google.firebase:firebase-iid:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/9.2.1/AndroidManifest.xml:23:5-82
+ADDED from [com.google.firebase:firebase-iid:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/9.2.1/AndroidManifest.xml:23:5-82
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/9.2.1/AndroidManifest.xml:23:22-79
+		ADDED from [com.google.firebase:firebase-iid:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/9.2.1/AndroidManifest.xml:23:22-79
 permission#${applicationId}.permission.C2D_MESSAGE
-ADDED from [com.google.firebase:firebase-iid:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/9.2.1/AndroidManifest.xml:25:5-26:47
+ADDED from [com.google.firebase:firebase-iid:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/9.2.1/AndroidManifest.xml:25:5-26:47
 	android:protectionLevel
-		ADDED from [com.google.firebase:firebase-iid:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/9.2.1/AndroidManifest.xml:26:9-44
+		ADDED from [com.google.firebase:firebase-iid:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/9.2.1/AndroidManifest.xml:26:9-44
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/9.2.1/AndroidManifest.xml:25:17-71
+		ADDED from [com.google.firebase:firebase-iid:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/9.2.1/AndroidManifest.xml:25:17-71
 uses-permission#${applicationId}.permission.C2D_MESSAGE
-ADDED from [com.google.firebase:firebase-iid:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/9.2.1/AndroidManifest.xml:28:5-79
+ADDED from [com.google.firebase:firebase-iid:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/9.2.1/AndroidManifest.xml:28:5-79
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/9.2.1/AndroidManifest.xml:28:22-76
+		ADDED from [com.google.firebase:firebase-iid:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/9.2.1/AndroidManifest.xml:28:22-76
 receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
-ADDED from [com.google.firebase:firebase-iid:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/9.2.1/AndroidManifest.xml:32:9-41:20
+ADDED from [com.google.firebase:firebase-iid:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/9.2.1/AndroidManifest.xml:32:9-41:20
 	android:exported
-		ADDED from [com.google.firebase:firebase-iid:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/9.2.1/AndroidManifest.xml:34:13-36
+		ADDED from [com.google.firebase:firebase-iid:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/9.2.1/AndroidManifest.xml:34:13-36
 	android:permission
-		ADDED from [com.google.firebase:firebase-iid:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/9.2.1/AndroidManifest.xml:35:13-73
+		ADDED from [com.google.firebase:firebase-iid:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/9.2.1/AndroidManifest.xml:35:13-73
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/9.2.1/AndroidManifest.xml:33:13-78
+		ADDED from [com.google.firebase:firebase-iid:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/9.2.1/AndroidManifest.xml:33:13-78
 intent-filter#${applicationId}+com.google.android.c2dm.intent.RECEIVE+com.google.android.c2dm.intent.REGISTRATION
-ADDED from [com.google.firebase:firebase-iid:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/9.2.1/AndroidManifest.xml:36:13-40:29
+ADDED from [com.google.firebase:firebase-iid:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/9.2.1/AndroidManifest.xml:36:13-40:29
 action#com.google.android.c2dm.intent.RECEIVE
-ADDED from [com.google.firebase:firebase-iid:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/9.2.1/AndroidManifest.xml:37:17-81
+ADDED from [com.google.firebase:firebase-iid:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/9.2.1/AndroidManifest.xml:37:17-81
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/9.2.1/AndroidManifest.xml:37:25-78
+		ADDED from [com.google.firebase:firebase-iid:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/9.2.1/AndroidManifest.xml:37:25-78
 action#com.google.android.c2dm.intent.REGISTRATION
-ADDED from [com.google.firebase:firebase-iid:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/9.2.1/AndroidManifest.xml:38:17-86
+ADDED from [com.google.firebase:firebase-iid:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/9.2.1/AndroidManifest.xml:38:17-86
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/9.2.1/AndroidManifest.xml:38:25-83
+		ADDED from [com.google.firebase:firebase-iid:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/9.2.1/AndroidManifest.xml:38:25-83
 category#${applicationId}
-ADDED from [com.google.firebase:firebase-iid:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/9.2.1/AndroidManifest.xml:39:17-61
+ADDED from [com.google.firebase:firebase-iid:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/9.2.1/AndroidManifest.xml:39:17-61
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/9.2.1/AndroidManifest.xml:39:27-58
+		ADDED from [com.google.firebase:firebase-iid:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/9.2.1/AndroidManifest.xml:39:27-58
 receiver#com.google.firebase.iid.FirebaseInstanceIdInternalReceiver
-ADDED from [com.google.firebase:firebase-iid:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/9.2.1/AndroidManifest.xml:45:9-47:40
+ADDED from [com.google.firebase:firebase-iid:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/9.2.1/AndroidManifest.xml:45:9-47:40
 	android:exported
-		ADDED from [com.google.firebase:firebase-iid:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/9.2.1/AndroidManifest.xml:47:13-37
+		ADDED from [com.google.firebase:firebase-iid:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/9.2.1/AndroidManifest.xml:47:13-37
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/9.2.1/AndroidManifest.xml:46:13-86
+		ADDED from [com.google.firebase:firebase-iid:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/9.2.1/AndroidManifest.xml:46:13-86
 service#com.google.firebase.iid.FirebaseInstanceIdService
-ADDED from [com.google.firebase:firebase-iid:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/9.2.1/AndroidManifest.xml:51:9-57:19
+ADDED from [com.google.firebase:firebase-iid:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/9.2.1/AndroidManifest.xml:51:9-57:19
 	android:exported
-		ADDED from [com.google.firebase:firebase-iid:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/9.2.1/AndroidManifest.xml:53:13-36
+		ADDED from [com.google.firebase:firebase-iid:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/9.2.1/AndroidManifest.xml:53:13-36
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/9.2.1/AndroidManifest.xml:52:13-77
+		ADDED from [com.google.firebase:firebase-iid:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/9.2.1/AndroidManifest.xml:52:13-77
 intent-filter#com.google.firebase.INSTANCE_ID_EVENT
-ADDED from [com.google.firebase:firebase-iid:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/9.2.1/AndroidManifest.xml:54:13-56:29
+ADDED from [com.google.firebase:firebase-iid:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/9.2.1/AndroidManifest.xml:54:13-56:29
 	android:priority
-		ADDED from [com.google.firebase:firebase-iid:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/9.2.1/AndroidManifest.xml:54:28-51
+		ADDED from [com.google.firebase:firebase-iid:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/9.2.1/AndroidManifest.xml:54:28-51
 action#com.google.firebase.INSTANCE_ID_EVENT
-ADDED from [com.google.firebase:firebase-iid:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/9.2.1/AndroidManifest.xml:55:17-80
+ADDED from [com.google.firebase:firebase-iid:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/9.2.1/AndroidManifest.xml:55:17-80
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:9.2.1] /home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/9.2.1/AndroidManifest.xml:55:25-77
+		ADDED from [com.google.firebase:firebase-iid:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/9.2.1/AndroidManifest.xml:55:25-77

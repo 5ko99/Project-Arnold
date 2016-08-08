@@ -1,26 +1,26 @@
 [
     {
-        "merged": "/home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/common_ic_googleplayservices.png",
-        "source": "/home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.2.1/res/drawable-ldpi-v4/common_ic_googleplayservices.png"
+        "merged": "/home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/ic_add.png",
+        "source": "/home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/generated/res/pngs/debug/drawable-ldpi/ic_add.png"
     },
     {
-        "merged": "/home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/ic_history.png",
-        "source": "/home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/generated/res/pngs/debug/drawable-ldpi/ic_history.png"
+        "merged": "/home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/ic_exercises.png",
+        "source": "/home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/generated/res/pngs/debug/drawable-ldpi/ic_exercises.png"
     },
     {
-        "merged": "/home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/ic_exercises.png",
-        "source": "/home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/generated/res/pngs/debug/drawable-ldpi/ic_exercises.png"
+        "merged": "/home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/common_ic_googleplayservices.png",
+        "source": "/home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.2.1/res/drawable-ldpi-v4/common_ic_googleplayservices.png"
     },
     {
-        "merged": "/home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/ic_home.png",
-        "source": "/home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/generated/res/pngs/debug/drawable-ldpi/ic_home.png"
+        "merged": "/home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/profile.png",
+        "source": "/home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/res/drawable-ldpi/profile.png"
     },
     {
-        "merged": "/home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/ic_add.png",
-        "source": "/home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/generated/res/pngs/debug/drawable-ldpi/ic_add.png"
+        "merged": "/home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/ic_history.png",
+        "source": "/home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/generated/res/pngs/debug/drawable-ldpi/ic_history.png"
     },
     {
-        "merged": "/home/petko/Workspace/Project-Arnold/Project_Arnold/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/profile.png",
-        "source": "/home/petko/Workspace/Project-Arnold/Project_Arnold/app/src/main/res/drawable-ldpi/profile.png"
+        "merged": "/home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/ic_home.png",
+        "source": "/home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/generated/res/pngs/debug/drawable-ldpi/ic_home.png"
     }
 ]

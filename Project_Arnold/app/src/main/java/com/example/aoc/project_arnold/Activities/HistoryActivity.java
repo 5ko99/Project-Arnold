@@ -22,17 +22,19 @@ import android.widget.Toast;
 
 import com.example.aoc.project_arnold.Database.DBPref;
 import com.example.aoc.project_arnold.R;
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
+import com.google.android.gms.ads.MobileAds;
 
 import java.util.ArrayList;
 
-//TODO: Recreate database with image fild that stores pphotos from users
 public class HistoryActivity extends AppCompatActivity {
     ImageView imageView;
     public static int countHistory;
     ListView listView;
     private Cursor c;
     private DBPref pref;
-
+    AdView mAdView;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -47,7 +49,6 @@ public class HistoryActivity extends AppCompatActivity {
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> arg0, View arg1, int position, long arg3) {
-                //TODO: Create and start new activity on click
                 Intent intent = new Intent(HistoryActivity.this, TraningInfoActivity.class);
                 intent.putExtra("position", position);
                 TextView textView = (TextView) arg1.findViewById(R.id.history_summary_tv_type);
@@ -59,6 +60,12 @@ public class HistoryActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        //Add initialise
+        MobileAds.initialize(getApplicationContext(), "ca-app-pub-0044965499066904~9181100901");
+        mAdView = (AdView) findViewById(R.id.history_activity_adView);
+        AdRequest adRequest = new AdRequest.Builder().build();
+        mAdView.loadAd(adRequest);
 
 
     }
@@ -84,6 +91,21 @@ public class HistoryActivity extends AppCompatActivity {
         }
 
         return super.onOptionsItemSelected(item);
+    }
+
+
+    public void onPause() {
+        if (mAdView != null) {
+            mAdView.pause();
+        }
+        super.onPause();
+    }
+
+    public void onDestroy() {
+        if (mAdView != null) {
+            mAdView.destroy();
+        }
+        super.onDestroy();
     }
 
 
@@ -189,6 +211,10 @@ public class HistoryActivity extends AppCompatActivity {
     protected void onResume() {
         super.onResume();
         updateBackground();
+
+        if (mAdView != null) {
+            mAdView.resume();
+        }
     }
 
     private void updateBackground(){
