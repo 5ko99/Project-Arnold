@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:2:1-68:12
+ADDED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:2:1-67:12
 	package
 		ADDED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:3:5-45
 		INJECTED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml
@@ -9,14 +9,13 @@ ADDED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/Androi
 		ADDED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:4:5-46
 		INJECTED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml
 		INJECTED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml
-	android:versionCode
-		ADDED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:5:5-28
-		INJECTED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml
-		INJECTED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml
+		INJECTED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml
 uses-permission#android.permission.INTERNET
-ADDED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:6:5-67
+ADDED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:5:5-67
 MERGED from [com.google.android.gms:play-services-ads-lite:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads-lite/9.2.1/AndroidManifest.xml:20:5-66
 MERGED from [com.google.android.gms:play-services-analytics:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/9.2.1/AndroidManifest.xml:21:5-67
 MERGED from [com.google.android.gms:play-services-analytics-impl:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics-impl/9.2.1/AndroidManifest.xml:21:5-67
@@ -24,9 +23,9 @@ MERGED from [com.google.firebase:firebase-analytics:9.2.1] /home/aoc/workspace/P
 MERGED from [com.google.firebase:firebase-analytics-impl:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/9.2.1/AndroidManifest.xml:21:5-67
 MERGED from [com.google.firebase:firebase-iid:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/9.2.1/AndroidManifest.xml:21:5-67
 	android:name
-		ADDED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:6:22-64
+		ADDED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:5:22-64
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:7:5-79
+ADDED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:6:5-79
 MERGED from [com.google.android.gms:play-services-ads-lite:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads-lite/9.2.1/AndroidManifest.xml:21:5-78
 MERGED from [com.google.android.gms:play-services-analytics:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/9.2.1/AndroidManifest.xml:22:5-79
 MERGED from [com.google.android.gms:play-services-analytics-impl:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics-impl/9.2.1/AndroidManifest.xml:22:5-79
@@ -34,9 +33,9 @@ MERGED from [com.google.firebase:firebase-analytics:9.2.1] /home/aoc/workspace/P
 MERGED from [com.google.firebase:firebase-analytics-impl:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/9.2.1/AndroidManifest.xml:22:5-79
 MERGED from [com.google.firebase:firebase-iid:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/9.2.1/AndroidManifest.xml:20:5-79
 	android:name
-		ADDED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:7:22-76
+		ADDED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:6:22-76
 application
-ADDED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:9:5-66:19
+ADDED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:8:5-65:19
 MERGED from [com.android.support:appcompat-v7:24.1.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:animated-vector-drawable:24.1.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.1.1/AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:support-vector-drawable:24.1.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.1.1/AndroidManifest.xml:23:5-20
@@ -143,101 +142,101 @@ MERGED from [com.google.android.gms:play-services-tasks:9.2.1] /home/aoc/workspa
 MERGED from [com.google.android.gms:play-services-basement:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.1/AndroidManifest.xml:20:5-24:19
 MERGED from [com.android.support:support-v4:24.1.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:25:5-20
 	android:label
-		ADDED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:12:9-41
-	android:supportsRtl
-		ADDED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:13:9-35
-	android:allowBackup
-		ADDED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:10:9-35
-	android:icon
 		ADDED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:11:9-41
+	android:supportsRtl
+		ADDED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:12:9-35
+	android:allowBackup
+		ADDED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:9:9-35
+	android:icon
+		ADDED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:10:9-47
 	android:theme
-		ADDED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:14:9-40
+		ADDED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:13:9-40
 activity#com.example.aoc.project_arnold.Activities.MainActivity
-ADDED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:15:9-25:20
+ADDED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:14:9-24:20
 	android:label
-		ADDED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:17:13-45
+		ADDED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:16:13-45
 	android:launchMode
-		ADDED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:18:13-43
+		ADDED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:17:13-43
 	android:theme
-		ADDED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:19:13-56
+		ADDED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:18:13-56
 	android:name
-		ADDED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:16:13-52
+		ADDED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:15:13-52
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:20:13-24:29
+ADDED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:19:13-23:29
 action#android.intent.action.MAIN
-ADDED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:21:17-69
+ADDED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:20:17-69
 	android:name
-		ADDED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:21:25-66
+		ADDED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:20:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:23:17-77
+ADDED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:22:17-77
 	android:name
-		ADDED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:23:27-74
+		ADDED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:22:27-74
 activity#com.example.aoc.project_arnold.Activities.MuscleGroupsActivity
-ADDED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:26:9-31:59
+ADDED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:25:9-30:59
 	android:label
-		ADDED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:28:13-64
+		ADDED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:27:13-64
 	android:parentActivityName
-		ADDED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:30:13-66
+		ADDED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:29:13-66
 	android:launchMode
-		ADDED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:29:13-43
+		ADDED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:28:13-43
 	android:theme
-		ADDED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:31:13-56
+		ADDED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:30:13-56
 	android:name
-		ADDED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:27:13-60
+		ADDED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:26:13-60
 activity#com.example.aoc.project_arnold.Activities.MuscleGroupExercisesActivity
-ADDED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:32:9-34:77
+ADDED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:31:9-33:77
 	android:parentActivityName
-		ADDED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:34:13-74
+		ADDED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:33:13-74
 	android:name
-		ADDED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:33:13-68
+		ADDED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:32:13-68
 activity#com.example.aoc.project_arnold.Activities.ExerciseActivity
-ADDED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:35:9-37:85
+ADDED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:34:9-36:85
 	android:parentActivityName
-		ADDED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:37:13-82
+		ADDED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:36:13-82
 	android:name
-		ADDED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:36:13-56
+		ADDED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:35:13-56
 activity#com.example.aoc.project_arnold.Activities.HistoryActivity
-ADDED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:38:9-43:47
+ADDED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:37:9-42:47
 	android:label
-		ADDED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:40:13-44
+		ADDED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:39:13-44
 	android:parentActivityName
-		ADDED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:42:13-66
+		ADDED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:41:13-66
 	android:launchMode
-		ADDED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:41:13-43
+		ADDED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:40:13-43
 	android:theme
-		ADDED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:43:13-44
+		ADDED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:42:13-44
 	android:name
-		ADDED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:39:13-55
+		ADDED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:38:13-55
 activity#com.example.aoc.project_arnold.Activities.AddTrainingActivity
-ADDED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:44:9-48:69
+ADDED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:43:9-47:69
 	android:label
-		ADDED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:46:13-49
+		ADDED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:45:13-49
 	android:parentActivityName
-		ADDED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:48:13-66
+		ADDED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:47:13-66
 	android:launchMode
-		ADDED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:47:13-43
+		ADDED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:46:13-43
 	android:name
-		ADDED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:45:13-59
+		ADDED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:44:13-59
 activity#com.example.aoc.project_arnold.Activities.TraningInfoActivity
-ADDED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:49:9-53:72
+ADDED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:48:9-52:72
 	android:label
-		ADDED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:51:13-63
+		ADDED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:50:13-63
 	android:parentActivityName
-		ADDED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:53:13-69
+		ADDED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:52:13-69
 	android:launchMode
-		ADDED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:52:13-43
+		ADDED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:51:13-43
 	android:name
-		ADDED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:50:13-59
+		ADDED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:49:13-59
 activity#com.example.aoc.project_arnold.Activities.RecordsActivity
-ADDED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:54:9-57:72
+ADDED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:53:9-56:72
 	android:label
-		ADDED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:56:13-44
+		ADDED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:55:13-44
 	android:parentActivityName
-		ADDED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:57:13-69
+		ADDED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:56:13-69
 	android:name
-		ADDED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:55:13-55
+		ADDED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:54:13-55
 meta-data#com.google.android.gms.version
-ADDED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:59:9-61:69
+ADDED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:58:9-60:69
 MERGED from [com.google.android.gms:play-services-basement:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.1/AndroidManifest.xml:21:9-23:69
 MERGED from [com.google.android.gms:play-services-basement:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.1/AndroidManifest.xml:21:9-23:69
 MERGED from [com.google.android.gms:play-services-basement:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.1/AndroidManifest.xml:21:9-23:69
@@ -268,17 +267,17 @@ MERGED from [com.google.android.gms:play-services-basement:9.2.1] /home/aoc/work
 MERGED from [com.google.android.gms:play-services-basement:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.1/AndroidManifest.xml:21:9-23:69
 MERGED from [com.google.android.gms:play-services-basement:9.2.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.1/AndroidManifest.xml:21:9-23:69
 	android:value
-		ADDED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:61:13-66
+		ADDED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:60:13-66
 	android:name
-		ADDED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:60:13-58
+		ADDED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:59:13-58
 activity#com.example.aoc.project_arnold.Activities.SettingsActivity
-ADDED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:63:9-65:47
+ADDED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:62:9-64:47
 	android:label
-		ADDED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:65:13-45
+		ADDED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:64:13-45
 	android:parentActivityName
-		ADDED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:64:13-66
+		ADDED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:63:13-66
 	android:name
-		ADDED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:63:19-62
+		ADDED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml:62:19-62
 uses-sdk
 INJECTED from /home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:appcompat-v7:24.1.1] /home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/AndroidManifest.xml:21:5-23:78

@@ -2,6 +2,7 @@ package com.example.aoc.project_arnold.Activities;
 
 import android.annotation.TargetApi;
 import android.content.SharedPreferences;
+import android.content.pm.PackageManager;
 import android.os.Build;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -61,9 +62,14 @@ public class SettingsActivity extends AppCompatActivity {
 
         });
 
-        String versionName = getResources().getString(R.string.versionName).toString();
+        String versionName = null;
+        try {
+            versionName = getPackageManager().getPackageInfo(getPackageName(), 0).versionName;
+        } catch (PackageManager.NameNotFoundException e) {
+            e.printStackTrace();
+        }
         TextView tvVersion = (TextView) findViewById(R.id.setting_version_tv);
-        tvVersion.setText("Version:"+versionName);
+        tvVersion.setText("Version: "+versionName);
 
     }
 

@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity
     public NavigationView navigationView;
     public static int count;
     TextView tvCount;
-    AdView mAdView;
+    private AdView mAdView;
     public static   SharedPreferences sharedPreferencesPrimaryColors;
     public static String colorSPKey = "color";
     @Override

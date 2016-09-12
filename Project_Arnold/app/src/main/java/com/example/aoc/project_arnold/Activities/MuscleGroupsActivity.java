@@ -23,6 +23,9 @@ import android.widget.Toast;
 
 import com.example.aoc.project_arnold.Adapters.ImageAdapter;
 import com.example.aoc.project_arnold.R;
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
+import com.google.android.gms.ads.MobileAds;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -32,6 +35,7 @@ import java.util.List;
 public class MuscleGroupsActivity extends AppCompatActivity {
     public static final String KEY = "0" ;
     public List<String> listMusculeGroup = new ArrayList<String>();
+    private AdView mAdView;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -55,13 +59,35 @@ public class MuscleGroupsActivity extends AppCompatActivity {
             }
         });
 
-        //Toast.makeText(this,"onCreate()",Toast.LENGTH_SHORT).show();
+        //Add initialise
+        MobileAds.initialize(getApplicationContext(), "ca-app-pub-0044965499066904~9181100901");
+        mAdView = (AdView) findViewById(R.id.activity_muscle_groups_ads);
+        AdRequest adRequest = new AdRequest.Builder().build();
+        mAdView.loadAd(adRequest);
     }
 
     @Override
     protected void onResume() {
         super.onResume();
         updateBackground();
+
+        if (mAdView != null) {
+            mAdView.resume();
+        }
+    }
+
+    public void onPause() {
+        if (mAdView != null) {
+            mAdView.pause();
+        }
+        super.onPause();
+    }
+
+    public void onDestroy() {
+        if (mAdView != null) {
+            mAdView.destroy();
+        }
+        super.onDestroy();
     }
 
     private void updateBackground(){

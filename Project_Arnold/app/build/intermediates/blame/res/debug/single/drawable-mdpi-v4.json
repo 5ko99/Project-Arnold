@@ -52,10 +52,6 @@
         "source": "/home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.2.1/res/drawable-mdpi-v4/common_plus_signin_btn_text_light_focused.9.png"
     },
     {
-        "merged": "/home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/profile.png",
-        "source": "/home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/res/drawable-mdpi/profile.png"
-    },
-    {
         "merged": "/home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/common_google_signin_btn_text_dark_disabled.9.png",
         "source": "/home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.2.1/res/drawable-mdpi-v4/common_google_signin_btn_text_dark_disabled.9.png"
     },
@@ -262,6 +258,10 @@
     {
         "merged": "/home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/common_google_signin_btn_text_light_disabled.9.png",
         "source": "/home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.2.1/res/drawable-mdpi-v4/common_google_signin_btn_text_light_disabled.9.png"
+    },
+    {
+        "merged": "/home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/fitnesspalico.png",
+        "source": "/home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/res/drawable-mdpi/fitnesspalico.png"
     },
     {
         "merged": "/home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/common_google_signin_btn_icon_light_focused.9.png",

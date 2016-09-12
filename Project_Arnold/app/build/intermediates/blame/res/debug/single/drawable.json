@@ -500,12 +500,12 @@
         "source": "/home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/res/drawable/gyrdi_dymbeli_leg_horizontalen.png"
     },
     {
-        "merged": "/home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/res/merged/debug/drawable/biceps_sgyvane_dolen_skripec.png",
-        "source": "/home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/res/drawable/biceps_sgyvane_dolen_skripec.png"
-    },
-    {
         "merged": "/home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/res/merged/debug/drawable/abc_ic_clear_material.xml",
         "source": "/home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/drawable/abc_ic_clear_material.xml"
+    },
+    {
+        "merged": "/home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/res/merged/debug/drawable/biceps_sgyvane_dolen_skripec.png",
+        "source": "/home/aoc/workspace/Project-Arnold/Project_Arnold/app/src/main/res/drawable/biceps_sgyvane_dolen_skripec.png"
     },
     {
         "merged": "/home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/res/merged/debug/drawable/triceps_razgyvane_dymbeli_leg.jpeg",

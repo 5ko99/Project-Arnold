@@ -1,2 +1,173 @@
 <?xml version="1.0" encoding="utf-8"?>
-<items version="2" />
+<items version="2" >
+
+    <item
+        jar="/home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="421b36cf4f0d3bbd75e8f28647fccf36674ef049">
+        <dex dex="/home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-base-9.2.1_06469ec5e77079512bbb6754552af2d834164211.jar" />
+    </item>
+    <item
+        jar="/home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/9.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="5337354083e89ed67151859ab0b6b80935c60eaf">
+        <dex dex="/home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-analytics-impl-9.2.1_78c107359ba78911fd7986772f9c0311aa5d6983.jar" />
+    </item>
+    <item
+        jar="/home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics-impl/9.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="1141496362c8876f0da4b645fbaf22c0a3618372">
+        <dex dex="/home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-analytics-impl-9.2.1_7a698e7704f8a0c0aa6002902bfcdc1a55c65225.jar" />
+    </item>
+    <item
+        jar="/home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth/9.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="e1bec33f1ec5367e25676638b430b9d585f3dbec">
+        <dex dex="/home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-auth-9.2.1_888bf35e7779304f80139ac8e18efb53f124da9d.jar" />
+    </item>
+    <item
+        jar="/home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads-lite/9.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="310ef01419435979cc82847cf085799a8d00e7e9">
+        <dex dex="/home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-ads-lite-9.2.1_ed93a478ea5e82bd13f5f87d9cc850b35393863a.jar" />
+    </item>
+    <item
+        jar="/home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="f62e763609f65e47dc6c498760a4accf02776788">
+        <dex dex="/home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-24.1.1_9392b96524d8e58f1fc23de50e82a851aef94a89.jar" />
+    </item>
+    <item
+        jar="/home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="1256c10604bb098490eab070d76754ac5ceab35c">
+        <dex dex="/home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-24.1.1_476d5428e49be9264106a3563ae51f146d72a2b6.jar" />
+    </item>
+    <item
+        jar="/home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/9.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="3627eacd7f7cafb5e8ae683992e7b2f9b7dcab1a">
+        <dex dex="/home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-common-9.2.1_6f34d5d7e58d770c6b6d0dd41eb5a0b05252230d.jar" />
+    </item>
+    <item
+        jar="/home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/9.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="6a0f2d219f82db499ac03d5a985c4eb3e83fc422">
+        <dex dex="/home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-analytics-9.2.1_345ecd59813f3e635546a87cf4b2f2d92bbaca68.jar" />
+    </item>
+    <item
+        jar="/home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/24.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="787871951412550519b0222aba3c9df4cea49875">
+        <dex dex="/home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-24.1.1_6a86cdf9627eb78f711e8ff461b1e546fd0a8b2e.jar" />
+    </item>
+    <item
+        jar="/home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="6b896c1067633db41e9c10a3a5d0919c5c4cfc8c">
+        <dex dex="/home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-basement-9.2.1_d1a2bc9a55450755c257a48e5e9256262fbe6f2c.jar" />
+    </item>
+    <item
+        jar="/home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="6d7d803871e3203465f71a163e7af104f807b446">
+        <dex dex="/home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-24.1.1_463a48a1455886cd3d919a06a2f54dde3bda0c27.jar" />
+    </item>
+    <item
+        jar="/home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/9.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="d41b5d21cc9dd7d210f0ae82ac509ba7f091d611">
+        <dex dex="/home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-iid-9.2.1_9b8dcf2f6888a357fc367b2244aa0f432730fd17.jar" />
+    </item>
+    <item
+        jar="/home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/design/24.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="e195bd694d5389acfba27ff4fdfa64c4c65b2c05">
+        <dex dex="/home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/pre-dexed/debug/com.android.support-design-24.1.1_d924015b63745db895b29a383d9a5ebbc9f8745b.jar" />
+    </item>
+    <item
+        jar="/home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/9.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="6d2f508d1a9fa0fbe1653595e484800c08afb42c">
+        <dex dex="/home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-ads-9.2.1_71bd55e239a94fe0f9439029c715535eb8bb0b07.jar" />
+    </item>
+    <item
+        jar="/home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/9.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="357a8702c49044417d4856861c8f435e7c74ef09">
+        <dex dex="/home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-analytics-9.2.1_3d84d3d79ab3a30df92cf67a2bcc50589b8aa0eb.jar" />
+    </item>
+    <item
+        jar="/home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth-base/9.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="48917c60ea81213ea39cbd7123996a5401106dc3">
+        <dex dex="/home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-auth-base-9.2.1_6c6c56871cfa456f7e777f36ad076f551a62ef20.jar" />
+    </item>
+    <item
+        jar="/home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-clearcut/9.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="90eeba67a669f8fb24db0f821ef81703fe7a02bc">
+        <dex dex="/home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-clearcut-9.2.1_1e68581f69be2ec8ff09ee21a52a88ed3fcb3f2d.jar" />
+    </item>
+    <item
+        jar="/home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/jars/libs/internal_impl-24.1.1.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="f78c2f395cb096f9dc1dc07e729922b8fcd3c4f5">
+        <dex dex="/home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/pre-dexed/debug/internal_impl-24.1.1_dc6d36d0923e237da85130b7586f7dfa266a83ba.jar" />
+    </item>
+    <item
+        jar="/home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/9.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="819c2c3a4fb135e085445d11131d069cf9c32b2a">
+        <dex dex="/home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-tasks-9.2.1_749495bfe474ce4842cedc85a1dc6678f5ed68da.jar" />
+    </item>
+    <item
+        jar="/home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/de.hdodenhof/circleimageview/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="ac6948cce36f694f3eb3d73a135e298dc4b3527a">
+        <dex dex="/home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/pre-dexed/debug/de.hdodenhof-circleimageview-1.3.0_fcfcc912470a4d115b1d18617c08dd0b7f278bd4.jar" />
+    </item>
+    <item
+        jar="/home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="c936c1bd42f0c018c18920c7bec619ef056b24f8">
+        <dex dex="/home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-24.1.1_34014893add7d90dd93dfd8fbe9db990422c9b9a.jar" />
+    </item>
+    <item
+        jar="/home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gass/9.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="081ced8ab77e606b6743c27cfe93dc450447b046">
+        <dex dex="/home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-gass-9.2.1_321f328ce3fe30b5522250c6827ae92c8b266a86.jar" />
+    </item>
+    <item
+        jar="/home/aoc/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/24.1.1/3af19f153122737b372622fa6c81dd11a1c6b999/support-annotations-24.1.1.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="3af19f153122737b372622fa6c81dd11a1c6b999">
+        <dex dex="/home/aoc/workspace/Project-Arnold/Project_Arnold/app/build/intermediates/pre-dexed/debug/support-annotations-24.1.1_5b32a0b8f022710a97c9cb338c89b043c8365252.jar" />
+    </item>
+
+</items>
